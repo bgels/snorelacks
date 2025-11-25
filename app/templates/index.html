@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+  ??? // Snorelacks
+  Roster: Yu Lu | Ricky Lin | Andrew Tsai | Mustafa Abdullah
+  SoftDev
+ -->
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/css/app.css">
+  </head>
+
+  <!-- Flash Message -->
+  {% block content %}
+  <div class="flashmsg">
+      {% for message in get_flashed_messages() %}
+      {{ message }}<br>
+      {% endfor %}
+      {% block page_content %}{% endblock %}
+  </div>
+  {% endblock %}
+
+
+  <body>
+    <h1>
+      Snorelacks homepage
+    </h1>
+
+    <p>I <strong>HATE</strong> pokemon!</p>
+    <img src= {{url_for('static', filename='images/flag.jpg')}} alt="snorelax">
+  </body>
+
+</html>
