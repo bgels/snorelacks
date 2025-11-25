@@ -1,4 +1,4 @@
-# <Project Name> by Snorelacks
+# Project by Snorelacks
 Yu Lu -  <br>
 Ricky Lin -  <br>
 Andrew Tsai -  <br>
@@ -23,3 +23,9 @@ Mustafa Abdullah -  <br>
 
 
 ### SoftDev 2025-2027
+
+
+git clone <REPO_OF_HOLDING CLONE URL>
+
+git submodule add <HTTPS CLONE URL OF YOUR REPO> <LOCAL REPO NAME>
+git submodule add https://github.com/bgels/snorelacks.git snorelacks_yul29_rickyl49_andrewt194_mustafaa80
