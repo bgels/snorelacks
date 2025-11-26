@@ -4,7 +4,7 @@ Ricky Lin -  <br>
 Andrew Tsai -  <br>
 Mustafa Abdullah -  <br>
 
-# Description of Website:
+# Description:
 
 
 # Install Guide:
