@@ -2,3 +2,6 @@ yuL -- 2025-11-25 7:00pm
 - Created inital subfolders and files
 - template html and flask app working for demo
 - Team name and team flag in place
+
+rickyL -- 2025-11-26 10:50am
+- Updated temp team flag to original pixel art drawing
