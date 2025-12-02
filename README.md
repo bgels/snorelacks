@@ -1,8 +1,12 @@
 # Project by Snorelacks
-Yu Lu -  Project Manager <HTML templates + css> <br>
-Ricky Lin -  Middleware <Flask + Python backend> <br>
-Andrew Tsai -  Database manager <Sqlite + Python backend> <br>
-Mustafa Abdullah - API Manager <APIs + Python backend> <br>
+**Yu Lu** -  Project Manager <br>
+handle frontend HTML templates + site design with tailwind/css<br>
+**Ricky Lin** -  Middleware <br>
+implements Flask application + page logic and routing <br>
+**Andrew Tsai** -  Database manager <br>
+builds and maintains Sqlite database + integration with templates/APIs<br>
+**Mustafa Abdullah** - API Manager <br>
+connects and manages external APIs + python backend integration <br>
 
 # Description:
 Snorelacks' Travel Itinerary Website! Choose a country, see its flag, weather, find famous landmarks to visit, currency rates, population, possible routes to take; all to find your perfect summer vacation!
