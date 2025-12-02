@@ -6,8 +6,13 @@ yuL -- 2025-11-25 7:00pm
 rickyL -- 2025-11-26 10:50am
 - Updated temp team flag to original pixel art drawing
 
-snorelacks -- 2025-12-1 10:45am
+andrewT, mustafaA, rickyL, yuL -- 2025-12-1 10:45am
 - API decided, chosen, and finalized for now
 - Frontend framework chosen: tailwind
 - Roles decided: updated in readme
 - Progress done on design document: program components, site map, frontend/backend, task breakdown, api frameworks, etc
+
+rickyL -- 2025-12-2 1:10am
+- Added component mappings
+- Polished design doc
+- Added design document to repo
