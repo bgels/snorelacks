@@ -17,7 +17,7 @@ Snorelacks' Travel Itinerary Website! Choose a country, see its flag, weather, f
 
 
 # Install Guide:
-1) Open terminal and git clone this repo through ssh (`git@github.com:stuy-softdev/snorelacks.git`) onto local computer in an accessible location
+1) Open terminal and git clone this repo through ssh (`git@github.com:bgels/snorelacks.git`) onto local computer in an accessible location
 2) Navigate into cloned Repo installed using `cd snorelacks`. Then navigate into `app` directory via `cd app`
 3) Create a python virtual enviornment using: `python3 -m venv venv`
 4) Activate virtual enviornment by doing: `cd venv`. Then `. bin/activate`
