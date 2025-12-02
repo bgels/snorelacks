@@ -1,4 +1,4 @@
-# Project by Snorelacks
+# Snorelacks' Travel Itinerary Website by Snorelacks
 **Yu Lu** -  Project Manager <br>
 handle frontend HTML templates + site design with tailwind/css<br>
 <br>
