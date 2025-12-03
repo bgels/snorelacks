@@ -12,7 +12,15 @@ andrewT, mustafaA, rickyL, yuL -- 2025-12-1 10:45am
 - Roles decided: updated in readme
 - Progress done on design document: program components, site map, frontend/backend, task breakdown, api frameworks, etc
 
-rickyL -- 2025-12-2 1:10am
+andrewT -- 2025-12-2 1:10am
 - Added component mappings
 - Polished design doc
 - Added design document to repo
+
+mustafaA -- 2025-12-3 1:10am
+- Added API cards
+- Polished design doc based on revision comments
+
+YuL -- 2025-12-3 6:00am
+- Polished design doc based on revision comments
+- Updated on repo
