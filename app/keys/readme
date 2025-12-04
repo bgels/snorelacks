@@ -18,3 +18,7 @@ Travel Itinerary APIs
   - key should be stored in key_api3.txt
   - Requests for information about certain places should be defined as follows:
     - example: https://api.geoapify.com/v2/places?PARAMS
+5) Exchange Rate API
+  - Need to sign up for an account and generate a key
+  - key should be stored in key_api4.txt
+  - location: https://exchangerateapi.net/
