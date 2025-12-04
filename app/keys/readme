@@ -1,0 +1,20 @@
+Travel Itinerary APIs
+1) Countries API
+  - No key required.
+  - Country data is filtered by fields:
+     - example: https://restcountries.com/v3.1/name/{name}?fullText=true
+2) OpenWeather API
+  - Need to sign up for an account and generate a key
+  - key should be stored in key_api1.txt
+  - Current weather data is called using latitude and longitude:
+     - example: https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+3) Wikipedia API
+  - No key required
+  - key should be stored in key_api2.txt
+  - Requests for pages defined by title are called as follows:
+      -example: https://en.wikipedia.org/w/rest.php/v1/page/html/{title}
+4) Places API
+  - Need to sign up for an account and generate a key
+  - key should be stored in key_api3.txt
+  - Requests for information about certain places should be defined as follows:
+    - example: https://api.geoapify.com/v2/places?PARAMS
