@@ -1,5 +1,5 @@
-#Sean Takahashi, James Sun, Kevin Liu, Yu Lu
-#Ninja Cat
+#Andrew Tsai, Ricky Lin, Yu Lu, Mustafa Abdullah
+#Snorelacks
 
 # Imports
 from flask import Flask, render_template, request, flash, url_for, redirect, session
@@ -12,11 +12,6 @@ import entries, auth
 
 app = Flask(__name__)
 app.secret_key = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*"
-
-@app.context_processor
-def user_context(): # persistent info made avalible for all html templates
-    return {
-    }
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
