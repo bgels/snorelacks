@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+  Snorelacks' Traveling Itinerary Website // Snorelacks
+  Roster: Yu L, Ricky L, Andrew T, Mustafa A
+  SoftDev
+
+  Based off: Gato BLog // Ninja Cats
+ -->
+<html>
+
+  <head>
+    <link rel="stylesheet"
+ type="text/css"
+ href="../static/css/app.css">
+  </head>
+
+  <!-- Flash Message -->
+  {% block content %}
+  <div class="flashmsg">
+      {% for message in get_flashed_messages() %}
+      {{ message }}<br>
+      {% endfor %}
+      {% block page_content %}{% endblock %}
+  </div>
+  {% endblock %}
+
+  <body>
+
+    <div class="header">
+      <h1>
+      </h1>
+    </div>
+
+    <div class = "middle">
+      {% if logged_in %}
+        <p></p>
+
+      {% else %}
+      <h3></h3>
+      <hr>
+
+      <div class = "credentials">
+         <form action="/login", method="POST"> <!--assigns route to home/other pages after form is submitted, placeholder for now-->
+           <p><strong>Username<strong></p>
+           <input type="text" name="username" placeholder="Username" title="CASE SENSITIVE!">
+           <br>
+           <p><strong>Password<strong></p>
+           <input type="password" name="password" placeholder="Password" title="CASE SENSITIVE!">
+           <p></p>
+           <button type="submit" title="Log in?">Login</button>
+         </form>
+       </div>
+
+
+     </div>
+
+     <br>
+     <hr>
+
+     <div class = "footer">
+       <p>
+         <br> Need an account?<a href= "/register"> Register</a> for an new account!<br>
+       </p>
+      </div>
+      {% endif %}
+      <p>
+        Return to <a href= "/"> homepage</a><br>
+      </p>
+
+
+  </body>
+
+</html>

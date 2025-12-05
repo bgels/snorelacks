@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+  Snorelacks' Traveling Itinerary Website // Snorelacks
+  Roster: Yu L, Ricky L, Andrew T, Mustafa A
+  SoftDev
+ -->
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/css/app.css">
+  </head>
+
+  <!-- Flash Message -->
+  {% block content %}
+  <div class="flashmsg">
+      {% for message in get_flashed_messages() %}
+      {{ message }}<br>
+      {% endfor %}
+      {% block page_content %}{% endblock %}
+  </div>
+  {% endblock %}
+
+  <body>
+
+    <div class="header">
+      <h1>
+      </h1>
+    </div>
+
+    <div class = "middle">
+      {% if logged_in %}
+      <p></p>
+
+      {% else %}
+      <h3></h3>
+      <hr>
+     </div>
+
+     <br>
+     <hr>
+
+     <div class = "footer">
+       <p>
+       </p>
+      </div>
+      {% endif %}
+      <p>
+        Return to <a href= "/"> homepage</a><br>
+      </p>
+  </body>
+
+</html>
