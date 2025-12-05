@@ -21,12 +21,22 @@ mustafaA -- 2025-12-3 1:10am
 - Added API cards
 - Polished design doc based on revision comments
 
-YuL -- 2025-12-3 6:00am
+yuL -- 2025-12-3 6:00am
 - Polished design doc based on revision comments
-
 - Updated on repo
 
 INITIAL DD REVIEW -- 2025-12-3 10:00 am
 - Added API Section
 - Added FrontEnd
 - Deleted unnecessary information
+
+rickyL -- 2025-12-4 10:40am
+- Updated design doc's ship date
+
+yuL -- 2025-12-4 10:45 am
+- Added __init__.py file
+
+mustafaA -- 2025-12-4 10:50am
+- Added documentation to keys readme
+
+
