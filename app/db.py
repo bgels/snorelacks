@@ -20,3 +20,11 @@ def add_user(username, password, country, currency):
     db.commit()
     db.close()
     return True
+
+def get_user(username):
+    DB_NAME = "Data/database.db"
+    DB = sqlite3.connect(DB_NAME)
+    DB_CURSOR = DB.cursor()
+    DB_CURSOR.execute("SELECT * FROM Users WHERE username = ?", username)
+    cursorfetch = cursor.fetchone()
+    return cursorfetch
