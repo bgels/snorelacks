@@ -5,7 +5,7 @@
 from flask import Flask, render_template, request, flash, url_for, redirect, session
 import sqlite3   #enable control of an sqlite database
 import csv       #facilitate CSV I/O
-
+#import db.py
 
 # Initialize databases
 
@@ -29,12 +29,14 @@ def register():
     if request.method == 'POST':
         user = request.form['username'].strip()
         pswd = request.form['password'].strip()
-        # maybe country too? for now just username and password
+        nation = request.form['country'].strip()
+        money = request.form['currency'].strip()
+        #add_user(user, pswd, nation, money)
 
-        if(not user or not pswd):
-            flash("WARNING: Username and Password cannot be empty!")
+        if(not user or not pswd or not money or not nation):
+            flash("WARNING: One of the fields cannot be empty!")
             return redirect(url_for('register'))
-        
+
         # add database registration here
         flash(f"Registration Successful! Welcome, {user}. Please log in.")
         return redirect(url_for('login'))
@@ -48,12 +50,15 @@ def login():
         if(not user or not pswd):
             flash("WARNING: Username and Password cannot be empty!")
             return redirect(url_for('login'))
-        
+
         # add database authentication here
         flash(f"Login Successful! Welcome back, {user}.")
         return redirect(url_for('profile'))
     return render_template("login.html")
-
+@app.route("/logout", methods=['GET', 'POST'])
+def logout():
+    session.clear()
+    return render_template("homepage.html")
 @app.route("/user_profile", methods=['GET', 'POST'])
 def user_profile():
     #checks session for logged in
@@ -65,12 +70,12 @@ def search():
     term = (request.args.get('keyword') or '').strip()
     if not term:
         flash("Search: WARNING, no country provided! Listing all existing countries.")
-    
+
     # database search logic would go here eventually
     # results = entries.search(term)
     # if not results:
-    #     flash(f"Search: No posts found for '{term}'.")    
-    
+    #     flash(f"Search: No posts found for '{term}'.")
+
     return render_template("search.html", term = term, results = None)
 
 @app.route("/profile", methods=['GET', 'POST'])
