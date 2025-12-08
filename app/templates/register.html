@@ -36,7 +36,7 @@
         <p></p>
 
       {% else %}
-      <h3></h3>
+      <h3>Registeration page</h3>
       <hr>
 
       <div class = "credentials">
@@ -59,7 +59,7 @@
 
      <div class = "footer">
        <p>
-         <br> Need an account?<a href= "/register"> Register</a> for an new account!<br>
+         <br> Need an account?<a href= "{{url_for('login')}}">Login</a> for an new account!<br>
        </p>
       </div>
       {% endif %}

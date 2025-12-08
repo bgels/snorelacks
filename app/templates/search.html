@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+  Snorelacks' Traveling Itinerary Website // Snorelacks
+  Roster: Yu L, Ricky L, Andrew T, Mustafa A
+  SoftDev
+
+  Based off: Gato BLog // Ninja Cats
+ -->
+<html>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/app.css">
+  </head>
+
+  <!-- Flash Message -->
+  {% block content %}
+  <div class="flashmsg">
+      {% for message in get_flashed_messages() %}
+      {{ message }}<br>
+      {% endfor %}
+      {% block page_content %}{% endblock %}
+  </div>
+  {% endblock %}
+
+  <body>
+    <div class="header">
+      <h1>
+        Search Results
+      </h1>
+    </div>
+
+    {% if results %}
+
+    <p>Here are the pages related to the query: "{{term}}".</p>
+    <p><strong><a href="{{url_for('homepage')}}">Back to home</a></strong></p>
+    <hr>
+
+    <div class="results">
+      {% for country in results %}
+      <h2>
+        <a href="{{ url_for('homepage') }}">
+          {{ country['title'] }} 
+        </a>
+      </h2>
+      <div class="post_content">
+      {{ country['body'] | safe }}
+      </div>
+      <hr>
+      {% endfor %}
+    </div>
+
+    <hr>
+
+    {% else %}
+
+    <p>There were <b>no results</b> that are matching or similar to the query: "{{term}}".</p>
+    <hr>
+    <p>
+      <i>The blog page "{{term}}" does not exist.</i>
+    </p>
+
+    <p><a href="{{ url_for('homepage') }}">Back to home</a></p>
+
+    {% endif %}
+
+  </body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+  Snorelacks' Traveling Itinerary Website // Snorelacks
+  Roster: Yu L, Ricky L, Andrew T, Mustafa A
+  SoftDev
+
+  Based off: Gato BLog // Ninja Cats
+
+ -->
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/css/app.css">
+  </head>
+
+  <!-- Flash Message -->
+  {% block content %}
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="fixed top-24 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md">
+        {% for message in messages %}
+          <div class="flash-container text-white px-6 py-3 rounded-lg shadow-lg mb-2 text-center">
+            {{ message }}
+          </div>
+      {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+  {% endblock %}
+
+
+  <body>
+    <h1>
+      Snorelacks' Traveling Itinerary Website
+    </h1>
+
+    <br>
+
+    <p>I <strong>HATE</strong> pokemon!</p>
+    <img src= {{url_for('static', filename='images/flag.jpg')}} alt="snorelax">
+    <br>
+
+    <a href="{{ url_for('register') }}" role="button">
+    Register
+    </a>
+    <a href="{{ url_for('login') }}" role="button">
+    Login
+    </a>
+    </a>
+    <a href="{{ url_for('profile') }}" role="button">
+    Profile
+    </a>
+
+    <div class = "search">
+      <p>Search for posts containing keyword:</p>
+      <form action="{{ url_for('search') }}" method="get">
+        <input type="text" name="keyword" placeholder="Keyword">
+        <p><p>
+        <button type="submit" title="Search">Search</button>
+      </form>
+    </div>
+
+    <br>
+  </body>
+
+</html>
