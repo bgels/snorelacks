@@ -46,5 +46,6 @@ yuL -- 2025-12-8 7:30 am
 rickyL -- 2025-12-8 9:50 pm
 - Added new forms for accounts
 
-
+mustafaA -- 2025-12-8 11:01am
+- Parsed openweather and countries api, working on Wikipedia 
 
