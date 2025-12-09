@@ -5,7 +5,7 @@
 from flask import Flask, render_template, request, flash, url_for, redirect, session
 import sqlite3   #enable control of an sqlite database
 import csv       #facilitate CSV I/O
-#import db.py
+import db
 
 # Initialize databases
 
@@ -32,7 +32,7 @@ def register():
         pswd = request.form['password'].strip()
         nation = request.form['country'].strip()
         money = request.form['currency'].strip()
-        #add_user(user, pswd, nation, money)
+        db.add_user(user, pswd, nation, money)
 
         if(not user or not pswd or not money or not nation):
             flash("WARNING: One of the fields cannot be empty!")
