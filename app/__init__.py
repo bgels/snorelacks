@@ -6,7 +6,7 @@ from flask import Flask, render_template, request, flash, url_for, redirect, ses
 import sqlite3   #enable control of an sqlite database
 import csv       #facilitate CSV I/O
 import os
-import urllib.request
+from urllib.request import Request, urlopen
 import json
 
 
@@ -19,20 +19,35 @@ import pprint
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
-    countries = urllib.request.urlopen(f"https://restcountries.com/v3.1/name/pakistan?fields=capital,currencies,languages,name,population,timezones,flag,latlng")
+    countries = urlopen(f"https://restcountries.com/v3.1/name/pakistan?fields=capital,currencies,languages,name,population,timezones,flag,latlng")
     countries_info = json.load(countries)
 
     weather_key = open("keys/key_api1.txt")
-    weather = urllib.request.urlopen(f"https://api.openweathermap.org/data/2.5/forecast?lat={countries_info[0]['latlng'][0]}&lon={countries_info[0]['latlng'][1]}&units=metric&&appid={weather_key.read()}")
+    weather = urlopen(f"https://api.openweathermap.org/data/2.5/forecast?lat={countries_info[0]['latlng'][0]}&lon={countries_info[0]['latlng'][1]}&units=metric&&appid={weather_key.read()}")
     weather_info = json.load(weather)
- 
+
+    
+    wikipedia_req = Request(
+        url=f"https://en.wikipedia.org/api/rest_v1/page/summary/Pakistan",
+        headers={'User-Agent': 'Mozilla/5.0'}
+    ) 
+    wikipedia = urlopen(wikipedia_req)
+    wikipedia_info = json.load(wikipedia)
+    
+    places_key = open("keys/key_api2.txt")
+    places = urlopen(f"https://")
+    places_info = json.load(places)
+
+    exchange_key = open("keys/key_api3.txt")
+    exchange_rate = urlopen(f"")
+    
+
 
 
     
-       
-    
-    pprint.pprint(countries_info)
-    pprint.pprint(weather_info)
+    pprint.pprint(wikipedia_info)  
+    #pprint.pprint(countries_info)
+    #pprint.pprint(weather_info)
     #capital, currency, languages, name, population, timezone, flag for each country,add more later
 #name, capital, currency, population, timezone, languages
     
