@@ -22,6 +22,7 @@ def user_context(): # persistent info made avalible for all html templates
 
 @app.route("/", methods=['GET', 'POST'])
 def homepage():
+    flash("Welcome to Snorelacks!Welcome to Snorelacks!Welcome to Snorelacks!Welcome to Snorelacks!Welcome to Snorelacks!")
     return render_template("homepage.html")
 
 @app.route("/register", methods=['GET', 'POST'])
