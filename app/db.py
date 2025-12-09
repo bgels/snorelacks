@@ -25,6 +25,6 @@ def get_user(username):
     DB_NAME = "Data/database.db"
     DB = sqlite3.connect(DB_NAME)
     DB_CURSOR = DB.cursor()
-    DB_CURSOR.execute("SELECT * FROM Users WHERE username = ?", username)
-    cursorfetch = cursor.fetchone()
+    DB_CURSOR.execute("SELECT * FROM Users WHERE username = ?", (username,))
+    cursorfetch = DB_CURSOR.fetchone()
     return cursorfetch
