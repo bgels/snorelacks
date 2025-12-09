@@ -9,17 +9,31 @@
  -->
 <html>
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../static/css/app.css">
-  </head>
+    <title>Snorelacks - Itinerary</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      @keyframes slow-zoom {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.05); }
+      }
+      .animate-slow-zoom {
+        animation: slow-zoom 20s infinite alternate ease-in-out;
+      }
+    </style>
+</head>
 
   <!-- Flash Message -->
   {% block content %}
   {% with messages = get_flashed_messages() %}
     {% if messages %}
-      <div class="fixed top-24 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md">
+      <div class="fixed top-6 left-1/2 transform -translate-x-1/2 w-full max-w-md backdrop-blur-md bg-white/10">
         {% for message in messages %}
           <div class="flash-container text-white px-6 py-3 rounded-lg shadow-lg mb-2 text-center">
             {{ message }}
@@ -31,36 +45,60 @@
   {% endblock %}
 
 
-  <body>
-    <h1>
-      Snorelacks' Traveling Itinerary Website
-    </h1>
-
-    <br>
-
-    <p>I <strong>HATE</strong> pokemon!</p>
-    <img src= {{url_for('static', filename='images/flag.jpg')}} alt="snorelax">
-    <br>
-
-    <a href="{{ url_for('register') }}" role="button">
-    Register
-    </a>
-    <a href="{{ url_for('login') }}" role="button">
-    Login
-    </a>
-    </a>
-    <a href="{{ url_for('profile') }}" role="button">
-    Profile
-    </a>
-
-    <div class = "search">
-      <p>Search for posts containing keyword:</p>
-      <form action="{{ url_for('search') }}" method="get">
-        <input type="text" name="keyword" placeholder="Keyword">
-        <p><p>
-        <button type="submit" title="Search">Search</button>
-      </form>
+  <body class="bg-black text-white h-screen overflow-hidden relative">
+    
+    <div class="absolute inset-0">
+      <div class="absolute inset-0 bg-black/50 z-60"></div>
+      <img src="/static/images/homepage_Bg.jpg" alt="Earth Background" class="w-full h-full object-cover animate-slow-zoom opacity-90">
     </div>
+
+    <nav class="border-b bg-black/30 backdrop-blur">
+      <div class="container mx-auto px-6 py-4 flex justify-between">
+          
+        <div class="flex items-center">
+          <div class="bg-white-500 rounded-full flex items-center justify-center mx-2">
+            <img src="/static/images/flag.jpg" class = "w-10">
+          </div>
+
+          <h1 class="text-2xl font-bold tracking-normal">
+              Snorelack's Traveling iternatry
+          </h1>
+
+        </div>
+
+        <div class="flex gap-6">
+          <a href="{{ url_for('register') }}" class="text-white-300 hover:text-blue-300">Register</a>
+          <a href="{{ url_for('login') }}" class="text-white-300 hover:text-blue-300">Login</a>
+          <a href="{{ url_for('profile') }}" class="flex items-center text-blue-400 hover:text-white-300 border border-blue-500/30 px-4 py-1 rounded-full bg-blue-300/10">
+              <span>Profile</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+  <nav class="flex-grow flex flex-col justify-center items-center text-center px-4 py-20">
+      
+    <h1 class="text-7xl font-white font-black mb-2 drop-shadow-lg">
+      <span class="text-blue-500">SNORE</span>LACKS
+    </h1>
+    <p class="text-2xl mb-10 font-light drop-shadow-md">
+      Where to?
+    </p>
+
+    <form action="{{ url_for('search') }}" method="get" class="w-full max-w-2xl relative group">
+      
+      <i class="fa-solid fa-magnifying-glass absolute left-6 top-1/2 transform -translate-y-1/2 text-gray-400 z-10"></i>
+      
+      <input type="text" name="keyword" placeholder="Search for a country..." class="w-full bg-white/90 text-gray-900 py-5 pl-14 rounded-2xl focus:outline-blue focus:ring-4 focus:ring-white-500/50 transition-all duration-300">
+      
+      <div class="absolute right-3 top-2 bottom-2">
+        <button type="submit" class="h-full bg-blue-500 hover:bg-blue-400 text-white px-6 rounded-xl font-bold shadow-lg">
+          Search
+        </button>
+      </div>
+    </form>
+
+  </nav>
 
     <br>
   </body>

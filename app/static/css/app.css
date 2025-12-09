@@ -67,7 +67,7 @@ body {
 
 
 .flash-container {
-    background: rgba(37, 99, 235, 0.9); /* Blue transparent */
+    background: rgba(37, 100, 235, 0.226); /* Blue transparent */
     backdrop-filter: blur(8px);
     border: 1px solid #60a5fa;
 }
