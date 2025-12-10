@@ -7,7 +7,9 @@ import sqlite3   #enable control of an sqlite database
 import csv       #facilitate CSV I/O
 import os
 from urllib.request import Request, urlopen
+import re
 import json
+import pprint
 
 
 # Initialize databases
@@ -15,7 +17,10 @@ import json
 app = Flask(__name__)
 app.debug = True
 app.secret_key = os.urandom(24)
-import pprint
+
+# this is a very annoying regex parsing function unfortunate
+def extract_wikipedia_subsections(title, section_name):
+
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
@@ -25,27 +30,29 @@ def index():
     weather_key = open("keys/key_api1.txt")
     weather = urlopen(f"https://api.openweathermap.org/data/2.5/forecast?lat={countries_info[0]['latlng'][0]}&lon={countries_info[0]['latlng'][1]}&units=metric&&appid={weather_key.read()}")
     weather_info = json.load(weather)
-
-    
+    #https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&prop=sections&format=json
     wikipedia_req = Request(
-        url=f"https://en.wikipedia.org/api/rest_v1/page/summary/Pakistan",
+        url=f"https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&section=41&prop=text&format=json&formatversion=2",
         headers={'User-Agent': 'Mozilla/5.0'}
     ) 
-    wikipedia = urlopen(wikipedia_req)
+    wikipedia = urlopen(wikipedia_req, timeout=10)
     wikipedia_info = json.load(wikipedia)
+    wikipedia_html = wikipedia_info['parse']['text']
+    pprint.pprint(wikipedia_html)
+    culture_section_index = None
     
-    places_key = open("keys/key_api2.txt")
-    places = urlopen(f"https://")
-    places_info = json.load(places)
+    # places_key = open("keys/key_api2.txt")
+    # places = urlopen(f"https://")
+    # places_info = json.load(places)
 
-    exchange_key = open("keys/key_api3.txt")
-    exchange_rate = urlopen(f"")
+    # exchange_key = open("keys/key_api3.txt")
+    # exchange_rate = urlopen(f"")
     
 
 
 
     
-    pprint.pprint(wikipedia_info)  
+    # pprint.pprint(wikipedia_info)  
     #pprint.pprint(countries_info)
     #pprint.pprint(weather_info)
     #capital, currency, languages, name, population, timezone, flag for each country,add more later
