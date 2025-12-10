@@ -52,3 +52,6 @@ mustafaA -- 2025-12-8 11:01am
 mustafaA -- 2025-12-10 12:40 A.M.
 - Spent an unreasonable amount of time trying to manually parse a wikipedia HTML dump
 - Add initial api setup to main branch
+
+anderwT -- 2025-12-10 10:30am
+- Added error handling and directory creation to database python script
