@@ -70,9 +70,10 @@ def index():
 
     soup = BeautifulSoup(wikipedia_info['parse']['text'], 'html.parser')
 
-    h3_tags =
-    for sib in target.find_next_siblings():
-        print(sib.text)
+    h3_tags = soup.findall('h3')
+    for h3 in h3_tags:
+        heading = h3.get_text(strip=True)
+        
     # print(S.prettify())
     # culture_section_index = None
 
