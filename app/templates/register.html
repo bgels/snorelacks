@@ -8,70 +8,125 @@
  -->
 <html>
 
-  <head>
-    <link rel="stylesheet"
- type="text/css"
- href="../static/css/app.css">
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snorelacks - Register</title>
 
-  <!-- Flash Message -->
-  {% block content %}
-  <div class="flashmsg">
-      {% for message in get_flashed_messages() %}
-      {{ message }}<br>
-      {% endfor %}
-      {% block page_content %}{% endblock %}
-  </div>
-  {% endblock %}
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 
-  <body>
+<body class="h-screen overflow-hidden text-white relative">
 
-    <div class="header">
-      <h1>
-      </h1>
+    <div class="absolute inset-0 z-0">
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+        <img src="static/images/city.jpg" 
+             alt="City Background" 
+             class="w-full h-full object-cover bg-animation">
     </div>
 
-    <div class = "middle">
-      {% if logged_in %}
-        <p></p>
+    {% block content %}
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="fixed top-24 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md">
+          {% for message in messages %}
+            <div class="flash-container text-white px-6 py-3 rounded-lg shadow-lg mb-2 text-center">
+              {{ message }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+    {% endblock %}
+
+  <div class="relative z-20 h-full flex flex-col justify-center items-center px-4">
+
+    {% if logged_in %}
+      <div class="bg-black backdrop-blur-xl border border-white/10 p-10 rounded-2xl text-center max-w-md w-full shadow-2xl">
+        <div class="text-6xl text-blue-500 mb-4">
+          <i class="fa-solid fa-id-card"></i>
+        </div>
+        <h2 class="text-3xl mb-2 text-white">Already Registered</h2>
+        <p class="text-gray-400 mb-8">You are currently logged in.</p>
+          
+        <a href="/" class="block w-full btn-primary py-3 rounded-xl text-center">
+          Return Home
+        </a>
+      </div>
 
       {% else %}
-      <h3>Registeration page</h3>
-      <hr>
-
-      <div class = "credentials">
-         <form action="/register", method="POST"> <!--assigns route to home/other pages after form is submitted, placeholder for now-->
-           <p><strong>Username<strong></p>
-           <input type="text" name="username" placeholder="Username" title="CASE SENSITIVE!">
-           <br>
-           <p><strong>Password<strong></p>
-           <input type="password" name="password" placeholder="Password" title="CASE SENSITIVE!">
-           <p><strong>Currency<strong></p>
-           <input type="text" name="currency" placeholder="Currency" title="CASE SENSITIVE!">
-           <p><strong>country<strong></p>
-           <input type="text" name="country" placeholder="Country" title="CASE SENSITIVE!">
-           <p></p>
-           <button type="submit" title="Log in?">Register</button>
-         </form>
-       </div>
-
-
-     </div>
-
-     <br>
-     <hr>
-
-     <div class = "footer">
-       <p>
-         <br> Need an account?<a href= "{{url_for('login')}}">Login</a> for an new account!<br>
-       </p>
+      <div class="bg-black backdrop-blur-xl border border-white/10 p-8 md:p-10 rounded-3xl shadow-2xl w-full max-w-md flex flex-col gap-4">
+        
+      <div class="text-center">
+        <h1 class="text-4xl font-bold tracking-wider">
+          <span class="text-blue-400">SNORE</span>LACKS
+        </h1>
+        <p class="text-blue-200/60 mt-2 text-xs uppercase tracking-widest">New Account Registration</p>
       </div>
-      {% endif %}
-      <p>
-        Return to <a href= "/"> homepage</a><br>
-      </p>
 
+      <form action="/register" method="POST" class="flex flex-col gap-3">
+          
+      <div class="flex flex-col gap-1">
+        <label class="text-xs text-blue-300 uppercase ml-1">Username</label>
+        <input type="text" 
+          name="username" 
+          placeholder="Choose a Username..." 
+          class="search-input w-full text-black p-3 rounded-xl"
+          required>
+      </div>
 
-  </body>
+      <div class="flex flex-col gap-1">
+        <label class="text-xs text-blue-300 uppercase ml-1">Country</label>
+        <input type="text" 
+          name="country" 
+          placeholder="Country" 
+          class="search-input w-full text-black p-3 rounded-xl"
+          required>
+      </div>
 
+      <div class="flex flex-col gap-1">
+        <label class="text-xs text-blue-300 uppercase ml-1">Currency</label>
+        <input type="text" 
+          name="currency" 
+          placeholder="Currency" 
+          class="search-input w-full text-black p-3 rounded-xl"
+          required>
+      </div>
+
+      <div class="flex flex-col gap-1">
+        <label class="text-xs text-blue-300 uppercase ml-1">Password</label>
+        <input type="password" 
+          name="password" 
+          placeholder="Create Password..." 
+          class="search-input w-full text-black p-3 rounded-xl"
+          required>
+      </div>
+
+        <button type="submit" class="mt-2 w-full btn-primary py-3 rounded-xl text-lg tracking-widest">
+          Create Account
+        </button>
+      </form>
+
+      <div class="text-center text-sm pt-4 border-t border-white/10 text-gray-400">
+        <p class="mb-4">
+          Already have an account? 
+          <a href="/login" class="text-blue-400 font-bold hover:text-white transition-colors">
+            Login Here
+          </a>
+        </p>
+        <a href="/" class="hover:text-white transition-colors flex items-center justify-center gap-2 opacity-70 hover:opacity-100">
+          <i class="fa-solid fa-arrow-left text-xs"></i>
+          Abort to Homepage
+        </a>
+      </div>
+
+    </div>
+    {% endif %}
+
+  </div>
+
+</body>
 </html>
