@@ -1,0 +1,2939 @@
+ * Serving Flask app '__init__'
+ * Debug mode: on
+<div class="mw-content-ltr mw-parser-output" dir="ltr" lang="en">
+ <meta property="mw:PageProp/toc"/>
+ <div class="mw-heading mw-heading2">
+  <h2 id="Culture">
+   Culture
+  </h2>
+  <span class="mw-editsection">
+   <span class="mw-editsection-bracket">
+    [
+   </span>
+   <a href="/w/index.php?title=Pakistan&amp;action=edit&amp;section=1" title="Edit section: Culture">
+    <span>
+     edit
+    </span>
+   </a>
+   <span class="mw-editsection-bracket">
+    ]
+   </span>
+  </span>
+ </div>
+ <style data-mw-deduplicate="TemplateStyles:r1320445320">
+  .mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}
+ </style>
+ <div class="hatnote navigation-not-searchable" role="note">
+  Main articles:
+  <a href="/wiki/Culture_of_Pakistan" title="Culture of Pakistan">
+   Culture of Pakistan
+  </a>
+  ,
+  <a class="mw-redirect" href="/wiki/British_heritage_of_Pakistan" title="British heritage of Pakistan">
+   British heritage of Pakistan
+  </a>
+  , and
+  <a href="/wiki/Public_holidays_in_Pakistan" title="Public holidays in Pakistan">
+   Public holidays in Pakistan
+  </a>
+ </div>
+ <figure class="mw-default-size" typeof="mw:File/Thumb">
+  <a class="mw-file-description" href="/wiki/File:Ceiling_of_Frere_Hall.jpg">
+   <img class="mw-file-element" data-file-height="3205" data-file-width="4839" decoding="async" height="166" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ceiling_of_Frere_Hall.jpg/250px-Ceiling_of_Frere_Hall.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ceiling_of_Frere_Hall.jpg/500px-Ceiling_of_Frere_Hall.jpg 1.5x" width="250"/>
+  </a>
+  <figcaption>
+   Artwork by
+   <a href="/wiki/Sadequain" title="Sadequain">
+    Sadequain
+   </a>
+   on the ceiling of
+   <a href="/wiki/Frere_Hall" title="Frere Hall">
+    Frere Hall
+   </a>
+   . Having painted around 15,000 paintings, Sadequain is considered one of the finest painters and calligraphers Pakistan has ever produced.
+  </figcaption>
+ </figure>
+ <p>
+  <a href="/wiki/Culture_of_Pakistan" title="Culture of Pakistan">
+   Civil society
+  </a>
+  in Pakistan is hierarchical, emphasizing
+  <a href="/wiki/Etiquette_in_Pakistan" title="Etiquette in Pakistan">
+   local cultural etiquette
+  </a>
+  and traditional Islamic values. The primary family unit is the
+  <a href="/wiki/Extended_family" title="Extended family">
+   extended family
+  </a>
+  , but there's a rising trend towards
+  <a class="mw-redirect" href="/wiki/Nuclear_families" title="Nuclear families">
+   nuclear families
+  </a>
+  due to socio-economic factors.
+  <sup class="reference" id="cite_ref-nuclear_1-0">
+   <a href="#cite_note-nuclear-1">
+    <span class="cite-bracket">
+     [
+    </span>
+    1
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <sup class="reference" id="cite_ref-2">
+   <a href="#cite_note-2">
+    <span class="cite-bracket">
+     [
+    </span>
+    2
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Both men and women typically wear
+  <i>
+   <a class="mw-redirect" href="/wiki/Shalwar_Kameez" title="Shalwar Kameez">
+    Shalwar Kameez
+   </a>
+  </i>
+  ; men also favor trousers, jeans, and shirts.
+  <sup class="reference" id="cite_ref-taxila_3-0">
+   <a href="#cite_note-taxila-3">
+    <span class="cite-bracket">
+     [
+    </span>
+    3
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  The middle class has grown to about 35 million, with another 17 million in the upper and upper-middle classes, leading to a shift in power from rural landowners to urban elites.
+  <sup class="reference" id="cite_ref-4">
+   <a href="#cite_note-4">
+    <span class="cite-bracket">
+     [
+    </span>
+    4
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Festivals like
+  <i>
+   <a class="mw-redirect" href="/wiki/Eid_ul-Fitr" title="Eid ul-Fitr">
+    Eid ul-Fitr
+   </a>
+  </i>
+  ,
+  <i>
+   <a class="mw-redirect" href="/wiki/Eid_ul-Azha" title="Eid ul-Azha">
+    Eid ul-Azha
+   </a>
+  </i>
+  ,
+  <a href="/wiki/Ramadan" title="Ramadan">
+   Ramadan
+  </a>
+  ,
+  <a href="/wiki/Christmas" title="Christmas">
+   Christmas
+  </a>
+  ,
+  <a href="/wiki/Easter" title="Easter">
+   Easter
+  </a>
+  ,
+  <a href="/wiki/Holi" title="Holi">
+   Holi
+  </a>
+  , and
+  <a href="/wiki/Diwali" title="Diwali">
+   Diwali
+  </a>
+  are primarily religious.
+  <sup class="reference" id="cite_ref-nuclear_1-1">
+   <a href="#cite_note-nuclear-1">
+    <span class="cite-bracket">
+     [
+    </span>
+    1
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Pakistan ranked 56th on the 2006
+  <a class="mw-redirect" href="/wiki/A.T._Kearney" title="A.T. Kearney">
+   A.T. Kearney
+  </a>
+  /FP
+  <a class="mw-redirect" href="/wiki/Globalization_Index" title="Globalization Index">
+   Globalization Index
+  </a>
+  due to increasing globalization.
+  <sup class="reference" id="cite_ref-5">
+   <a href="#cite_note-5">
+    <span class="cite-bracket">
+     [
+    </span>
+    5
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <div class="mw-heading mw-heading3">
+  <h3 id="Architecture">
+   Architecture
+  </h3>
+  <span class="mw-editsection">
+   <span class="mw-editsection-bracket">
+    [
+   </span>
+   <a href="/w/index.php?title=Pakistan&amp;action=edit&amp;section=2" title="Edit section: Architecture">
+    <span>
+     edit
+    </span>
+   </a>
+   <span class="mw-editsection-bracket">
+    ]
+   </span>
+  </span>
+ </div>
+ <link href="mw-data:TemplateStyles:r1320445320" rel="mw-deduplicated-inline-style"/>
+ <div class="hatnote navigation-not-searchable" role="note">
+  Main articles:
+  <a href="/wiki/Pakistani_architecture" title="Pakistani architecture">
+   Pakistani architecture
+  </a>
+  and
+  <a href="/wiki/Hindu,_Jain_and_Buddhist_architectural_heritage_of_Pakistan" title="Hindu, Jain and Buddhist architectural heritage of Pakistan">
+   Hindu, Jain and Buddhist architectural heritage of Pakistan
+  </a>
+ </div>
+ <figure class="mw-default-size mw-halign-left" typeof="mw:File/Thumb">
+  <a class="mw-file-description" href="/wiki/File:Lahore_Fort.jpg">
+   <img class="mw-file-element" data-file-height="748" data-file-width="511" decoding="async" height="366" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lahore_Fort.jpg/250px-Lahore_Fort.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lahore_Fort.jpg/500px-Lahore_Fort.jpg 1.5x" width="250"/>
+  </a>
+  <figcaption>
+   The
+   <a href="/wiki/Lahore_Fort" title="Lahore Fort">
+    Lahore Fort
+   </a>
+   , a landmark built during the Mughal era, is a
+   <a class="mw-redirect" href="/wiki/UNESCO_World_Heritage_Site" title="UNESCO World Heritage Site">
+    UNESCO World Heritage Site
+   </a>
+  </figcaption>
+ </figure>
+ <p>
+  Four periods define Pakistani architecture:
+  <a href="/wiki/History_of_Pakistan#Early_history" title="History of Pakistan">
+   pre-Islamic
+  </a>
+  ,
+  <a href="/wiki/History_of_Pakistan#Muslim_period" title="History of Pakistan">
+   Islamic
+  </a>
+  ,
+  <a href="/wiki/History_of_Pakistan#Colonial_era" title="History of Pakistan">
+   colonial
+  </a>
+  , and
+  <a href="/wiki/History_of_Pakistan#Independence" title="History of Pakistan">
+   post-colonial
+  </a>
+  . The onset of the
+  <a class="mw-redirect" href="/wiki/Indus_civilization" title="Indus civilization">
+   Indus civilization
+  </a>
+  around the mid-3rd millennium BCE heralded an urban culture, evidenced by surviving large structures.
+  <sup class="reference" id="cite_ref-6">
+   <a href="#cite_note-6">
+    <span class="cite-bracket">
+     [
+    </span>
+    6
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Notable pre-Islamic settlements include
+  <a href="/wiki/Mohenjo-daro" title="Mohenjo-daro">
+   Mohenjo-daro
+  </a>
+  ,
+  <a href="/wiki/Harappa" title="Harappa">
+   Harappa
+  </a>
+  , and
+  <a href="/wiki/Kot_Diji" title="Kot Diji">
+   Kot Diji
+  </a>
+  .
+  <sup class="reference" id="cite_ref-mountains_7-0">
+   <a href="#cite_note-mountains-7">
+    <span class="cite-bracket">
+     [
+    </span>
+    7
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  The fusion of Buddhism and
+  <a href="/wiki/Indian_campaign_of_Alexander_the_Great" title="Indian campaign of Alexander the Great">
+   Greek
+  </a>
+  influences birthed a distinctive
+  <a href="/wiki/Greco-Buddhism" title="Greco-Buddhism">
+   Greco-Buddhist
+  </a>
+  style from the 1st century CE, exemplified by the renowned
+  <a class="mw-redirect" href="/wiki/Gandara_art" title="Gandara art">
+   Gandhara style
+  </a>
+  .
+  <sup class="reference" id="cite_ref-8">
+   <a href="#cite_note-8">
+    <span class="cite-bracket">
+     [
+    </span>
+    8
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Notable
+  <a href="/wiki/Buddhist_architecture" title="Buddhist architecture">
+   Buddhist architectural
+  </a>
+  remnants include the
+  <a href="/wiki/Takht-i-Bahi" title="Takht-i-Bahi">
+   Takht-i-Bahi
+  </a>
+  monastery in
+  <a href="/wiki/Khyber_Pakhtunkhwa" title="Khyber Pakhtunkhwa">
+   Khyber Pakhtunkhwa
+  </a>
+  .
+  <sup class="reference" id="cite_ref-9">
+   <a href="#cite_note-9">
+    <span class="cite-bracket">
+     [
+    </span>
+    9
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <p>
+  The advent of Islam in present-day Pakistan marked the cessation of Buddhist architecture, ushering in
+  <a href="/wiki/Islamic_architecture" title="Islamic architecture">
+   Islamic architecture
+  </a>
+  . The notable
+  <a href="/wiki/Indo-Islamic_architecture" title="Indo-Islamic architecture">
+   Indo-Islamic
+  </a>
+  structure, the
+  <a href="/wiki/Rukn-e-Alam" title="Rukn-e-Alam">
+   tomb of Shah Rukn-i-Alam
+  </a>
+  in Multan, remains significant. During the Mughal era, Persian-Islamic design merged with Hindustani art, seen in Lahore's architectural gems like the
+  <a href="/wiki/Badshahi_Mosque" title="Badshahi Mosque">
+   Badshahi Mosque
+  </a>
+  and the
+  <a href="/wiki/Lahore_Fort" title="Lahore Fort">
+   Lahore Fort
+  </a>
+  with the iconic
+  <a class="mw-redirect" href="/wiki/Alamgiri_Gate" title="Alamgiri Gate">
+   Alamgiri Gate
+  </a>
+  . Lahore also boasts the vibrant
+  <a href="/wiki/Wazir_Khan_Mosque" title="Wazir Khan Mosque">
+   Wazir Khan Mosque
+  </a>
+  ,
+  <sup class="reference" id="cite_ref-10">
+   <a href="#cite_note-10">
+    <span class="cite-bracket">
+     [
+    </span>
+    10
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  and the lush
+  <a class="mw-redirect" href="/wiki/Shalimar_Gardens_(Lahore)" title="Shalimar Gardens (Lahore)">
+   Shalimar Gardens
+  </a>
+  . In the British colonial period, Indo-European buildings emerged, blending European and Indian-Islamic styles. Post-colonial identity shines through modern landmarks like the
+  <a href="/wiki/Faisal_Mosque" title="Faisal Mosque">
+   Faisal Mosque
+  </a>
+  ,
+  <a href="/wiki/Minar-e-Pakistan" title="Minar-e-Pakistan">
+   Minar-e-Pakistan
+  </a>
+  , and
+  <a href="/wiki/Mazar-e-Quaid" title="Mazar-e-Quaid">
+   Mazar-e-Quaid
+  </a>
+  .
+  <a href="/wiki/Architecture_of_the_United_Kingdom" title="Architecture of the United Kingdom">
+   British architectural
+  </a>
+  influence persists in structures across Lahore, Peshawar, and Karachi.
+  <sup class="reference" id="cite_ref-11">
+   <a href="#cite_note-11">
+    <span class="cite-bracket">
+     [
+    </span>
+    11
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <div class="mw-heading mw-heading3">
+  <h3 id="Clothing,_arts,_and_fashion">
+   <span id="Clothing.2C_arts.2C_and_fashion">
+   </span>
+   Clothing, arts, and fashion
+  </h3>
+  <span class="mw-editsection">
+   <span class="mw-editsection-bracket">
+    [
+   </span>
+   <a href="/w/index.php?title=Pakistan&amp;action=edit&amp;section=3" title="Edit section: Clothing, arts, and fashion">
+    <span>
+     edit
+    </span>
+   </a>
+   <span class="mw-editsection-bracket">
+    ]
+   </span>
+  </span>
+ </div>
+ <link href="mw-data:TemplateStyles:r1320445320" rel="mw-deduplicated-inline-style"/>
+ <div class="hatnote navigation-not-searchable" role="note">
+  Main articles:
+  <a href="/wiki/Pakistani_clothing" title="Pakistani clothing">
+   Pakistani clothing
+  </a>
+  ,
+  <a href="/wiki/Shalwar_kameez" title="Shalwar kameez">
+   Shalwar kameez
+  </a>
+  ,
+  <a href="/wiki/Sherwani" title="Sherwani">
+   Sherwani
+  </a>
+  ,
+  <a class="mw-redirect" href="/wiki/Jinnah_cap" title="Jinnah cap">
+   Jinnah cap
+  </a>
+  ,
+  <a href="/wiki/Peshawari_chappal" title="Peshawari chappal">
+   Peshawari chappal
+  </a>
+  ,
+  <a href="/wiki/Pakol" title="Pakol">
+   Pakol
+  </a>
+  , and
+  <a class="mw-redirect" href="/wiki/Sindhi_topi" title="Sindhi topi">
+   Sindhi topi
+  </a>
+ </div>
+ <figure class="mw-default-size" typeof="mw:File/Thumb">
+  <a class="mw-file-description" href="/wiki/File:Traditional_clothing_from_Sindh.jpg">
+   <img class="mw-file-element" data-file-height="1007" data-file-width="1249" decoding="async" height="202" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Traditional_clothing_from_Sindh.jpg/250px-Traditional_clothing_from_Sindh.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Traditional_clothing_from_Sindh.jpg/500px-Traditional_clothing_from_Sindh.jpg 1.5x" width="250"/>
+  </a>
+  <figcaption>
+   A depiction of traditional clothing of women from
+   <a href="/wiki/Sindh" title="Sindh">
+    Sindh
+   </a>
+  </figcaption>
+ </figure>
+ <p>
+  The
+  <i>
+   <a href="/wiki/Shalwar_kameez" title="Shalwar kameez">
+    Shalwar kameez
+   </a>
+  </i>
+  is Pakistan's
+  <a class="mw-redirect" href="/wiki/National_dress" title="National dress">
+   national dress
+  </a>
+  , worn in all provinces: Punjab, Sindh, Balochistan, Khyber Pakhtunkhwa, and Azad Kashmir. Each province has its own style. Pakistanis wear a variety of fabrics like silk,
+  <a href="/wiki/Chiffon_(fabric)" title="Chiffon (fabric)">
+   chiffon
+  </a>
+  , and cotton. In addition to the national dress, men often wear domestically tailored suits and
+  <a href="/wiki/Necktie" title="Necktie">
+   neckties
+  </a>
+  , especially in offices, schools, and social gatherings.
+  <sup class="reference" id="cite_ref-12">
+   <a href="#cite_note-12">
+    <span class="cite-bracket">
+     [
+    </span>
+    12
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <p>
+  Pakistan's
+  <a href="/wiki/Pakistani_clothing" title="Pakistani clothing">
+   fashion industry
+  </a>
+  has thrived, blending traditional and modern styles to create a unique cultural identity. Regional and traditional dress remain significant symbols of native tradition, evolving into both modern and purer forms. Organizations like the Pakistan Fashion Design Council in
+  <a href="/wiki/Lahore" title="Lahore">
+   Lahore
+  </a>
+  and the Fashion Pakistan Council in
+  <a href="/wiki/Karachi" title="Karachi">
+   Karachi
+  </a>
+  host events like
+  <a class="mw-redirect" href="/wiki/PFDC_Sunsilk_Fashion_Week" title="PFDC Sunsilk Fashion Week">
+   PFDC Fashion Week
+  </a>
+  and
+  <a href="/wiki/Fashion_Pakistan_Week" title="Fashion Pakistan Week">
+   Fashion Pakistan Week
+  </a>
+  . Pakistan's inaugural fashion week took place in November 2009.
+  <sup class="reference" id="cite_ref-13">
+   <a href="#cite_note-13">
+    <span class="cite-bracket">
+     [
+    </span>
+    13
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <div class="mw-heading mw-heading3">
+  <h3 id="Literature_and_philosophy">
+   Literature and philosophy
+  </h3>
+  <span class="mw-editsection">
+   <span class="mw-editsection-bracket">
+    [
+   </span>
+   <a href="/w/index.php?title=Pakistan&amp;action=edit&amp;section=4" title="Edit section: Literature and philosophy">
+    <span>
+     edit
+    </span>
+   </a>
+   <span class="mw-editsection-bracket">
+    ]
+   </span>
+  </span>
+ </div>
+ <link href="mw-data:TemplateStyles:r1320445320" rel="mw-deduplicated-inline-style"/>
+ <div class="hatnote navigation-not-searchable" role="note">
+  Main articles:
+  <a class="mw-redirect" href="/wiki/Literature_of_Pakistan" title="Literature of Pakistan">
+   Literature of Pakistan
+  </a>
+  ,
+  <a href="/wiki/Urdu_poetry" title="Urdu poetry">
+   Urdu poetry
+  </a>
+  , and
+  <a class="mw-redirect" href="/wiki/Pakistani_philosophy" title="Pakistani philosophy">
+   Pakistani philosophy
+  </a>
+ </div>
+ <figure class="mw-default-size" typeof="mw:File/Thumb">
+  <a class="mw-file-description" href="/wiki/File:Iqbal.jpg">
+   <img alt="Muhammad Iqbal" class="mw-file-element" data-file-height="300" data-file-width="227" decoding="async" height="251" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Iqbal.jpg/227px-Iqbal.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/8/8a/Iqbal.jpg 1.5x" width="190"/>
+  </a>
+  <figcaption>
+   <a href="/wiki/Muhammad_Iqbal" title="Muhammad Iqbal">
+    Muhammad Iqbal
+   </a>
+   , Pakistan's national poet who conceived the
+   <a class="mw-redirect" href="/wiki/Conception_of_Pakistan" title="Conception of Pakistan">
+    idea
+   </a>
+   of Pakistan
+  </figcaption>
+ </figure>
+ <p>
+  Pakistan boasts literature in various languages including
+  <a href="/wiki/Urdu_literature" title="Urdu literature">
+   Urdu
+  </a>
+  ,
+  <a href="/wiki/Sindhi_literature" title="Sindhi literature">
+   Sindhi
+  </a>
+  ,
+  <a href="/wiki/Punjabi_literature" title="Punjabi literature">
+   Punjabi
+  </a>
+  ,
+  <a href="/wiki/Pashto_literature_and_poetry" title="Pashto literature and poetry">
+   Pashto
+  </a>
+  ,
+  <a href="/wiki/Balochi_Academy" title="Balochi Academy">
+   Baluchi
+  </a>
+  ,
+  <a href="/wiki/Persian_literature" title="Persian literature">
+   Persian
+  </a>
+  ,
+  <a href="/wiki/Pakistani_English_literature" title="Pakistani English literature">
+   English
+  </a>
+  , and more.
+  <sup class="reference" id="cite_ref-14">
+   <a href="#cite_note-14">
+    <span class="cite-bracket">
+     [
+    </span>
+    14
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  The
+  <a href="/wiki/Pakistan_Academy_of_Letters" title="Pakistan Academy of Letters">
+   Pakistan Academy of Letters
+  </a>
+  actively promotes literature and poetry both domestically and internationally.
+  <sup class="reference" id="cite_ref-15">
+   <a href="#cite_note-15">
+    <span class="cite-bracket">
+     [
+    </span>
+    15
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <a href="/wiki/National_Library_of_Pakistan" title="National Library of Pakistan">
+   National Library
+  </a>
+  contributes to literary dissemination. Historically, Pakistani literature consisted mainly of
+  <a href="/wiki/Lyric_poetry" title="Lyric poetry">
+   lyric
+  </a>
+  ,
+  <a class="mw-redirect" href="/wiki/Sufi_poetry" title="Sufi poetry">
+   religious
+  </a>
+  , and
+  <a href="/wiki/Pakistani_folklore" title="Pakistani folklore">
+   folkloric
+  </a>
+  works, later diversifying under colonial influence into prose fiction, now widely embraced.
+  <sup class="reference" id="cite_ref-16">
+   <a href="#cite_note-16">
+    <span class="cite-bracket">
+     [
+    </span>
+    16
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <sup class="reference" id="cite_ref-granta_17-0">
+   <a href="#cite_note-granta-17">
+    <span class="cite-bracket">
+     [
+    </span>
+    17
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <p>
+  The
+  <a class="mw-redirect" href="/wiki/List_of_national_poets" title="List of national poets">
+   national poet
+  </a>
+  of Pakistan,
+  <a href="/wiki/Muhammad_Iqbal" title="Muhammad Iqbal">
+   Muhammad Iqbal
+  </a>
+  , wrote influential poetry in Urdu and Persian, advocating for Islamic civilizational revival.
+  <sup class="reference" id="cite_ref-18">
+   <a href="#cite_note-18">
+    <span class="cite-bracket">
+     [
+    </span>
+    18
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Notable figures in contemporary Urdu literature include
+  <a href="/wiki/Josh_Malihabadi" title="Josh Malihabadi">
+   Josh Malihabadi
+  </a>
+  ,
+  <a class="mw-redirect" href="/wiki/Faiz_Ahmed_Faiz" title="Faiz Ahmed Faiz">
+   Faiz Ahmed Faiz
+  </a>
+  , and
+  <a href="/wiki/Saadat_Hasan_Manto" title="Saadat Hasan Manto">
+   Saadat Hasan Manto
+  </a>
+  .
+  <sup class="reference" id="cite_ref-granta_17-1">
+   <a href="#cite_note-granta-17">
+    <span class="cite-bracket">
+     [
+    </span>
+    17
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Popular Sufi poets like
+  <a class="mw-redirect" href="/wiki/Shah_Abdul_Latif" title="Shah Abdul Latif">
+   Shah Abdul Latif
+  </a>
+  and
+  <a href="/wiki/Bulleh_Shah" title="Bulleh Shah">
+   Bulleh Shah
+  </a>
+  are revered.
+  <sup class="reference" id="cite_ref-19">
+   <a href="#cite_note-19">
+    <span class="cite-bracket">
+     [
+    </span>
+    19
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <a class="mw-redirect" href="/wiki/Mirza_Kalich_Beg" title="Mirza Kalich Beg">
+   Mirza Kalich Beg
+  </a>
+  is hailed as the father of modern Sindhi prose.
+  <sup class="reference" id="cite_ref-20">
+   <a href="#cite_note-20">
+    <span class="cite-bracket">
+     [
+    </span>
+    20
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Pakistani philosophy has been shaped by influences from British and American philosophy, with notable figures like
+  <a href="/wiki/M._M._Sharif" title="M. M. Sharif">
+   M. M. Sharif
+  </a>
+  contributing to its development.
+  <sup class="reference" id="cite_ref-21">
+   <a href="#cite_note-21">
+    <span class="cite-bracket">
+     [
+    </span>
+    21
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Post-1971, Marxist thought gained prominence in Pakistani philosophy through figures like
+  <a href="/wiki/Jalaludin_Abdur_Rahim" title="Jalaludin Abdur Rahim">
+   Jalaludin Abdur Rahim
+  </a>
+  .
+  <sup class="reference" id="cite_ref-22">
+   <a href="#cite_note-22">
+    <span class="cite-bracket">
+     [
+    </span>
+    22
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <div class="mw-heading mw-heading3">
+  <h3 id="Media_and_entertainment">
+   Media and entertainment
+  </h3>
+  <span class="mw-editsection">
+   <span class="mw-editsection-bracket">
+    [
+   </span>
+   <a href="/w/index.php?title=Pakistan&amp;action=edit&amp;section=5" title="Edit section: Media and entertainment">
+    <span>
+     edit
+    </span>
+   </a>
+   <span class="mw-editsection-bracket">
+    ]
+   </span>
+  </span>
+ </div>
+ <link href="mw-data:TemplateStyles:r1320445320" rel="mw-deduplicated-inline-style"/>
+ <div class="hatnote navigation-not-searchable" role="note">
+  Main articles:
+  <a href="/wiki/Mass_media_in_Pakistan" title="Mass media in Pakistan">
+   Mass media in Pakistan
+  </a>
+  ,
+  <a href="/wiki/Cinema_of_Pakistan" title="Cinema of Pakistan">
+   Cinema of Pakistan
+  </a>
+  ,
+  <a href="/wiki/Music_of_Pakistan" title="Music of Pakistan">
+   Music of Pakistan
+  </a>
+  ,
+  <a class="mw-redirect" href="/wiki/History_of_Pakistani_pop_music" title="History of Pakistani pop music">
+   History of Pakistani pop music
+  </a>
+  ,
+  <a href="/wiki/Theatre_of_Pakistan" title="Theatre of Pakistan">
+   Theatre of Pakistan
+  </a>
+  , and
+  <a href="/wiki/Pakistani_dramas" title="Pakistani dramas">
+   Pakistani dramas
+  </a>
+ </div>
+ <p>
+  The private
+  <a href="/wiki/List_of_newspapers_in_Pakistan" title="List of newspapers in Pakistan">
+   print media
+  </a>
+  , state-owned
+  <a href="/wiki/Pakistan_Television_Corporation" title="Pakistan Television Corporation">
+   Pakistan Television Corporation
+  </a>
+  (PTV), and
+  <a class="mw-redirect" href="/wiki/Pakistan_Broadcasting_Corporation" title="Pakistan Broadcasting Corporation">
+   Pakistan Broadcasting Corporation
+  </a>
+  (PBC) dominated media until the 21st century. Pakistan now boasts a vast network of domestic, privately owned
+  <a href="/wiki/24-hour_news_cycle" title="24-hour news cycle">
+   24-hour electronic
+  </a>
+  <a href="/wiki/List_of_television_channels_in_Pakistan" title="List of television channels in Pakistan">
+   news media
+  </a>
+  and
+  <a href="/wiki/Cable_television" title="Cable television">
+   cable
+  </a>
+  <a href="/wiki/Television_in_Pakistan" title="Television in Pakistan">
+   television channels
+  </a>
+  .
+  <sup class="reference" id="cite_ref-23">
+   <a href="#cite_note-23">
+    <span class="cite-bracket">
+     [
+    </span>
+    23
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  The
+  <a href="/wiki/Reporters_Without_Borders" title="Reporters Without Borders">
+   Reporters Without Borders
+  </a>
+  has indicated pressure faced by Pakistani reporters, particularly when reporting against the military or government.
+  <sup class="reference" id="cite_ref-RSF_24-0">
+   <a href="#cite_note-RSF-24">
+    <span class="cite-bracket">
+     [
+    </span>
+    24
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  The BBC describes Pakistani media as "among the most outspoken in South Asia".
+  <sup class="reference" id="cite_ref-25">
+   <a href="#cite_note-25">
+    <span class="cite-bracket">
+     [
+    </span>
+    25
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Pakistani media has been instrumental in exposing corruption.
+  <sup class="reference" id="cite_ref-26">
+   <a href="#cite_note-26">
+    <span class="cite-bracket">
+     [
+    </span>
+    26
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <p>
+  The
+  <a href="/wiki/Lollywood" title="Lollywood">
+   Lollywood
+  </a>
+  , Punjabi, and
+  <a href="/wiki/Pashto_cinema" title="Pashto cinema">
+   Pashto
+  </a>
+  film industry is centered in Karachi, Lahore, and Peshawar. Although Bollywood films were banned from public cinemas from 1965 to 2008, they remained influential in Pakistani popular culture.
+  <sup class="reference" id="cite_ref-27">
+   <a href="#cite_note-27">
+    <span class="cite-bracket">
+     [
+    </span>
+    27
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  However, in 2019, the screening of Bollywood movies faced an indefinite ban.
+  <sup class="reference" id="cite_ref-28">
+   <a href="#cite_note-28">
+    <span class="cite-bracket">
+     [
+    </span>
+    28
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Despite challenges faced by the Pakistani film industry, Urdu
+  <a href="/wiki/Pakistani_dramas" title="Pakistani dramas">
+   televised dramas
+  </a>
+  and theatrical performances remain popular, frequently broadcast by many entertainment media outlets.
+  <sup class="reference" id="cite_ref-29">
+   <a href="#cite_note-29">
+    <span class="cite-bracket">
+     [
+    </span>
+    29
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Urdu dramas dominate the television entertainment industry, renowned for their quality since the 1990s.
+  <sup class="reference" id="cite_ref-30">
+   <a href="#cite_note-30">
+    <span class="cite-bracket">
+     [
+    </span>
+    30
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Pakistani music encompasses diverse forms, from provincial folk music and traditional styles like
+  <a href="/wiki/Qawwali" title="Qawwali">
+   Qawwali
+  </a>
+  and
+  <a href="/wiki/Ghazal" title="Ghazal">
+   Ghazal
+  </a>
+  Gayaki to modern fusions of traditional and western music.
+  <sup class="reference" id="cite_ref-31">
+   <a href="#cite_note-31">
+    <span class="cite-bracket">
+     [
+    </span>
+    31
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Pakistan boasts numerous renowned folk singers, and the arrival of Afghan refugees in western provinces has sparked interest in Pashto music, despite occasional intolerance.
+  <sup class="reference" id="cite_ref-32">
+   <a href="#cite_note-32">
+    <span class="cite-bracket">
+     [
+    </span>
+    32
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <div class="mw-heading mw-heading3">
+  <h3 id="Cuisine">
+   Cuisine
+  </h3>
+  <span class="mw-editsection">
+   <span class="mw-editsection-bracket">
+    [
+   </span>
+   <a href="/w/index.php?title=Pakistan&amp;action=edit&amp;section=6" title="Edit section: Cuisine">
+    <span>
+     edit
+    </span>
+   </a>
+   <span class="mw-editsection-bracket">
+    ]
+   </span>
+  </span>
+ </div>
+ <link href="mw-data:TemplateStyles:r1320445320" rel="mw-deduplicated-inline-style"/>
+ <div class="hatnote navigation-not-searchable" role="note">
+  Main article:
+  <a href="/wiki/Pakistani_cuisine" title="Pakistani cuisine">
+   Pakistani cuisine
+  </a>
+ </div>
+ <figure class="mw-default-size" typeof="mw:File/Thumb">
+  <a class="mw-file-description" href="/wiki/File:2_Chapati_warm_and_ready_to_be_eaten.jpg">
+   <img class="mw-file-element" data-file-height="2332" data-file-width="3484" decoding="async" height="167" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/2_Chapati_warm_and_ready_to_be_eaten.jpg/250px-2_Chapati_warm_and_ready_to_be_eaten.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/2_Chapati_warm_and_ready_to_be_eaten.jpg/500px-2_Chapati_warm_and_ready_to_be_eaten.jpg 1.5x" width="250"/>
+  </a>
+  <figcaption>
+   <a href="/wiki/Roti" title="Roti">
+    Roti
+   </a>
+   , served with various side dishes, is considered a staple food in Pakistan
+  </figcaption>
+ </figure>
+ <p>
+  Pakistani cuisine, rooted in the royal kitchens of 16th-century Mughal emperors, blends influences from
+  <a href="/wiki/British_cuisine" title="British cuisine">
+   British
+  </a>
+  ,
+  <a href="/wiki/Indian_cuisine" title="Indian cuisine">
+   Indian
+  </a>
+  ,
+  <a href="/wiki/Central_Asian_cuisine" title="Central Asian cuisine">
+   Central Asian
+  </a>
+  , and
+  <a href="/wiki/Middle_Eastern_cuisine" title="Middle Eastern cuisine">
+   Middle Eastern
+  </a>
+  culinary traditions.
+  <sup class="reference" id="cite_ref-33">
+   <a href="#cite_note-33">
+    <span class="cite-bracket">
+     [
+    </span>
+    33
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Unlike Middle Eastern fare, Pakistani dishes are heavily spiced with garlic, ginger, turmeric,
+  <a href="/wiki/Chili_powder" title="Chili powder">
+   chili
+  </a>
+  , and
+  <a href="/wiki/Garam_masala" title="Garam masala">
+   garam masala
+  </a>
+  .
+  <a href="/wiki/Roti" title="Roti">
+   Roti
+  </a>
+  , a wheat-based flatbread, accompanies most meals, alongside
+  <a href="/wiki/Curry" title="Curry">
+   curry
+  </a>
+  , meat, vegetables, and lentils. Rice is also common, served plain, spiced, or in sweet dishes.
+  <sup class="reference" id="cite_ref-FOOTNOTEMohiuddin20073,_317,_323–324_34-0">
+   <a href="#cite_note-FOOTNOTEMohiuddin20073,_317,_323–324-34">
+    <span class="cite-bracket">
+     [
+    </span>
+    34
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <sup class="reference" id="cite_ref-35">
+   <a href="#cite_note-35">
+    <span class="cite-bracket">
+     [
+    </span>
+    35
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <a href="/wiki/Lassi" title="Lassi">
+   Lassi
+  </a>
+  , a traditional drink from the
+  <a class="mw-redirect" href="/wiki/Punjab_region" title="Punjab region">
+   Punjab region
+  </a>
+  , and
+  <a class="mw-redirect" href="/wiki/Pakistani_tea_culture" title="Pakistani tea culture">
+   black tea with milk and sugar
+  </a>
+  are popular beverages enjoyed nationwide.
+  <sup class="reference" id="cite_ref-taxila_3-1">
+   <a href="#cite_note-taxila-3">
+    <span class="cite-bracket">
+     [
+    </span>
+    3
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <sup class="reference" id="cite_ref-36">
+   <a href="#cite_note-36">
+    <span class="cite-bracket">
+     [
+    </span>
+    36
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <a href="/wiki/Sohan_halwa" title="Sohan halwa">
+   Sohan halwa
+  </a>
+  , a beloved sweet dish from southern Punjab, is savored across Pakistan.
+  <sup class="reference" id="cite_ref-37">
+   <a href="#cite_note-37">
+    <span class="cite-bracket">
+     [
+    </span>
+    37
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <div class="mw-heading mw-heading3">
+  <h3 id="Sports">
+   Sports
+  </h3>
+  <span class="mw-editsection">
+   <span class="mw-editsection-bracket">
+    [
+   </span>
+   <a href="/w/index.php?title=Pakistan&amp;action=edit&amp;section=7" title="Edit section: Sports">
+    <span>
+     edit
+    </span>
+   </a>
+   <span class="mw-editsection-bracket">
+    ]
+   </span>
+  </span>
+ </div>
+ <link href="mw-data:TemplateStyles:r1320445320" rel="mw-deduplicated-inline-style"/>
+ <div class="hatnote navigation-not-searchable" role="note">
+  Main article:
+  <a href="/wiki/Sport_in_Pakistan" title="Sport in Pakistan">
+   Sport in Pakistan
+  </a>
+ </div>
+ <style data-mw-deduplicate="TemplateStyles:r1273380762/mw-parser-output/.tmulti">
+  .mw-parser-output .tmulti .multiimageinner{display:flex;flex-direction:column}.mw-parser-output .tmulti .trow{display:flex;flex-direction:row;clear:left;flex-wrap:wrap;width:100%;box-sizing:border-box}.mw-parser-output .tmulti .tsingle{margin:1px;float:left}.mw-parser-output .tmulti .theader{clear:both;font-weight:bold;text-align:center;align-self:center;background-color:transparent;width:100%}.mw-parser-output .tmulti .thumbcaption{background-color:transparent}.mw-parser-output .tmulti .text-align-left{text-align:left}.mw-parser-output .tmulti .text-align-right{text-align:right}.mw-parser-output .tmulti .text-align-center{text-align:center}@media all and (max-width:720px){.mw-parser-output .tmulti .thumbinner{width:100%!important;box-sizing:border-box;max-width:none!important;align-items:center}.mw-parser-output .tmulti .trow{justify-content:center}.mw-parser-output .tmulti .tsingle{float:none!important;max-width:100%!important;box-sizing:border-box;text-align:center}.mw-parser-output .tmulti .tsingle .thumbcaption{text-align:left}.mw-parser-output .tmulti .trow>.thumbcaption{text-align:center}}@media screen{html.skin-theme-clientpref-night .mw-parser-output .tmulti .multiimageinner span:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent) img{background-color:white}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .tmulti .multiimageinner span:not(.skin-invert-image):not(.skin-invert):not(.bg-transparent) img{background-color:white}}
+ </style>
+ <div class="thumb tmulti tright">
+  <div class="thumbinner multiimageinner" style="width:348px;max-width:348px">
+   <div class="trow">
+    <div class="tsingle" style="width:172px;max-width:172px">
+     <div class="thumbimage">
+      <span typeof="mw:File">
+       <a class="mw-file-description" href="/wiki/File:Pakvaus.jpg">
+        <img alt="" class="mw-file-element" data-file-height="533" data-file-width="800" decoding="async" height="113" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pakvaus.jpg/250px-Pakvaus.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pakvaus.jpg/330px-Pakvaus.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pakvaus.jpg/500px-Pakvaus.jpg 2x" width="170"/>
+       </a>
+      </span>
+     </div>
+     <div class="thumbcaption">
+      A cricket match between Pakistan and Australia at
+      <a href="/wiki/Lord%27s" title="Lord's">
+       Lord's
+      </a>
+      .
+     </div>
+    </div>
+    <div class="tsingle" style="width:172px;max-width:172px">
+     <div class="thumbimage">
+      <span typeof="mw:File">
+       <a class="mw-file-description" href="/wiki/File:Hockey_Nederland_tegen_Pakistan_3-1,_Amsterdam,_de_Wereldcup_die_Pakistan_onlan%E2%80%A6,_Bestanddeelnr_925-0964.jpg">
+        <img alt="" class="mw-file-element" data-file-height="2430" data-file-width="3672" decoding="async" height="113" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hockey_Nederland_tegen_Pakistan_3-1%2C_Amsterdam%2C_de_Wereldcup_die_Pakistan_onlan%E2%80%A6%2C_Bestanddeelnr_925-0964.jpg/250px-Hockey_Nederland_tegen_Pakistan_3-1%2C_Amsterdam%2C_de_Wereldcup_die_Pakistan_onlan%E2%80%A6%2C_Bestanddeelnr_925-0964.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hockey_Nederland_tegen_Pakistan_3-1%2C_Amsterdam%2C_de_Wereldcup_die_Pakistan_onlan%E2%80%A6%2C_Bestanddeelnr_925-0964.jpg/330px-Hockey_Nederland_tegen_Pakistan_3-1%2C_Amsterdam%2C_de_Wereldcup_die_Pakistan_onlan%E2%80%A6%2C_Bestanddeelnr_925-0964.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/17/Hockey_Nederland_tegen_Pakistan_3-1%2C_Amsterdam%2C_de_Wereldcup_die_Pakistan_onlan%E2%80%A6%2C_Bestanddeelnr_925-0964.jpg/500px-Hockey_Nederland_tegen_Pakistan_3-1%2C_Amsterdam%2C_de_Wereldcup_die_Pakistan_onlan%E2%80%A6%2C_Bestanddeelnr_925-0964.jpg 2x" width="170"/>
+       </a>
+      </span>
+     </div>
+     <div class="thumbcaption">
+      The
+      <a href="/wiki/Pakistan_men%27s_national_field_hockey_team" title="Pakistan men's national field hockey team">
+       Pakistan national hockey team
+      </a>
+      with the
+      <a href="/wiki/1971_Men%27s_Hockey_World_Cup" title="1971 Men's Hockey World Cup">
+       1971 Hockey World Cup trophy
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <p>
+  <a href="/wiki/Cricket" title="Cricket">
+   Cricket
+  </a>
+  is the most popular sport in Pakistan, followed by
+  <a href="/wiki/Association_football" title="Association football">
+   football
+  </a>
+  .
+  <a href="/wiki/Field_hockey" title="Field hockey">
+   Field hockey
+  </a>
+  is the national sport. Other sports like
+  <a href="/wiki/Squash_(sport)" title="Squash (sport)">
+   squash
+  </a>
+  ,
+  <a href="/wiki/Polo" title="Polo">
+   polo
+  </a>
+  , and
+  <a href="/wiki/Traditional_games_of_Pakistan" title="Traditional games of Pakistan">
+   traditional games
+  </a>
+  are also enjoyed.
+ </p>
+ <p>
+  In cricket, Pakistan boasts victories in all major
+  <a href="/wiki/International_Cricket_Council" title="International Cricket Council">
+   ICC
+  </a>
+  tournaments, including the
+  <a class="mw-redirect" href="/wiki/ICC_Cricket_World_Cup" title="ICC Cricket World Cup">
+   ICC Cricket World Cup
+  </a>
+  ,
+  <a class="mw-redirect" href="/wiki/ICC_World_Twenty20" title="ICC World Twenty20">
+   ICC World Twenty20
+  </a>
+  , and
+  <a href="/wiki/ICC_Champions_Trophy" title="ICC Champions Trophy">
+   ICC Champions Trophy
+  </a>
+  . The
+  <a href="/wiki/Pakistan_Super_League" title="Pakistan Super League">
+   Pakistan Super League
+  </a>
+  ranks among the top
+  <a class="mw-redirect" href="/wiki/List_of_T20_cricket_competitions" title="List of T20 cricket competitions">
+   T20 leagues
+  </a>
+  globally.
+  <sup class="reference" id="cite_ref-38">
+   <a href="#cite_note-38">
+    <span class="cite-bracket">
+     [
+    </span>
+    38
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <sup class="reference" id="cite_ref-39">
+   <a href="#cite_note-39">
+    <span class="cite-bracket">
+     [
+    </span>
+    39
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <p>
+  In football, Pakistan established the
+  <a href="/wiki/Pakistan_Football_Federation" title="Pakistan Football Federation">
+   Pakistan Football Federation
+  </a>
+  soon after its creation, and it is known for producing
+  <a href="/wiki/FIFA_World_Cup" title="FIFA World Cup">
+   FIFA World Cup
+  </a>
+  balls.
+  <sup class="reference" id="cite_ref-40">
+   <a href="#cite_note-40">
+    <span class="cite-bracket">
+     [
+    </span>
+    40
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <sup class="reference" id="cite_ref-41">
+   <a href="#cite_note-41">
+    <span class="cite-bracket">
+     [
+    </span>
+    41
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <p>
+  In field hockey, Pakistan boasts four
+  <a href="/wiki/Men%27s_FIH_Hockey_World_Cup" title="Men's FIH Hockey World Cup">
+   Hockey World Cup
+  </a>
+  wins, eight
+  <a href="/wiki/Field_hockey_at_the_Asian_Games" title="Field hockey at the Asian Games">
+   Asian Games
+  </a>
+  gold medals, and three
+  <a href="/wiki/Field_hockey_at_the_Summer_Olympics" title="Field hockey at the Summer Olympics">
+   Olympic
+  </a>
+  gold medals. Squash player
+  <a href="/wiki/Jahangir_Khan" title="Jahangir Khan">
+   Jahangir Khan
+  </a>
+  holds the record for the longest winning streak in professional sport history, winning 555 consecutive matches.
+  <sup class="reference" id="cite_ref-42">
+   <a href="#cite_note-42">
+    <span class="cite-bracket">
+     [
+    </span>
+    42
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  <sup class="reference" id="cite_ref-43">
+   <a href="#cite_note-43">
+    <span class="cite-bracket">
+     [
+    </span>
+    43
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+  Pakistan has hosted various international events, including Cricket and Hockey World Cups and Asian Games.
+  <sup class="reference" id="cite_ref-ICC-2021_44-0">
+   <a href="#cite_note-ICC-2021-44">
+    <span class="cite-bracket">
+     [
+    </span>
+    44
+    <span class="cite-bracket">
+     ]
+    </span>
+   </a>
+  </sup>
+ </p>
+ <div class="mw-references-wrap mw-references-columns">
+  <ol class="references">
+   <li id="cite_note-nuclear-1">
+    <span class="mw-cite-backlink">
+     ^
+     <a href="#cite_ref-nuclear_1-0">
+      <sup>
+       <i>
+        <b>
+         a
+        </b>
+       </i>
+      </sup>
+     </a>
+     <a href="#cite_ref-nuclear_1-1">
+      <sup>
+       <i>
+        <b>
+         b
+        </b>
+       </i>
+      </sup>
+     </a>
+    </span>
+    <span class="reference-text">
+     <style data-mw-deduplicate="TemplateStyles:r1238218222">
+      .mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#d33)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#d33)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}
+     </style>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://web.archive.org/web/20090323000308/http://www.kwintessential.co.uk/resources/global-etiquette/pakistan.html" rel="nofollow">
+       "Pakistan- Language, Religion, Culture, Customs and Etiquette"
+      </a>
+      . Kwint Essential. Archived from
+      <a class="external text" href="http://www.kwintessential.co.uk/resources/global-etiquette/pakistan.html" rel="nofollow">
+       the original
+      </a>
+      on 23 March 2009
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        17 March
+       </span>
+       2009
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Pakistan-+Language%2C+Religion%2C+Culture%2C+Customs+and+Etiquette&amp;rft.pub=Kwint+Essential&amp;rft_id=http%3A%2F%2Fwww.kwintessential.co.uk%2Fresources%2Fglobal-etiquette%2Fpakistan.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-2">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-2">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation journal cs1" id="CITEREFAnwar_Alam2008">
+      Anwar Alam (2008).
+      <a class="external text" href="https://web.archive.org/web/20190411211512/http://www.aup.edu.pk/sj_pdf/FACTORS%20AND%20CONSEQUENCES%20OF%20NUCLEARIZATION.pdf" rel="nofollow">
+       "Factors and Consequences of Nuclearization of Family at Hayatabad Phase-II, Peshawar"
+      </a>
+      <span class="cs1-format">
+       (PDF)
+      </span>
+      .
+      <i>
+       Sarhad J. Agric
+      </i>
+      .
+      <b>
+       24
+      </b>
+      (3). Archived from
+      <a class="external text" href="http://www.aup.edu.pk/sj_pdf/FACTORS%20AND%20CONSEQUENCES%20OF%20NUCLEARIZATION.pdf" rel="nofollow">
+       the original
+      </a>
+      <span class="cs1-format">
+       (PDF)
+      </span>
+      on 11 April 2019
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        21 April
+       </span>
+       2012
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Sarhad+J.+Agric.&amp;rft.atitle=Factors+and+Consequences+of+Nuclearization+of+Family+at+Hayatabad+Phase-II%2C+Peshawar&amp;rft.volume=24&amp;rft.issue=3&amp;rft.date=2008&amp;rft.au=Anwar+Alam&amp;rft_id=http%3A%2F%2Fwww.aup.edu.pk%2Fsj_pdf%2FFACTORS%2520AND%2520CONSEQUENCES%2520OF%2520NUCLEARIZATION.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-taxila-3">
+    <span class="mw-cite-backlink">
+     ^
+     <a href="#cite_ref-taxila_3-0">
+      <sup>
+       <i>
+        <b>
+         a
+        </b>
+       </i>
+      </sup>
+     </a>
+     <a href="#cite_ref-taxila_3-1">
+      <sup>
+       <i>
+        <b>
+         b
+        </b>
+       </i>
+      </sup>
+     </a>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFSarina_SinghLindsay_BrowPaul_ClammerRodney_Cocks2008">
+      Sarina Singh; Lindsay Brow; Paul Clammer; Rodney Cocks; John Mock (2008).
+      <a class="external text" href="https://books.google.com/books?id=zn8I4qEew9oC" rel="nofollow">
+       <i>
+        Pakistan &amp; the Karakoram Highway
+       </i>
+      </a>
+      . Lonely Planet. pp. 60, 128, 376.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-1-74104-542-0" title="Special:BookSources/978-1-74104-542-0">
+       <bdi>
+        978-1-74104-542-0
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Pakistan+%26+the+Karakoram+Highway&amp;rft.pages=60%2C+128%2C+376&amp;rft.pub=Lonely+Planet&amp;rft.date=2008&amp;rft.isbn=978-1-74104-542-0&amp;rft.au=Sarina+Singh&amp;rft.au=Lindsay+Brow&amp;rft.au=Paul+Clammer&amp;rft.au=Rodney+Cocks&amp;rft.au=John+Mock&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dzn8I4qEew9oC&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-4">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-4">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFIrfan_Husain2010">
+      Irfan Husain (17 April 2010).
+      <a class="external text" href="https://web.archive.org/web/20101125011513/http://news.dawn.com/wps/wcm/connect/dawn-content-library/dawn/the-newspaper/columnists/irfan-husain-the-rise-of-mehran-man-740" rel="nofollow">
+       "The rise of Mehran man"
+      </a>
+      .
+      <i>
+       Dawn
+      </i>
+      . Pakistan News. Archived from
+      <a class="external text" href="http://archives.dawn.com/archives/19124" rel="nofollow">
+       the original
+      </a>
+      on 25 November 2010
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        25 July
+       </span>
+       2010
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Dawn&amp;rft.atitle=The+rise+of+Mehran+man&amp;rft.date=2010-04-17&amp;rft.au=Irfan+Husain&amp;rft_id=http%3A%2F%2Farchives.dawn.com%2Farchives%2F19124&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-5">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-5">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://web.archive.org/web/20231223060932/https://www.ucg.ac.me/skladiste/blog_2607/objava_31363/fajlovi/global06index.pdf" rel="nofollow">
+       "A.T. Kearney/Foreign Policy Magazine Globalization Index 2006"
+      </a>
+      <span class="cs1-format">
+       (PDF)
+      </span>
+      . A.T. Kearney. November–December 2006. p. 77. Archived from
+      <a class="external text" href="https://www.ucg.ac.me/skladiste/blog_2607/objava_31363/fajlovi/global06index.pdf" rel="nofollow">
+       the original
+      </a>
+      <span class="cs1-format">
+       (PDF)
+      </span>
+      on 23 December 2023
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        15 April
+       </span>
+       2025
+      </span>
+      – via University of Montenegro.
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=A.T.+Kearney%2FForeign+Policy+Magazine+Globalization+Index+2006&amp;rft.pages=77&amp;rft.pub=A.T.+Kearney&amp;rft.date=2006-11%2F2006-12&amp;rft_id=https%3A%2F%2Fwww.ucg.ac.me%2Fskladiste%2Fblog_2607%2Fobjava_31363%2Ffajlovi%2Fglobal06index.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-6">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-6">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFVidja_Dehejia2007">
+      Vidja Dehejia (February 2007).
+      <a class="external text" href="http://www.metmuseum.org/toah/hd/sasa/hd_sasa.htm" rel="nofollow">
+       "South Asian Art and Culture"
+      </a>
+      .
+      <i>
+       The Metropolitan Museum of Art
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        10 February
+       </span>
+       2008
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Metropolitan+Museum+of+Art&amp;rft.atitle=South+Asian+Art+and+Culture&amp;rft.date=2007-02&amp;rft.au=Vidja+Dehejia&amp;rft_id=http%3A%2F%2Fwww.metmuseum.org%2Ftoah%2Fhd%2Fsasa%2Fhd_sasa.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-mountains-7">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-mountains_7-0">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://web.archive.org/web/20061110014044/http://www.tourism.gov.pk/mountain.html" rel="nofollow">
+       "PTDC page on mountaineering"
+      </a>
+      . Pakistan Tourism Development Corporation. Archived from
+      <a class="external text" href="http://www.tourism.gov.pk/mountain.html" rel="nofollow">
+       the original
+      </a>
+      on 10 November 2006
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        10 November
+       </span>
+       2006
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=PTDC+page+on+mountaineering&amp;rft.pub=Pakistan+Tourism+Development+Corporation&amp;rft_id=http%3A%2F%2Fwww.tourism.gov.pk%2Fmountain.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-8">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-8">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFMaity1983">
+      Maity, Sachindra Kumar (1983).
+      <a class="external text" href="https://books.google.com/books?id=x8Iz5C5auqEC&amp;pg=PA46" rel="nofollow">
+       <i>
+        Cultural Heritage of Ancient India
+       </i>
+      </a>
+      . Abhinav Publications.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-0-391-02809-8" title="Special:BookSources/978-0-391-02809-8">
+       <bdi>
+        978-0-391-02809-8
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cultural+Heritage+of+Ancient+India&amp;rft.pub=Abhinav+Publications&amp;rft.date=1983&amp;rft.isbn=978-0-391-02809-8&amp;rft.aulast=Maity&amp;rft.aufirst=Sachindra+Kumar&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dx8Iz5C5auqEC%26pg%3DPA46&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-9">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-9">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://whc.unesco.org/archive/advisory_body_evaluation/140.pdf" rel="nofollow">
+       "UNESCO Advisory Body Evaluation of Takht Bhai"
+      </a>
+      <span class="cs1-format">
+       (PDF)
+      </span>
+      . International Council on Monuments and Sites. 29 December 1979. pp.
+      <span class="nowrap">
+       1–
+      </span>
+      2
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        25 July
+       </span>
+       2010
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=UNESCO+Advisory+Body+Evaluation+of+Takht+Bhai&amp;rft.pages=1-2&amp;rft.pub=International+Council+on+Monuments+and+Sites&amp;rft.date=1979-12-29&amp;rft_id=https%3A%2F%2Fwhc.unesco.org%2Farchive%2Fadvisory_body_evaluation%2F140.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-10">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-10">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFValentine2008">
+      Valentine, Simon Ross (2008).
+      <a class="external text" href="https://books.google.com/books?id=MdRth02Q6nAC&amp;pg=PA63" rel="nofollow">
+       <i>
+        Islam and the Ahmadiyya Jama'at: History, Belief, Practice
+       </i>
+      </a>
+      . Hurst &amp; Company.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-1-85065-916-7" title="Special:BookSources/978-1-85065-916-7">
+       <bdi>
+        978-1-85065-916-7
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Islam+and+the+Ahmadiyya+Jama%27at%3A+History%2C+Belief%2C+Practice&amp;rft.pub=Hurst+%26+Company&amp;rft.date=2008&amp;rft.isbn=978-1-85065-916-7&amp;rft.aulast=Valentine&amp;rft.aufirst=Simon+Ross&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DMdRth02Q6nAC%26pg%3DPA63&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-11">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-11">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFKamil_Khan_Mumtaz1985">
+      Kamil Khan Mumtaz (1985).
+      <i>
+       Architecture in Pakistan
+      </i>
+      . Concept Media Pte Ltd. pp. 32, 51, 160.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-9971-84-141-6" title="Special:BookSources/978-9971-84-141-6">
+       <bdi>
+        978-9971-84-141-6
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Architecture+in+Pakistan&amp;rft.pages=32%2C+51%2C+160&amp;rft.pub=Concept+Media+Pte+Ltd&amp;rft.date=1985&amp;rft.isbn=978-9971-84-141-6&amp;rft.au=Kamil+Khan+Mumtaz&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-12">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-12">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFStephanie_KoernerIan_Russell2010">
+      Stephanie Koerner; Ian Russell (2010).
+      <a class="external text" href="https://books.google.com/books?id=7li2jpQgYvAC&amp;pg=PA382" rel="nofollow">
+       <i>
+        Unquiet Pasts: Risk Society, Lived Cultural Heritage, Re-designing Reflexivity
+       </i>
+      </a>
+      . Ashgate Publishing, Ltd. p. 382.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-0-7546-7548-8" title="Special:BookSources/978-0-7546-7548-8">
+       <bdi>
+        978-0-7546-7548-8
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Unquiet+Pasts%3A+Risk+Society%2C+Lived+Cultural+Heritage%2C+Re-designing+Reflexivity&amp;rft.pages=382&amp;rft.pub=Ashgate+Publishing%2C+Ltd.&amp;rft.date=2010&amp;rft.isbn=978-0-7546-7548-8&amp;rft.au=Stephanie+Koerner&amp;rft.au=Ian+Russell&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3D7li2jpQgYvAC%26pg%3DPA382&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-13">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-13">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1" id="CITEREFMichele_Langevine_Leiby2012">
+      Michele Langevine Leiby (25 April 2012).
+      <a class="external text" href="https://www.washingtonpost.com/world/asia_pacific/in-pakistan-fashion-weeks-thrive-beyond-the-style-capitals-of-the-world/2012/04/24/gIQAt3qcgT_story.html" rel="nofollow">
+       "In Pakistan, fashion weeks thrive beyond the style capitals of the world"
+      </a>
+      .
+      <i>
+       <a class="mw-redirect" href="/wiki/Washington_Post" title="Washington Post">
+        Washington Post
+       </a>
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        20 April
+       </span>
+       2013
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Washington+Post&amp;rft.atitle=In+Pakistan%2C+fashion+weeks+thrive+beyond+the+style+capitals+of+the+world&amp;rft.date=2012-04-25&amp;rft.au=Michele+Langevine+Leiby&amp;rft_id=https%3A%2F%2Fwww.washingtonpost.com%2Fworld%2Fasia_pacific%2Fin-pakistan-fashion-weeks-thrive-beyond-the-style-capitals-of-the-world%2F2012%2F04%2F24%2FgIQAt3qcgT_story.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-14">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-14">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFAlamgir_Hashmi1996">
+      Alamgir Hashmi (1996). Radhika Mohanram (ed.).
+      <a class="external text" href="https://books.google.com/books?id=H_uwA78YZDoC&amp;pg=PA107" rel="nofollow">
+       <i>
+        English postcoloniality: literatures from around the world
+       </i>
+      </a>
+      . Gita Rajan. Greenwood Publishing Group. pp.
+      <span class="nowrap">
+       107–
+      </span>
+      112.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-0-313-28854-8" title="Special:BookSources/978-0-313-28854-8">
+       <bdi>
+        978-0-313-28854-8
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=English+postcoloniality%3A+literatures+from+around+the+world&amp;rft.pages=107-112&amp;rft.pub=Greenwood+Publishing+Group&amp;rft.date=1996&amp;rft.isbn=978-0-313-28854-8&amp;rft.au=Alamgir+Hashmi&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DH_uwA78YZDoC%26pg%3DPA107&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-15">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-15">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     Official website in English
+     <a class="external text" href="http://pal.gov.pk/home/" rel="nofollow">
+      Pakistan Academy of Letters
+     </a>
+     <a class="external text" href="https://web.archive.org/web/20130306135947/http://pal.gov.pk/home/" rel="nofollow">
+      Archived
+     </a>
+     6 March 2013 at the
+     <a href="/wiki/Wayback_Machine" title="Wayback Machine">
+      Wayback Machine
+     </a>
+    </span>
+   </li>
+   <li id="cite_note-16">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-16">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFGilani_Kamran2002">
+      Gilani Kamran (January 2002).
+      <a class="external text" href="http://www.the-south-asian.com/Jan2002/Pakistani-Literature3-the-Novel.htm" rel="nofollow">
+       "Pakistani Literature –  Evolution &amp; trends"
+      </a>
+      . The South Asian Magazine
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        24 December
+       </span>
+       2011
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Pakistani+Literature+%26ndash%3B%26%2332%3B+Evolution+%26+trends&amp;rft.pub=The+South+Asian+Magazine&amp;rft.date=2002-01&amp;rft.au=Gilani+Kamran&amp;rft_id=http%3A%2F%2Fwww.the-south-asian.com%2FJan2002%2FPakistani-Literature3-the-Novel.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-granta-17">
+    <span class="mw-cite-backlink">
+     ^
+     <a href="#cite_ref-granta_17-0">
+      <sup>
+       <i>
+        <b>
+         a
+        </b>
+       </i>
+      </sup>
+     </a>
+     <a href="#cite_ref-granta_17-1">
+      <sup>
+       <i>
+        <b>
+         b
+        </b>
+       </i>
+      </sup>
+     </a>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFHuma_Imtiaz2010">
+      Huma Imtiaz (26 September 2010).
+      <a class="external text" href="http://tribune.com.pk/story/53272/granta-the-global-reach-of-pakistani-literature/" rel="nofollow">
+       "Granta: The global reach of Pakistani literature"
+      </a>
+      .
+      <i>
+       The Express Tribune
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        24 December
+       </span>
+       2011
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Express+Tribune&amp;rft.atitle=Granta%3A+The+global+reach+of+Pakistani+literature&amp;rft.date=2010-09-26&amp;rft.au=Huma+Imtiaz&amp;rft_id=http%3A%2F%2Ftribune.com.pk%2Fstory%2F53272%2Fgranta-the-global-reach-of-pakistani-literature%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-18">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-18">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation encyclopaedia cs1" id="CITEREFAnnemarie_Schimmel2004">
+      Annemarie Schimmel (15 December 2004).
+      <a class="external text" href="http://www.iranicaonline.org/articles/iqbal-muhammad" rel="nofollow">
+       "Iqbal, Muhammad"
+      </a>
+      .
+      <i>
+       Encyclopædia Iranica
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        1 January
+       </span>
+       2012
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Iqbal%2C+Muhammad&amp;rft.btitle=Encyclop%C3%A6dia+Iranica&amp;rft.date=2004-12-15&amp;rft.au=Annemarie+Schimmel&amp;rft_id=http%3A%2F%2Fwww.iranicaonline.org%2Farticles%2Fiqbal-muhammad&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-19">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-19">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1" id="CITEREFMuhammad_Zahid_Rifat2011">
+      Muhammad Zahid Rifat (3 October 2011).
+      <a class="external text" href="https://web.archive.org/web/20130117074308/http://www.highbeam.com/doc/1G1-268638505.html" rel="nofollow">
+       "Paying tributes to popular Sufi poets"
+      </a>
+      .
+      <i>
+       The Nation
+      </i>
+      . Archived from
+      <a class="external text" href="http://www.highbeam.com/doc/1G1-268638505.html" rel="nofollow">
+       the original
+      </a>
+      on 17 January 2013
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        25 December
+       </span>
+       2011
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Nation&amp;rft.atitle=Paying+tributes+to+popular+Sufi+poets&amp;rft.date=2011-10-03&amp;rft.au=Muhammad+Zahid+Rifat&amp;rft_id=http%3A%2F%2Fwww.highbeam.com%2Fdoc%2F1G1-268638505.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-20">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-20">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFChetan_Karnani2003">
+      Chetan Karnani (2003).
+      <a class="external text" href="https://books.google.com/books?id=dL5owdAV5TcC&amp;pg=PA50" rel="nofollow">
+       <i>
+        L.H. Ajwani
+       </i>
+      </a>
+      . Sahitya Akademi. p. 50.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-81-260-1664-8" title="Special:BookSources/978-81-260-1664-8">
+       <bdi>
+        978-81-260-1664-8
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=L.H.+Ajwani&amp;rft.pages=50&amp;rft.pub=Sahitya+Akademi&amp;rft.date=2003&amp;rft.isbn=978-81-260-1664-8&amp;rft.au=Chetan+Karnani&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DdL5owdAV5TcC%26pg%3DPA50&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-21">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-21">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFRichard_V._DeSemet">
+      Richard V. DeSemet; et al.
+      <a class="external text" href="https://web.archive.org/web/20130509105450/http://www.crvp.org/book/Series02/IIA-3/appendix.htm" rel="nofollow">
+       "Philosophical Activities in Pakistan:1947–1961"
+      </a>
+      .
+      <i>
+       Work published by Pakistan Philosophical Congress
+      </i>
+      . Archived from
+      <a class="external text" href="http://www.crvp.org/book/Series02/IIA-3/appendix.htm" rel="nofollow">
+       the original
+      </a>
+      on 9 May 2013
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        25 November
+       </span>
+       2013
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Work+published+by+Pakistan+Philosophical+Congress&amp;rft.atitle=Philosophical+Activities+in+Pakistan%3A1947%E2%80%931961&amp;rft.au=Richard+V.+DeSemet&amp;rft_id=http%3A%2F%2Fwww.crvp.org%2Fbook%2FSeries02%2FIIA-3%2Fappendix.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-22">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-22">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFAhmad1998">
+      Ahmad, Naeem, ed. (1998).
+      <i>
+       Philosophy in Pakistan
+      </i>
+      . Washington, DC: Council for Research in Values and Philosophy.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-1-56518-108-3" title="Special:BookSources/978-1-56518-108-3">
+       <bdi>
+        978-1-56518-108-3
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Philosophy+in+Pakistan&amp;rft.place=Washington%2C+DC&amp;rft.pub=Council+for+Research+in+Values+and+Philosophy&amp;rft.date=1998&amp;rft.isbn=978-1-56518-108-3&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-23">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-23">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://www.mediasupport.org/wp-content/uploads/2012/11/ims-media-pakistan-radicalisation-2009.pdf" rel="nofollow">
+       "Media in Pakistan"
+      </a>
+      <span class="cs1-format">
+       (PDF)
+      </span>
+      . International Media Support. July 2009. pp.
+      <span class="nowrap">
+       14–
+      </span>
+      16, 21
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        10 August
+       </span>
+       2020
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Media+in+Pakistan&amp;rft.pages=14-16%2C+21&amp;rft.pub=International+Media+Support&amp;rft.date=2009-07&amp;rft_id=https%3A%2F%2Fwww.mediasupport.org%2Fwp-content%2Fuploads%2F2012%2F11%2Fims-media-pakistan-radicalisation-2009.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-RSF-24">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-RSF_24-0">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://rsf.org/en/country/pakistan" rel="nofollow">
+       "Pakistan | RSF"
+      </a>
+      .
+      <i>
+       rsf.org
+      </i>
+      . Reporters Without Borders. 21 March 2025
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        21 March
+       </span>
+       2025
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=rsf.org&amp;rft.atitle=Pakistan+%7C+RSF&amp;rft.date=2025-03-21&amp;rft_id=https%3A%2F%2Frsf.org%2Fen%2Fcountry%2Fpakistan&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-25">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-25">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1">
+      <a class="external text" href="https://www.bbc.com/news/world-south-asia-12965785" rel="nofollow">
+       "Pakistan profile –  Media"
+      </a>
+      .
+      <i>
+       BBC News
+      </i>
+      . 2 March 2017
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        23 April
+       </span>
+       2016
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=BBC+News&amp;rft.atitle=Pakistan+profile+%26ndash%3B%26%2332%3B+Media&amp;rft.date=2017-03-02&amp;rft_id=https%3A%2F%2Fwww.bbc.com%2Fnews%2Fworld-south-asia-12965785&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-26">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-26">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://www.mediasupport.org/wp-content/uploads/2012/11/ims-media-pakistan-radicalisation-2009.pdf" rel="nofollow">
+       "Between radicalisation and democratisation in an unfolding conflict: Media in Pakistan"
+      </a>
+      <span class="cs1-format">
+       (PDF)
+      </span>
+      . International Media Support. July 2009
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        10 August
+       </span>
+       2020
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Between+radicalisation+and+democratisation+in+an+unfolding+conflict%3A+Media+in+Pakistan&amp;rft.pub=International+Media+Support&amp;rft.date=2009-07&amp;rft_id=https%3A%2F%2Fwww.mediasupport.org%2Fwp-content%2Fuploads%2F2012%2F11%2Fims-media-pakistan-radicalisation-2009.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-27">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-27">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1" id="CITEREFRandhava2011">
+      Randhava, Naseem (11 October 2011).
+      <a class="external text" href="http://sg.news.yahoo.com/bollywood-films-may-banned-pakistan-094000464.html" rel="nofollow">
+       "Bollywood films may be banned in Pakistan"
+      </a>
+      .
+      <a class="mw-redirect" href="/wiki/Yahoo!_News" title="Yahoo! News">
+       Yahoo! News
+      </a>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        31 October
+       </span>
+       2011
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Bollywood+films+may+be+banned+in+Pakistan&amp;rft.date=2011-10-11&amp;rft.aulast=Randhava&amp;rft.aufirst=Naseem&amp;rft_id=http%3A%2F%2Fsg.news.yahoo.com%2Fbollywood-films-may-banned-pakistan-094000464.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+     <br/>
+     -
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1">
+      <a class="external text" href="http://news.bbc.co.uk/2/hi/entertainment/4639216.stm" rel="nofollow">
+       "Pakistan to show Bollywood film"
+      </a>
+      .
+      <i>
+       BBC News
+      </i>
+      . 23 January 2006
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        13 February
+       </span>
+       2008
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=BBC+News&amp;rft.atitle=Pakistan+to+show+Bollywood+film&amp;rft.date=2006-01-23&amp;rft_id=http%3A%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fentertainment%2F4639216.stm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-28">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-28">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFZeb2023">
+      Zeb, Parkha (22 February 2023).
+      <a class="external text" href="https://images.dawn.com/news/1191547" rel="nofollow">
+       "Pakistan is (finally) getting over its Bollywood mania"
+      </a>
+      .
+      <i>
+       Images
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        22 February
+       </span>
+       2023
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Images&amp;rft.atitle=Pakistan+is+%28finally%29+getting+over+its+Bollywood+mania&amp;rft.date=2023-02-22&amp;rft.aulast=Zeb&amp;rft.aufirst=Parkha&amp;rft_id=https%3A%2F%2Fimages.dawn.com%2Fnews%2F1191547&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-29">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-29">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFShaikh2015">
+      Shaikh, Naila (21 January 2015).
+      <a class="external text" href="https://web.archive.org/web/20150428110047/http://www.browngirlmagazine.com/2015/01/evolving-world-pakistani-dramas-builds-stronger-relations-india/" rel="nofollow">
+       "The Evolving World of Pakistani Dramas Builds Stronger Relations With India"
+      </a>
+      . Brown Girl. Archived from
+      <a class="external text" href="http://www.browngirlmagazine.com/2015/01/evolving-world-pakistani-dramas-builds-stronger-relations-india/" rel="nofollow">
+       the original
+      </a>
+      on 28 April 2015
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        25 May
+       </span>
+       2015
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=The+Evolving+World+of+Pakistani+Dramas+Builds+Stronger+Relations+With+India&amp;rft.pub=Brown+Girl&amp;rft.date=2015-01-21&amp;rft.aulast=Shaikh&amp;rft.aufirst=Naila&amp;rft_id=http%3A%2F%2Fwww.browngirlmagazine.com%2F2015%2F01%2Fevolving-world-pakistani-dramas-builds-stronger-relations-india%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-30">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-30">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1">
+      <a class="external text" href="https://web.archive.org/web/20150719082117/http://www.dailytimes.com.pk/entertainment/25-Dec-2014/pakistani-dramas-contribute-to-the-evolution-of-indian-television" rel="nofollow">
+       "Pakistani dramas contribute to the evolution of Indian television"
+      </a>
+      .
+      <i>
+       Daily Times
+      </i>
+      . 25 December 2014. Archived from
+      <a class="external text" href="http://www.dailytimes.com.pk/entertainment/25-Dec-2014/pakistani-dramas-contribute-to-the-evolution-of-indian-television" rel="nofollow">
+       the original
+      </a>
+      on 19 July 2015
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        25 May
+       </span>
+       2015
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Daily+Times&amp;rft.atitle=Pakistani+dramas+contribute+to+the+evolution+of+Indian+television&amp;rft.date=2014-12-25&amp;rft_id=http%3A%2F%2Fwww.dailytimes.com.pk%2Fentertainment%2F25-Dec-2014%2Fpakistani-dramas-contribute-to-the-evolution-of-indian-television&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-31">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-31">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1" id="CITEREFAmit_BaruahR._Padmanabhan1997">
+      Amit Baruah; R. Padmanabhan (6 September 1997).
+      <a class="external text" href="https://web.archive.org/web/20130927003536/http://www.hindu.com/fline/fl1418/14181230.htm" rel="nofollow">
+       "The stilled voice"
+      </a>
+      .
+      <i>
+       <a href="/wiki/Frontline_(magazine)" title="Frontline (magazine)">
+        Frontline
+       </a>
+      </i>
+      . Chennai, India. Archived from
+      <a class="external text" href="http://www.hindu.com/fline/fl1418/14181230.htm" rel="nofollow">
+       the original
+      </a>
+      on 27 September 2013
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        30 June
+       </span>
+       2011
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Frontline&amp;rft.atitle=The+stilled+voice&amp;rft.date=1997-09-06&amp;rft.au=Amit+Baruah&amp;rft.au=R.+Padmanabhan&amp;rft_id=http%3A%2F%2Fwww.hindu.com%2Ffline%2Ffl1418%2F14181230.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-32">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-32">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1" id="CITEREFOwais_Tohid2005">
+      Owais Tohid (7 June 2005).
+      <a class="external text" href="https://www.csmonitor.com/2005/0607/p07s01-wosc.html" rel="nofollow">
+       "Music soothes extremism along troubled Afghan border"
+      </a>
+      .
+      <i>
+       The Christian Science Monitor
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        20 January
+       </span>
+       2012
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Christian+Science+Monitor&amp;rft.atitle=Music+soothes+extremism+along+troubled+Afghan+border&amp;rft.date=2005-06-07&amp;rft.au=Owais+Tohid&amp;rft_id=https%3A%2F%2Fwww.csmonitor.com%2F2005%2F0607%2Fp07s01-wosc.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-33">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-33">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFGoodwin2002">
+      Goodwin, William (2002).
+      <i>
+       Pakistan
+      </i>
+      . Lucent Books. p. 79.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-1-59018-218-5" title="Special:BookSources/978-1-59018-218-5">
+       <bdi>
+        978-1-59018-218-5
+       </bdi>
+      </a>
+      .
+      <q>
+       Pakistani food is similar to that of northern India, with a splash of Middle Eastern influence derived from other Muslim cultures over the centuries.
+      </q>
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Pakistan&amp;rft.pages=79&amp;rft.pub=Lucent+Books&amp;rft.date=2002&amp;rft.isbn=978-1-59018-218-5&amp;rft.aulast=Goodwin&amp;rft.aufirst=William&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-FOOTNOTEMohiuddin20073,_317,_323–324-34">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-FOOTNOTEMohiuddin20073,_317,_323–324_34-0">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <a href="#CITEREFMohiuddin2007">
+      Mohiuddin 2007
+     </a>
+     , p. 3, 317, 323–324.
+    </span>
+   </li>
+   <li id="cite_note-35">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-35">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFKathleen_W._Deady2001">
+      Kathleen W. Deady (2001).
+      <i>
+       Countries of the world :Pakistan
+      </i>
+      . Capstone Press. pp.
+      <span class="nowrap">
+       13–
+      </span>
+      15.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-0-7368-0815-6" title="Special:BookSources/978-0-7368-0815-6">
+       <bdi>
+        978-0-7368-0815-6
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Countries+of+the+world+%3APakistan&amp;rft.pages=13-15&amp;rft.pub=Capstone+Press&amp;rft.date=2001&amp;rft.isbn=978-0-7368-0815-6&amp;rft.au=Kathleen+W.+Deady&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-36">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-36">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFTarla_Dalal2007">
+      Tarla Dalal (2007).
+      <i>
+       Punjabi Khana
+      </i>
+      . Sanjay &amp; Co. p. 8.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-81-89491-54-3" title="Special:BookSources/978-81-89491-54-3">
+       <bdi>
+        978-81-89491-54-3
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Punjabi+Khana&amp;rft.pages=8&amp;rft.pub=Sanjay+%26+Co&amp;rft.date=2007&amp;rft.isbn=978-81-89491-54-3&amp;rft.au=Tarla+Dalal&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-37">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-37">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation news cs1">
+      <a class="external text" href="http://www.dawn.com/news/1074194/sohan-halwa-a-gift-of-saints-city" rel="nofollow">
+       "Sohan Halwa a gift of saints' city"
+      </a>
+      . Dawn.com. 16 December 2013
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        28 February
+       </span>
+       2014
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Sohan+Halwa+a+gift+of+saints%27+city&amp;rft.date=2013-12-16&amp;rft_id=http%3A%2F%2Fwww.dawn.com%2Fnews%2F1074194%2Fsohan-halwa-a-gift-of-saints-city&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-38">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-38">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFNarayanan2017">
+      Narayanan, Deepu (19 June 2017).
+      <a class="external text" href="https://www.cricbuzz.com/cricket-news/95302/ct17-final-stats-pakistan-become-fourth-team-to-win-all-three-icc-crowns" rel="nofollow">
+       "CT17 final stats: Pakistan become fourth team to win all three ICC crowns"
+      </a>
+      .
+      <i>
+       <a href="/wiki/Cricbuzz" title="Cricbuzz">
+        Cricbuzz
+       </a>
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        21 August
+       </span>
+       2022
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Cricbuzz&amp;rft.atitle=CT17+final+stats%3A+Pakistan+become+fourth+team+to+win+all+three+ICC+crowns&amp;rft.date=2017-06-19&amp;rft.aulast=Narayanan&amp;rft.aufirst=Deepu&amp;rft_id=https%3A%2F%2Fwww.cricbuzz.com%2Fcricket-news%2F95302%2Fct17-final-stats-pakistan-become-fourth-team-to-win-all-three-icc-crowns&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-39">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-39">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://www.thenews.com.pk/print/431453-n-a" rel="nofollow">
+       "PSL's brand value stands at $230m or Rs 32.258 bn"
+      </a>
+      .
+      <i>
+       The News International
+      </i>
+      . 13 February 2019.
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+News+International&amp;rft.atitle=PSL%27s+brand+value+stands+at+%24230m+or+Rs+32.258+bn&amp;rft.date=2019-02-13&amp;rft_id=https%3A%2F%2Fwww.thenews.com.pk%2Fprint%2F431453-n-a&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-40">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-40">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1" id="CITEREFAhsan2010">
+      Ahsan, Ali (23 December 2010).
+      <a class="external text" href="https://www.dawn.com/news/593095/a-history-of-football-in-pakistan-part-i" rel="nofollow">
+       "A history of football in Pakistan — Part I"
+      </a>
+      .
+      <i>
+       <a href="/wiki/Dawn_(newspaper)" title="Dawn (newspaper)">
+        Dawn
+       </a>
+      </i>
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        22 August
+       </span>
+       2022
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Dawn&amp;rft.atitle=A+history+of+football+in+Pakistan+%E2%80%94+Part+I&amp;rft.date=2010-12-23&amp;rft.aulast=Ahsan&amp;rft.aufirst=Ali&amp;rft_id=https%3A%2F%2Fwww.dawn.com%2Fnews%2F593095%2Fa-history-of-football-in-pakistan-part-i&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-41">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-41">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="http://tribune.com.pk/story/1620487/7-footballs-made-pakistan-used-fifa-world-cup-2018" rel="nofollow">
+       "Footballs made in Pakistan to be used in FIFA World Cup 2018"
+      </a>
+      .
+      <i>
+       <a href="/wiki/The_Express_Tribune" title="The Express Tribune">
+        The Express Tribune
+       </a>
+      </i>
+      . 28 January 2018
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        21 August
+       </span>
+       2022
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Express+Tribune&amp;rft.atitle=Footballs+made+in+Pakistan+to+be+used+in+FIFA+World+Cup+2018&amp;rft.date=2018-01-28&amp;rft_id=http%3A%2F%2Ftribune.com.pk%2Fstory%2F1620487%2F7-footballs-made-pakistan-used-fifa-world-cup-2018&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-42">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-42">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation book cs1" id="CITEREFBill_MallonJeroen_Heijmans2011">
+      Bill Mallon; Jeroen Heijmans (2011).
+      <i>
+       Historical Dictionary of the Olympic Movement
+      </i>
+      (4th revised ed.). Scarecrow. p. 291.
+      <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">
+       ISBN
+      </a>
+      <a href="/wiki/Special:BookSources/978-0-8108-7249-3" title="Special:BookSources/978-0-8108-7249-3">
+       <bdi>
+        978-0-8108-7249-3
+       </bdi>
+      </a>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Historical+Dictionary+of+the+Olympic+Movement&amp;rft.pages=291&amp;rft.edition=4th+revised&amp;rft.pub=Scarecrow&amp;rft.date=2011&amp;rft.isbn=978-0-8108-7249-3&amp;rft.au=Bill+Mallon&amp;rft.au=Jeroen+Heijmans&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-43">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-43">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://web.archive.org/web/20240918040556/https://unsquashable.com/en-us/blogs/world-tour-highlights/jahangir-khan-recognised-as-greatest-squash-player-of-all-time" rel="nofollow">
+       "Jahangir Khan recognised as greatest squash player of all time"
+      </a>
+      .
+      <i>
+       UNSQUASHABLE
+      </i>
+      . Archived from
+      <a class="external text" href="https://unsquashable.com/en-us/blogs/world-tour-highlights/jahangir-khan-recognised-as-greatest-squash-player-of-all-time" rel="nofollow">
+       the original
+      </a>
+      on 18 September 2024
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        28 August
+       </span>
+       2023
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=UNSQUASHABLE&amp;rft.atitle=Jahangir+Khan+recognised+as+greatest+squash+player+of+all+time&amp;rft_id=https%3A%2F%2Funsquashable.com%2Fen-us%2Fblogs%2Fworld-tour-highlights%2Fjahangir-khan-recognised-as-greatest-squash-player-of-all-time&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+   <li id="cite_note-ICC-2021-44">
+    <span class="mw-cite-backlink">
+     <b>
+      <a href="#cite_ref-ICC-2021_44-0">
+       ^
+      </a>
+     </b>
+    </span>
+    <span class="reference-text">
+     <link href="mw-data:TemplateStyles:r1238218222" rel="mw-deduplicated-inline-style"/>
+     <cite class="citation web cs1">
+      <a class="external text" href="https://www.icc-cricket.com/news/2354682" rel="nofollow">
+       "USA to stage T20 World Cup: 2024–2031 ICC Men's tournament hosts confirmed"
+      </a>
+      .
+      <i>
+       <a href="/wiki/International_Cricket_Council" title="International Cricket Council">
+        International Cricket Council
+       </a>
+      </i>
+      . 16 November 2021
+      <span class="reference-accessdate">
+       . Retrieved
+       <span class="nowrap">
+        21 August
+       </span>
+       2022
+      </span>
+      .
+     </cite>
+     <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=International+Cricket+Council&amp;rft.atitle=USA+to+stage+T20+World+Cup%3A+2024%E2%80%932031+ICC+Men%27s+tournament+hosts+confirmed&amp;rft.date=2021-11-16&amp;rft_id=https%3A%2F%2Fwww.icc-cricket.com%2Fnews%2F2354682&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APakistan">
+     </span>
+    </span>
+   </li>
+  </ol>
+ </div>
+ <!-- 
+NewPP limit report
+Parsed by mw‐api‐ext.eqiad.main‐559887584d‐z6xwd
+Cached time: 20251210163404
+Cache expiry: 1802
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, show‐toc, vary‐revision‐exists]
+CPU time usage: 0.881 seconds
+Real time usage: 0.961 seconds
+Preprocessor visited node count: 2136/1000000
+Revision size: 24244/2097152 bytes
+Post‐expand include size: 74571/2097152 bytes
+Template argument size: 327/2097152 bytes
+Highest expansion depth: 8/100
+Expensive parser function count: 24/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 106718/5000000 bytes
+Lua time usage: 0.685/10.000 seconds
+Lua memory usage: 6570879/52428800 bytes
+Number of Wikibase entities loaded: 0/500
+-->
+ <!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  866.595      1 -total
+ 36.71%  318.122      1 Template:Sfn
+ 23.91%  207.228     20 Template:Cite_web
+  9.61%   83.238      7 Template:Main
+  9.52%   82.539     12 Template:Cite_book
+  7.98%   69.119      9 Template:Cite_news
+  2.53%   21.886      1 Template:Multiple_image
+  1.25%   10.811      1 Template:Webarchive
+  0.91%    7.863      1 Template:Cite_encyclopedia
+  0.74%    6.407      1 Template:Cite_journal
+-->
+</div>
