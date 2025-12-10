@@ -10,6 +10,7 @@ from urllib.request import Request, urlopen
 import re
 import json
 import pprint
+from bs4 import BeautifulSoup
 
 
 # Initialize databases
@@ -18,9 +19,20 @@ app = Flask(__name__)
 app.debug = True
 app.secret_key = os.urandom(24)
 
-# this is a very annoying regex parsing function unfortunate
 def extract_wikipedia_subsections(title, section_name):
+    wikipeda_req = Request(
+            url=f"https://en.wikipedia.org/api/rest_v1/page/mobile-html/{title}",
+            headers={'User-Agent': 'Mozilla/5.0'}
+    )
 
+    wikipeda = urlopen(wikipedia_req, timeout=10)
+    wikipedia_info = json.load(wikipedia)
+    
+    S = BeautifulSoup("https://en.wikipedia.org/api/rest_v1/page/mobile-html/Pakistan", 'lxml')
+        
+    
+ 
+    pass
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
@@ -31,22 +43,30 @@ def index():
     weather = urlopen(f"https://api.openweathermap.org/data/2.5/forecast?lat={countries_info[0]['latlng'][0]}&lon={countries_info[0]['latlng'][1]}&units=metric&&appid={weather_key.read()}")
     weather_info = json.load(weather)
     #https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&prop=sections&format=json
-    wikipedia_req = Request(
-        url=f"https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&section=41&prop=text&format=json&formatversion=2",
-        headers={'User-Agent': 'Mozilla/5.0'}
-    ) 
-    wikipedia = urlopen(wikipedia_req, timeout=10)
-    wikipedia_info = json.load(wikipedia)
-    wikipedia_html = wikipedia_info['parse']['text']
-    pprint.pprint(wikipedia_html)
+    #https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&section=41&prop=text&format=json&formatversion=2
+
+    wiki_summary_req = Request(
+         url=f"https://en.wikipedia.org/api/rest_v1/page/summary/Pakistan",
+         headers={'User-Agent': 'Mozilla/5.0'}
+    )
+    wiki_summary = urlopen(wiki_summary_req, timeout=10)
+    wiki_summary_info = json.load(wiki_summary)
+   
+#    wikipedia_req = Request(
+#        url=f"https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&section=41&prop=text&format=json&formatversion=2",
+#        headers={'User-Agent': 'Mozilla/5.0'}
+#    ) 
+#    wikipedia = urlopen(wikipedia_req, timeout=10)
+#    wikipedia_info = json.load(wikipedia)
+#    pprint.pprint(wiki_summary_info['extract'])
     culture_section_index = None
     
-    # places_key = open("keys/key_api2.txt")
-    # places = urlopen(f"https://")
-    # places_info = json.load(places)
-
-    # exchange_key = open("keys/key_api3.txt")
-    # exchange_rate = urlopen(f"")
+#    places_key = open("keys/key_api2.txt")
+#    places = urlopen(f"https://")
+#    places_info = json.load(places)
+#
+#    exchange_key = open("keys/key_api3.txt")
+#    exchange_rate = urlopen(f"")
     
 
 
