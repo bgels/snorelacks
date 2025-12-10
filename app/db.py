@@ -1,8 +1,13 @@
 import sqlite3
+import os
 
 DB_NAME = "Data/database.db"
+try:
+    os.mkdir("Data/")
+except:
+    pass
 DB = sqlite3.connect(DB_NAME)
-DB_CURSOR = DB.cursor() 
+DB_CURSOR = DB.cursor()
 
 DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Users(username TEXT PRIMARY KEY, password TEXT, country TEXT, currency TEXT);")
 
