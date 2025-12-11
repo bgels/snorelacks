@@ -60,7 +60,7 @@ def index():
     #https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&prop=sections&format=json
     #https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&section=41&prop=text&format=json&formatversion=2
     wikipedia_req = Request(
-            url=f"https://en.wikipedia.org/w/api.php?action=parse&page=Pakistan&section=41&prop=text&format=json&formatversion=2",
+            url=f"https://en.wikipedia.org/w/api.php?action=parse&page=Chad&section=25&prop=text&format=json&formatversion=2",
             headers={'User-Agent': 'Mozilla/5.0'}
     )
 
@@ -74,9 +74,9 @@ def index():
     h3_tags = soup.find_all('h3')
     for h3 in h3_tags:
         heading = h3.get_text(strip=True)
-        # pprint.pprint(heading)
+        pprint.pprint(heading)
 
-        content = []
+        content = ''
         parent = h3.find_parent('div', class_='mw-heading')
         curr = parent.find_next_sibling()
 
@@ -85,13 +85,15 @@ def index():
                 break
 
             if curr.name == 'p':
-                text = curr.get_text(strip=True)
-                text = re.sub(r'\[\d+\]', '', text)
-                content.append(text)
+                text = curr.get_text(strip=False)
+                text = re.sub(r'\[\d+\]', ' ', text)
+                content += text
 
             curr = curr.find_next_sibling()
         
-        pprint.pprint(content)
+        sections[heading] = content
+
+    pprint.pprint(sections)
         
 
 
