@@ -59,7 +59,10 @@ mustafaA -- 2025-12-10 12:40 A.M.
 andrewT -- 2025-12-10 10:30am
 - Added error handling and directory creation to database python script
 
-mustafaA -- 2025-12-11 P.M.
+mustafaA -- 2025-12-10 11:00P.M.
 - Succeeded in parsing html to plaintext, sorted in a dictionary by section (api-test branch)
 - yay im so happy
+
+mustafaA -- 2025-12-11 11:01 AM
+- Added parsing file in main, organized api parsing
 
