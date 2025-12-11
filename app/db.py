@@ -8,7 +8,6 @@ except:
     pass
 DB = sqlite3.connect(DB_NAME)
 DB_CURSOR = DB.cursor()
-
 DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Users(username TEXT PRIMARY KEY, password TEXT, country TEXT, currency TEXT);")
 
 def add_user(username, password, country, currency):
@@ -35,9 +34,4 @@ def get_user(username):
     return cursorfetch
 
 def check_password(username, password):
-    DB_NAME = "Data/database.db"
-    DB = sqlite3.connect(DB_NAME)
-    DB_CURSOR = DB.cursor()
-    DB_CURSOR.execute("SELECT * FROM Users WHERE username = ?", (username,))
-    cursorfetch = DB_CURSOR.fetchone()
-    return password == cursorfetch[1]
+    return password == get_user(username)[1]
