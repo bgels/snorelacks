@@ -70,9 +70,31 @@ def index():
 
     soup = BeautifulSoup(wikipedia_info['parse']['text'], 'html.parser')
 
-    h3_tags = soup.findall('h3')
+    sections = {}
+    h3_tags = soup.find_all('h3')
     for h3 in h3_tags:
         heading = h3.get_text(strip=True)
+        # pprint.pprint(heading)
+
+        content = []
+        parent = h3.find_parent('div', class_='mw-heading')
+        curr = parent.find_next_sibling()
+
+        while curr:
+            if curr.name == 'div' and 'mw-heading' in curr.get('class', []):
+                break
+
+            if curr.name == 'p':
+                text = curr.get_text(strip=True)
+                text = re.sub(r'\[\d+\]', '', text)
+                content.append(text)
+
+            curr = curr.find_next_sibling()
+        
+        pprint.pprint(content)
+        
+
+
         
     # print(S.prettify())
     # culture_section_index = None
