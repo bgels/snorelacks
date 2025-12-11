@@ -46,6 +46,9 @@ yuL -- 2025-12-8 7:30 am
 rickyL -- 2025-12-8 9:50 pm
 - Added new forms for accounts
 
+YuL -- 2025-12-8 12:40 A.M.
+- Added more tailwind for login/logout pages
+
 mustafaA -- 2025-12-8 11:01am
 - Parsed openweather and countries api, working on Wikipedia 
 
@@ -59,3 +62,4 @@ andrewT -- 2025-12-10 10:30am
 mustafaA -- 2025-12-11 P.M.
 - Succeeded in parsing html to plaintext, sorted in a dictionary by section (api-test branch)
 - yay im so happy
+
