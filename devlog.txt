@@ -66,3 +66,5 @@ mustafaA -- 2025-12-10 11:00P.M.
 mustafaA -- 2025-12-11 11:01 AM
 - Added parsing file in main, organized api parsing
 
+andrewT -- 2025-12-12 10:30 AM
+- Added error handling to API edge cases
