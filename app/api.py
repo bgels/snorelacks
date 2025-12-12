@@ -54,12 +54,12 @@ def extract_wikipedia_subsections(title, section_name):
             headers={'User-Agent': 'Mozilla/5.0'}
     )
 
-    sections = urlopen(wikipedia_req, timeout=10)
-    sections_info = json.load(wikipedia)
+    sections = urlopen(sections_req, timeout=10)
+    sections_info = json.load(sections)
 
     section_index = 0
 
-    for section in wikipedia_info['parse']['sections']:
+    for section in sections_info['parse']['sections']:
         if section['line'].lower() == section_name.lower():
             section_index = section['index']
 
@@ -67,6 +67,8 @@ def extract_wikipedia_subsections(title, section_name):
         url=f"https://en.wikipedia.org/w/api.php?action=parse&page={title}&section={section_index}&prop=text&format=json&formatversion=2",
         headers={'User-Agent': 'Mozilla/5.0'}
     )
+    wikipedia = urlopen(wikipedia_req, timeout=10)
+    wikipedia_info = json.load(wikipedia)
 
 
     soup = BeautifulSoup(wikipedia_info['parse']['text'], 'html.parser')
@@ -98,3 +100,4 @@ def extract_wikipedia_subsections(title, section_name):
     return section
 
 pprint.pprint(extract_country_data("Pakistan"))
+pprint.pprint(extract_wikipedia_subsections("Pakistan", "Culture"))
