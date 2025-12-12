@@ -89,6 +89,7 @@ def profile():
 @app.route("/country", methods=['GET', 'POST']) # currently post is from homapge search bar
 def country():
     if request.method == 'GET':
+        # catach error for country target being None because no coutry exists, maybe will be a redirect to search page.
         target_country = (request.args.get('keyword') or '').strip()
         country_data = api.extract_country_data(target_country)
         # country, weather, summary, places, currency
