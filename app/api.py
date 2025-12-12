@@ -62,7 +62,7 @@ def extract_wikipedia_subsections(title, section_name):
     for section in sections_info['parse']['sections']:
         if section['line'].lower() == section_name.lower():
             section_index = section['index']
-
+            
     wikipedia_req = Request(
         url=f"https://en.wikipedia.org/w/api.php?action=parse&page={title}&section={section_index}&prop=text&format=json&formatversion=2",
         headers={'User-Agent': 'Mozilla/5.0'}
@@ -99,5 +99,6 @@ def extract_wikipedia_subsections(title, section_name):
 
     return section
 
-pprint.pprint(extract_country_data("Pakistan"))
-pprint.pprint(extract_wikipedia_subsections("Pakistan", "Culture"))
+if __name__ == "__main__":
+    pprint.pprint(extract_country_data("Pakistan"))
+    pprint.pprint(extract_wikipedia_subsections("The Chronicles of Narnia", "Culture"))
