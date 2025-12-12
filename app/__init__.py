@@ -9,6 +9,7 @@ import db
 import json
 from urllib.request import Request, urlopen
 import pprint
+import os
 
 # Initialize databases
 
