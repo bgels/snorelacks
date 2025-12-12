@@ -34,7 +34,11 @@
       <p></p>
 
       {% else %}
-      <h3></h3>
+      <h3>Country requested: {{country_data['country'][0]['name']['common']}}</h3>
+      <p>weather: {{country_data['weather']}}</p> <!-- need to parse the country data properly before rendering -->
+      <p>summary: {{country_data['summary']['extract']}}</p>
+      <p>Places: {{country_data['places']}}</p> <!-- check if this is empty first, then render or else exclude section, do for all other sections.>
+      <p>Currency: {{country_data['currency']['data']}}</p>
       <hr>
      </div>
 

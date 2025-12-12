@@ -10,7 +10,7 @@ import json
 from urllib.request import Request, urlopen
 import pprint
 import os
-
+import api
 # Initialize databases
 
 app = Flask(__name__)
@@ -86,9 +86,15 @@ def search():
 def profile():
     return render_template("profile.html")
 
-@app.route("/country", methods=['GET', 'POST'])
+@app.route("/country", methods=['GET', 'POST']) # currently post is from homapge search bar
 def country():
-    return render_template("country.html")
+    if request.method == 'GET':
+        target_country = (request.args.get('keyword') or '').strip()
+        country_data = api.extract_country_data(target_country)
+        # country, weather, summary, places, currency
+
+
+    return render_template("country.html", country_data = country_data)
 
 if __name__ == "__main__":
     app.debug = True
