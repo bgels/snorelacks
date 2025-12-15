@@ -78,3 +78,8 @@ yuL -- 2025-12-14 11:35 PM
 - Fixed flask linking and added various safety checks (try catch) and parsing to ensure api will return the right information (in api.py + __init__.py)
 - static folder updates: updates to css for fonts and colors, updates to images for weather backgrounds
 
+rickyL -- 2025-12-15 7:30 AM
+- Added integration of database with flask for login/register functions
+- Created profile page that will update based on fetched profile from login page
+- inital profile page html templates
+
