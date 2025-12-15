@@ -68,12 +68,6 @@ def login():
 def logout():
     session.clear()
     return render_template("homepage.html")
-@app.route("/user_profile", methods=['GET', 'POST'])
-
-def user_profile():
-    #checks session for logged in
-    #else won't render profile widgets in template
-    return render_template("profile.html")
 
 @app.route("/search", methods=['GET', 'POST'])
 def search():
