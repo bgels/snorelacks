@@ -7,20 +7,32 @@
 <html>
 
   <head>
-    <link rel="stylesheet" type="text/css" href="../static/css/app.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Snorelacks - Profile</title>
+
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
 
   <!-- Flash Message -->
   {% block content %}
-  <div class="flashmsg">
-      {% for message in get_flashed_messages() %}
-      {{ message }}<br>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="fixed top-6 left-1/2 transform -translate-x-1/2 w-full max-w-md backdrop-blur-md bg-white/10">
+        {% for message in messages %}
+          <div class="flash-container text-white px-6 py-3 rounded-lg shadow-lg mb-2 text-center">
+            {{ message }}
+          </div>
       {% endfor %}
-      {% block page_content %}{% endblock %}
-  </div>
+      </div>
+    {% endif %}
+  {% endwith %}
   {% endblock %}
 
-  <body>
+  <body class="bg-black">
 
     <div class="header">
       <h1>
@@ -51,8 +63,9 @@
        </p>
       </div>
       {% endif %}
-      <p>
-        Return to <a href= "/"> homepage</a><br>
+
+      <p class ="flex flex-col">
+        Return to <a class="text-blue-400 hover:text-blue-700 flex items-center"href= "/"> homepage</a>
         {% if logged_in %}
         Click here to <a href= "/logout"> logout</a><br>
         {% endif %}
