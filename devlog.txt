@@ -71,3 +71,10 @@ andrewT -- 2025-12-12 10:30 AM
 
 yuL -- 2025-12-12 10:50 AM
 - country template basics, will be working on flask middleware before allowing templates to render the data
+
+yuL -- 2025-12-14 11:35 PM
+- Revised search logic to handle both country code and country name. along with API's inherent country searching; searching for countries using keywords should now feel great
+- Divided country pages into seperate sections --> title, weather, and description. And refined / built templates to dynamically recieve and display data from dictionary information passed by flask / api calls
+- Fixed flask linking and added various safety checks (try catch) and parsing to ensure api will return the right information (in api.py + __init__.py)
+- static folder updates: updates to css for fonts and colors, updates to images for weather backgrounds
+
