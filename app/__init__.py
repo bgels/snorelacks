@@ -108,6 +108,9 @@ def country():
             return redirect(url_for('homepage'))
 
         actual_name = country_data['country'][0]['name']['common']
+        if(target_country != actual_name):
+            flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
+            return redirect(url_for('homepage'))
         wiki_data = api.extract_wikipedia_subsections(actual_name, "history")
     return render_template("country.html", country_data=country_data, wiki_data=wiki_data)
 
