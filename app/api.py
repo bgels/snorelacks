@@ -25,7 +25,7 @@ def extract_country_data(country):
         
         country_data["country"] = countries_info
     except Exception as e:
-        print(f"CRITICAL ERROR: Could not find country '{country}': {e}")
+        print(f"Could not find country '{country}': {e}")
         return None
 
     # region
@@ -56,7 +56,7 @@ def extract_country_data(country):
         capital_data = json.load(urlopen(capital_req, timeout=5))
         country_data["capital_image"] = capital_data.get('originalimage', {}).get('source')
     except Exception as e:
-        print(f"Warning: Capital Image failed: {e}")
+        print(f"Capital Image failed: {e}")
         country_data["capital_image"] = None
 
     # weather
@@ -67,7 +67,7 @@ def extract_country_data(country):
         weather = urlopen(f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&units=metric&appid={weather_key}")
         country_data["weather"] = json.load(weather)
     except Exception as e:
-        print(f"Warning: Weather failed: {e}")
+        print(f"Weather failed: {e}")
         country_data["weather"] = None
 
     # wiki
@@ -79,7 +79,7 @@ def extract_country_data(country):
         )
         country_data["summary"] = json.load(urlopen(wiki_summary_req, timeout=10))
     except Exception as e:
-        print(f"Warning: Wiki Summary failed: {e}")
+        print(f"Wiki Summary failed: {e}")
         country_data["summary"] = {'extract_html': 'No summary available.', 'thumbnail': None}
 
     #places (Geoapify)
@@ -90,7 +90,7 @@ def extract_country_data(country):
         places = urlopen(f"https://api.geoapify.com/v2/places?categories=tourism.attraction&filter=circle:{cap_lat},{cap_lon},5000&limit=20&apiKey={places_key}")
         country_data["places"] = json.load(places)
     except Exception as e:
-        print(f"Warning: Places API failed: {e}")
+        print(f"Places API failed: {e}")
         country_data["places"] = None
 
     #currency
@@ -101,7 +101,7 @@ def extract_country_data(country):
         exchange_rate = urlopen(f"https://api.exchangerateapi.net/v1/latest?base={user_currency}&currencies={currency_list}&apikey={exchange_key}")
         country_data["currency"] = json.load(exchange_rate)
     except Exception as e:
-        print(f"Warning: Currency API failed: {e}")
+        print(f"Currency API failed: {e}")
         country_data["currency"] = None
 
     return country_data
