@@ -24,12 +24,19 @@
 
     <div class="header">
       <h1>
+        Profile Page
       </h1>
     </div>
 
     <div class = "middle">
       {% if logged_in %}
-      <p></p>
+      <p>
+        Username: {{ db_user[0] }}
+        Password: {{db_user[1]}}
+        Country: {{db_user[2]}}
+        Currency: {{db_user[3]}}
+
+      </p>
 
       {% else %}
       <h3></h3>
@@ -46,6 +53,9 @@
       {% endif %}
       <p>
         Return to <a href= "/"> homepage</a><br>
+        {% if logged_in %}
+        Click here to <a href= "/logout"> logout</a><br>
+        {% endif %}
       </p>
   </body>
 
