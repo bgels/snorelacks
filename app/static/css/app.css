@@ -1,6 +1,28 @@
-/* Tenor Sans, Concert One */
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+.font-emea {
+    font-family: 'Pirata One', cursive;
+    color: #ffeace;
+}
+
+.font-americas {
+    font-family: 'Audiowide', sans-serif;
+    color: #5af4ff;
+}
+
+.font-asia {
+    font-family: 'Chelsea Market', cursive;
+    color: #ff7636;
+}
+
+.font-concert{
+    font-family: 'Concert One', cursive;
+}
 
 /* variables to reuse */
 :root {

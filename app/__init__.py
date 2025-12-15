@@ -25,7 +25,6 @@ def user_context(): # persistent info made avalible for all html templates
 
 @app.route("/", methods=['GET', 'POST'])
 def homepage():
-    flash("Welcome to Snorelacks!Welcome to Snorelacks!Welcome to Snorelacks!Welcome to Snorelacks!Welcome to Snorelacks!")
     return render_template("homepage.html")
 
 @app.route("/register", methods=['GET', 'POST'])
@@ -60,10 +59,12 @@ def login():
         return redirect(url_for('profile'))
     return render_template("login.html")
 @app.route("/logout", methods=['GET', 'POST'])
+
 def logout():
     session.clear()
     return render_template("homepage.html")
 @app.route("/user_profile", methods=['GET', 'POST'])
+
 def user_profile():
     #checks session for logged in
     #else won't render profile widgets in template
@@ -86,16 +87,19 @@ def search():
 def profile():
     return render_template("profile.html")
 
-@app.route("/country", methods=['GET', 'POST']) # currently post is from homapge search bar
+@app.route("/country", methods=['GET', 'POST'])
 def country():
     if request.method == 'GET':
-        # catach error for country target being None because no coutry exists, maybe will be a redirect to search page.
         target_country = (request.args.get('keyword') or '').strip()
         country_data = api.extract_country_data(target_country)
-        # country, weather, summary, places, currency
-
-
-    return render_template("country.html", country_data = country_data)
+        
+        if not country_data:
+            flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
+            return redirect(url_for('homepage'))
+        
+        actual_name = country_data['country'][0]['name']['common']
+        wiki_data = api.extract_wikipedia_subsections(actual_name, "history")
+    return render_template("country.html", country_data=country_data, wiki_data=wiki_data)
 
 if __name__ == "__main__":
     app.debug = True

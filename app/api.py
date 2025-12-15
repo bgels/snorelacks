@@ -3,6 +3,7 @@ import sqlite3   #enable control of an sqlite database
 import csv       #facilitate CSV I/O
 import os
 from urllib.request import Request, urlopen
+import urllib.parse
 import re
 import json
 import pprint
@@ -13,34 +14,97 @@ def extract_country_data(country):
     try:
         country_data = {}
         user_currency = "USD"
-        countries = urlopen(f"https://restcountries.com/v3.1/name/{country}?fields=capital,currencies,languages,name,population,timezones,flag,latlng,capitalInfo")
-        countries_info = json.load(countries)
+        fields = "fields=capital,currencies,languages,name,population,timezones,flags,latlng,capitalInfo,region"
+        country = urllib.parse.quote(country)
+        try:
+            countries = urlopen(f"https://restcountries.com/v3.1/name/{country}?{fields}")
+            countries_info = json.load(countries)
+        except:
+            countries = urlopen(f"https://restcountries.com/v3.1/alpha/{country}?{fields}")
+            countries_info = json.load(countries)
+        
         country_data["country"] = countries_info
-        weather_key = open("keys/key_api1.txt")
-        weather = urlopen(f"https://api.openweathermap.org/data/2.5/forecast?lat={countries_info[0]['latlng'][0]}&lon={countries_info[0]['latlng'][1]}&units=metric&&appid={weather_key.read()}")
-        weather_info = json.load(weather)
-        country_data["weather"] = weather_info
+    except Exception as e:
+        print(f"CRITICAL ERROR: Could not find country '{country}': {e}")
+        return None
+
+    # region
+    try:
+        raw_region = countries_info[0].get('region', 'Unknown')
+        country_data['region_display'] = raw_region
+        if raw_region in ['Europe', 'Africa']:
+            country_data['font_group'] = "font-emea"
+        elif raw_region == 'Americas':
+            country_data['font_group'] = "font-americas"
+        elif raw_region in ['Asia', 'Oceania']:
+            country_data['font_group'] = "font-asia"
+        else:
+            country_data['font_group'] = "font-americas"
+    except:
+        country_data['region_display'] = ""
+        country_data['font_group'] = ""
+
+    # capital img (Wikipedia)
+    try:
+        capital = countries_info[0]['capital'][0]
+        country_data['capital'] = capital
+        encoded_capital = urllib.parse.quote(capital)
+        capital_req = Request(
+            url=f"https://en.wikipedia.org/api/rest_v1/page/summary/{encoded_capital}",
+            headers={'User-Agent': 'Mozilla/5.0'}
+        )
+        capital_data = json.load(urlopen(capital_req, timeout=5))
+        country_data["capital_image"] = capital_data.get('originalimage', {}).get('source')
+    except Exception as e:
+        print(f"Warning: Capital Image failed: {e}")
+        country_data["capital_image"] = None
+
+    # weather
+    try:
+        weather_key = open("keys/key_api1.txt").read().strip()
+        lat = countries_info[0]['latlng'][0]
+        lon = countries_info[0]['latlng'][1]
+        weather = urlopen(f"https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&units=metric&appid={weather_key}")
+        country_data["weather"] = json.load(weather)
+    except Exception as e:
+        print(f"Warning: Weather failed: {e}")
+        country_data["weather"] = None
+
+    # wiki
+    try:
+        common_name = countries_info[0]['name']['common']
         wiki_summary_req = Request(
-             url=f"https://en.wikipedia.org/api/rest_v1/page/summary/{country}",
+             url=f"https://en.wikipedia.org/api/rest_v1/page/summary/{urllib.parse.quote(common_name)}",
              headers={'User-Agent': 'Mozilla/5.0'}
         )
-        wiki_summary = urlopen(wiki_summary_req, timeout=10)
-        wiki_summary_info = json.load(wiki_summary)
-        country_data["summary"] = wiki_summary_info
+        country_data["summary"] = json.load(urlopen(wiki_summary_req, timeout=10))
+    except Exception as e:
+        print(f"Warning: Wiki Summary failed: {e}")
+        country_data["summary"] = {'extract_html': 'No summary available.', 'thumbnail': None}
 
-        places_key = open("keys/key_api2.txt")
-        places = urlopen(f"https://api.geoapify.com/v2/places?categories=tourism.attraction&filter=circle:{countries_info[0]['capitalInfo']['latlng'][0]},{countries_info[0]['capitalInfo']['latlng'][1]},5000&limit=20&apiKey={places_key.read()}")
-        places_info = json.load(places)
-        country_data["places"] = places_info
+    #places (Geoapify)
+    try:
+        places_key = open("keys/key_api2.txt").read().strip()
+        cap_lat = countries_info[0]['capitalInfo']['latlng'][0]
+        cap_lon = countries_info[0]['capitalInfo']['latlng'][1]
+        places = urlopen(f"https://api.geoapify.com/v2/places?categories=tourism.attraction&filter=circle:{cap_lat},{cap_lon},5000&limit=20&apiKey={places_key}")
+        country_data["places"] = json.load(places)
+    except Exception as e:
+        print(f"Warning: Places API failed: {e}")
+        country_data["places"] = None
+
+    #currency
+    try:
         currencies = list(countries_info[0]['currencies'].keys())
         currency_list = ",".join(currencies)
-        exchange_key = open("keys/key_api3.txt")
-        exchange_rate = urlopen(f"https://api.exchangerateapi.net/v1/latest?base={user_currency}&currencies={currency_list}&apikey={exchange_key.read()}")
-        exchange_info = json.load(exchange_rate)
-        country_data["currency"] = exchange_info
-        return country_data
-    except:
-        return None
+        exchange_key = open("keys/key_api3.txt").read().strip()
+        exchange_rate = urlopen(f"https://api.exchangerateapi.net/v1/latest?base={user_currency}&currencies={currency_list}&apikey={exchange_key}")
+        country_data["currency"] = json.load(exchange_rate)
+    except Exception as e:
+        print(f"Warning: Currency API failed: {e}")
+        country_data["currency"] = None
+
+    return country_data
 
 
 
