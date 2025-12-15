@@ -83,3 +83,5 @@ rickyL -- 2025-12-15 7:30 AM
 - Created profile page that will update based on fetched profile from login page
 - inital profile page html templates
 
+andrewT -- 2025-12-15 11:00 AM
+-Added countries db and handling function=
