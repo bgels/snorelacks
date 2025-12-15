@@ -90,7 +90,8 @@ def search():
 
 @app.route("/profile", methods=['GET', 'POST'])
 def profile():
-    return render_template("profile.html")
+    db_user = db.get_user(session['username'])
+    return render_template("profile.html", db_user = db_user)
 
 @app.route("/country", methods=['GET', 'POST'])
 def country():
