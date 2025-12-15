@@ -90,7 +90,11 @@ def search():
 
 @app.route("/profile", methods=['GET', 'POST'])
 def profile():
-    db_user = db.get_user(session['username'])
+    user = session.get('username')
+    if (not user):
+        flash("You are not logged in!")
+        return redirect(url_for('login'))
+    db_user = db.get_user(user)
     return render_template("profile.html", db_user = db_user)
 
 @app.route("/country", methods=['GET', 'POST'])
