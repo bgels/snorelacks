@@ -34,13 +34,13 @@ def register():
         pswd = request.form['password'].strip()
         nation = request.form['country'].strip()
         money = request.form['currency'].strip()
-        db.add_user(user, pswd, nation, money)
 
         if(not user or not pswd or not money or not nation):
             flash("WARNING: One of the fields cannot be empty!")
             return redirect(url_for('register'))
 
         # add database registration here
+        db.add_user(user, pswd, nation, money)
         flash(f"Registration Successful! Welcome, {user}. Please log in.")
         return redirect(url_for('login'))
     return render_template('register.html')
@@ -55,7 +55,12 @@ def login():
             return redirect(url_for('login'))
 
         # add database authentication here
+        db_user = db.get_user(user)
+        if (db_user is None or not db.check_password(user,pswd)):
+            flash("Username or password is not correct!")
+            return redirect(url_for('login'))
         flash(f"Login Successful! Welcome back, {user}.")
+        session['username'] = user
         return redirect(url_for('profile'))
     return render_template("login.html")
 @app.route("/logout", methods=['GET', 'POST'])
@@ -92,11 +97,11 @@ def country():
     if request.method == 'GET':
         target_country = (request.args.get('keyword') or '').strip()
         country_data = api.extract_country_data(target_country)
-        
+
         if not country_data:
             flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
             return redirect(url_for('homepage'))
-        
+
         actual_name = country_data['country'][0]['name']['common']
         wiki_data = api.extract_wikipedia_subsections(actual_name, "history")
     return render_template("country.html", country_data=country_data, wiki_data=wiki_data)
