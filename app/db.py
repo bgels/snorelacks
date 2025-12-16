@@ -37,6 +37,20 @@ def get_favorites(username):
     cursorfetch = DB_CURSOR.fetchall()
     return cursorfetch
 
+def unfav_country(country_name, username):
+    DB_NAME = "Data/database.db"
+    DB = sqlite3.connect(DB_NAME)
+    DB_CURSOR = DB.cursor()
+    DB_CURSOR.execute("SELECT COUNT(*) FROM Favorites WHERE country_name = (?) AND username = (?)", (country_name, username))
+    cursorfetch = DB_CURSOR.fetchone()[0]
+    if cursorfetch != 1:
+        DB.commit()
+        DB.close()
+        return False
+    DB_CURSOR.execute("DELETE FROM Favorites where country_name = ? AND username = (?)", (country_name, username))
+    DB.commit()
+    DB.close()
+    return True
 
 def add_country(country_name, wiki_data, country_data):
     DB_NAME = "Data/database.db"
