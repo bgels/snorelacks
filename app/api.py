@@ -106,6 +106,13 @@ def extract_country_data(country):
 
     return country_data
 
+def extract_country_name(country):
+    country_data = {}
+    user_currency = "USD"
+    fields = "fields=name"
+    countries = urlopen(f"https://restcountries.com/v3.1/name/{country}?{fields}")
+    countries_info = json.load(countries)
+    return countries_info[0]["name"]["common"]
 
 
 def extract_wikipedia_subsections(title, section_name):
@@ -177,5 +184,6 @@ if __name__ == "__main__":
     # pprint.pprint(extract_country_data("Pakistan"))
     # pprint.pprint(extract_country_data("Narnia"))
     # pprint.pprint(extract_wikipedia_subsections("Pakistan", "Culture"))
-    # pprint.pprint(extract_wikipedia_info("Pakistan"))
+    pprint.pprint(extract_wikipedia_info("Pakistan"))
+    pprint.pprint(extract_country_name("Pakistan"))
     # extract_wikipedia_info("Pakistan")
