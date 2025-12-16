@@ -33,11 +33,13 @@
   {% endblock %}
 
   <body class="bg-black">
-
+    <div class="text-center pt-6">
     <div class="header">
+
       <h1>
         Profile Page
       </h1>
+
     </div>
 
     <div class = "middle">
@@ -64,12 +66,13 @@
       </div>
       {% endif %}
 
-      <p class ="flex flex-col">
-        Return to <a class="text-blue-400 hover:text-blue-700 flex items-center"href= "/"> homepage</a>
+      <p class ="flex flex-col justify-center items-center">
+        <a class="text-blue-400 hover:text-blue-700 "href= "/">Return to homepage</a>
         {% if logged_in %}
-        Click here to <a href= "/logout"> logout</a><br>
+        <a class = "text-blue-400 hover:text-blue-700" href= "/logout"> Click here to logout</a><br>
         {% endif %}
       </p>
+      </div>
   </body>
 
 </html>
