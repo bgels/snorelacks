@@ -173,6 +173,7 @@ def extract_wikipedia_info(country):
     return info
 
 if __name__ == "__main__":
+    pass
     # pprint.pprint(extract_country_data("Pakistan"))
     # pprint.pprint(extract_country_data("Narnia"))
     # pprint.pprint(extract_wikipedia_subsections("Pakistan", "Culture"))
