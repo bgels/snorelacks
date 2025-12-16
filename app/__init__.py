@@ -93,10 +93,15 @@ def profile():
 
 @app.route("/country", methods=['GET', 'POST'])
 def country():
+    if request.method == 'POST':
+        target_country = request.form['keyword']
+        # redirect with reuslts to homepage to render please
+        #homepage will then redirect to the right country by calling country
+
     if request.method == 'GET':
         target_country = (request.args.get('keyword') or '').strip()
         country_data = api.extract_country_data(target_country)
-        
+
         if not country_data:
             flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
             return redirect(url_for('homepage'))

@@ -22,7 +22,7 @@ def extract_country_data(country):
         except:
             countries = urlopen(f"https://restcountries.com/v3.1/alpha/{country}?{fields}")
             countries_info = json.load(countries)
-        
+
         country_data["country"] = countries_info
     except Exception as e:
         print(f"Could not find country '{country}': {e}")
@@ -162,7 +162,19 @@ def extract_wikipedia_subsections(title, section_name):
     except:
         return None
 
+def extract_wikipedia_info(country):
+    info = {}
+    info["History"] = extract_wikipedia_subsections(country, "History")
+    info["Geography"] = extract_wikipedia_subsections(country, "Geography")
+    info["Government and Politics"] = extract_wikipedia_subsections(country, "Government and Politics")
+    info["Demographics"] = extract_wikipedia_subsections(country, "Demographics")
+    info["Culture"] = extract_wikipedia_subsections(country, "Culture")
+
+    return info
+
 if __name__ == "__main__":
-    pprint.pprint(extract_country_data("Pakistan"))
-    pprint.pprint(extract_country_data("Narnia"))
-    pprint.pprint(extract_wikipedia_subsections("The Chronicles of Narnia", "Culture"))
+    # pprint.pprint(extract_country_data("Pakistan"))
+    # pprint.pprint(extract_country_data("Narnia"))
+    # pprint.pprint(extract_wikipedia_subsections("Pakistan", "Culture"))
+    # pprint.pprint(extract_wikipedia_info("Pakistan"))
+    # extract_wikipedia_info("Pakistan")
