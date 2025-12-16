@@ -12,6 +12,31 @@ DB = sqlite3.connect(DB_NAME)
 DB_CURSOR = DB.cursor()
 DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Users(username TEXT PRIMARY KEY, password TEXT, country TEXT, currency TEXT);")
 DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Countries(country_name TEXT PRIMARY KEY, wiki_data TEXT, country_data TEXT, timestamp TEXT);")
+DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Favorites(username TEXT, country_name TEXT);")
+
+def fav_country(country_name, username):
+    DB_NAME = "Data/database.db"
+    DB = sqlite3.connect(DB_NAME)
+    DB_CURSOR = DB.cursor()
+    DB_CURSOR.execute("SELECT COUNT(*) FROM Favorites WHERE country_name = (?) AND username = (?)", (country_name, username))
+    cursorfetch = DB_CURSOR.fetchone()[0]
+    if cursorfetch == 1:
+        DB.commit()
+        DB.close()
+        return False
+    DB_CURSOR.execute("INSERT INTO Favorites VALUES(?, ?, ?)", (username, country_name))
+    DB.commit()
+    DB.close()
+    return False
+
+def get_favorites(username):
+    DB_NAME = "Data/database.db"
+    DB = sqlite3.connect(DB_NAME)
+    DB_CURSOR = DB.cursor()
+    DB_CURSOR.execute("SELECT * FROM Favorites WHERE username = ?", (username,))
+    cursorfetch = DB_CURSOR.fetchall()
+    return cursorfetch
+
 
 def add_country(country_name, wiki_data, country_data):
     DB_NAME = "Data/database.db"
