@@ -74,12 +74,6 @@ def search():
     term = (request.args.get('keyword') or '').strip()
     if not term:
         flash("Search: WARNING, no country provided! Listing all existing countries.")
-
-    # database search logic would go here eventually
-    # results = entries.search(term)
-    # if not results:
-    #     flash(f"Search: No posts found for '{term}'.")
-
     return render_template("search.html", term = term, results = None)
 
 @app.route("/profile", methods=['GET', 'POST'])
@@ -97,17 +91,27 @@ def country():
         target_country = request.form['keyword']
         # redirect with reuslts to homepage to render please
         #homepage will then redirect to the right country by calling country
+        # make sure to add country to db
 
     if request.method == 'GET':
         target_country = (request.args.get('keyword') or '').strip()
-        country_data = api.extract_country_data(target_country)
-
+        country_data = []
+        if not db.get_country(target_country):
+            country_data = api.extract_country_data(target_country)
+            actual_name = country_data['country'][0]['name']['common']
+            wiki_data = api.extract_wikipedia_subsections(actual_name, "history")
+            country_data = [actual_name, wiki_data]
+            db.add_country(actual_name, wiki_data, country_data)
+        else:
+            country_data = db.get_country(target_country)
+        print(type(country_data))
         if not country_data:
             flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
             return redirect(url_for('homepage'))
 
-        actual_name = country_data['country'][0]['name']['common']
-        wiki_data = api.extract_wikipedia_subsections(actual_name, "history")
+        actual_name = json.dumps(country_data[0])
+        wiki_data = json.dumps(country_data[1])
+
     return render_template("country.html", country_data=country_data, wiki_data=wiki_data)
 
 if __name__ == "__main__":
