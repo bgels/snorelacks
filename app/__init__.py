@@ -112,17 +112,6 @@ def country():
             country_data = db.get_country(target_country)
             count_data = json.loads(country_data[2])
             wiki_data = json.loads(country_data[1])
-<<<<<<< HEAD
-            print(country_data)
-        print(type(country_data))
-        if not country_data:
-            # FIx flash here pls
-            flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
-            return redirect(url_for('homepage'))
-        print(type(country_data[1]))
-    print(type(count_data))
-=======
->>>>>>> 481c9464470f193e09252f86df3fe1c11778ad08
     return render_template("country.html", country_data=count_data, wiki_data=wiki_data)
 
 if __name__ == "__main__":
