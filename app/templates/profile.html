@@ -49,7 +49,10 @@
         Password: {{db_user[1]}}
         Country: {{db_user[2]}}
         Currency: {{db_user[3]}}
-
+        Favorite countries: {% for f in fav%}
+        {{f}}
+        <br>
+        {% endfor %}
       </p>
 
       {% else %}

@@ -83,7 +83,8 @@ def profile():
         flash("You are not logged in!")
         return redirect(url_for('login'))
     db_user = db.get_user(user)
-    return render_template("profile.html", db_user = db_user)
+    fav = db.get_favorites(user)
+    return render_template("profile.html", db_user = db_user, fav = fav)
 
 @app.route("/country", methods=['GET', 'POST'])
 def country():
@@ -94,7 +95,11 @@ def country():
         # make sure to add country to db
     if request.method == 'GET':
         target_country = (request.args.get('keyword') or '').strip()
-        target_country = api.extract_country_name(target_country)
+        try:
+            target_country = api.extract_country_name(target_country)
+        except:
+            flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
+            return redirect(url_for('homepage'))
         country_data = []
         if not db.get_country(target_country):
             country_data = api.extract_country_data(target_country)
@@ -107,6 +112,7 @@ def country():
             country_data = db.get_country(target_country)
             count_data = json.loads(country_data[2])
             wiki_data = json.loads(country_data[1])
+<<<<<<< HEAD
             print(country_data)
         print(type(country_data))
         if not country_data:
@@ -115,6 +121,8 @@ def country():
             return redirect(url_for('homepage'))
         print(type(country_data[1]))
     print(type(count_data))
+=======
+>>>>>>> 481c9464470f193e09252f86df3fe1c11778ad08
     return render_template("country.html", country_data=count_data, wiki_data=wiki_data)
 
 if __name__ == "__main__":
