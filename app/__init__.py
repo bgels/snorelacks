@@ -83,7 +83,8 @@ def profile():
         flash("You are not logged in!")
         return redirect(url_for('login'))
     db_user = db.get_user(user)
-    return render_template("profile.html", db_user = db_user)
+    fav = db.get_favorites(user)
+    return render_template("profile.html", db_user = db_user, fav = fav)
 
 @app.route("/country", methods=['GET', 'POST'])
 def country():
