@@ -17,6 +17,7 @@ def extract_country_data(country):
         fields = "fields=capital,currencies,languages,name,population,timezones,flags,latlng,capitalInfo,region"
         country = urllib.parse.quote(country)
         try:
+            # make sure that spaces r accounted for
             countries = urlopen(f"https://restcountries.com/v3.1/name/{country}?{fields}")
             countries_info = json.load(countries)
         except:
@@ -107,12 +108,21 @@ def extract_country_data(country):
     return country_data
 
 def extract_country_name(country):
-    country_data = {}
-    user_currency = "USD"
-    fields = "fields=name"
-    countries = urlopen(f"https://restcountries.com/v3.1/name/{country}?{fields}")
-    countries_info = json.load(countries)
-    return countries_info[0]["name"]["common"]
+    try:
+        country_data = {}
+        user_currency = "USD"
+        fields = "fields=name"
+        country = urllib.parse.quote(country)
+        try:
+            countries = urlopen(f"https://restcountries.com/v3.1/name/{country}?{fields}")
+            countries_info = json.load(countries)
+        except:
+            countries = urlopen(f"https://restcountries.com/v3.1/alpha/{country}?{fields}")
+            countries_info = json.load(countries)
+        return countries_info[0]["name"]["common"]
+    except Exception as e:
+        print(f"Could not find country '{country}': {e}")
+        return None
 
 
 def extract_wikipedia_subsections(title, section_name):

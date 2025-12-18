@@ -110,6 +110,7 @@ def country():
             print(country_data)
         print(type(country_data))
         if not country_data:
+            # FIx flash here pls
             flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
             return redirect(url_for('homepage'))
         print(type(country_data[1]))
