@@ -73,7 +73,7 @@ def logout():
 
 @app.route("/search", methods=['GET', 'POST'])
 def search():
-    
+
     term = (request.args.get('keyword') or '').strip()
     if not term:
         flash("Search: WARNING, no country provided! Listing all existing countries.")
@@ -99,9 +99,12 @@ def country():
     if request.method == 'GET':
         target_country = (request.args.get('keyword') or '').strip()
         try:
-            target_country = api.extract_country_name(target_country)
+            tc = api.extract_country_name(target_country)
+            if not tc:
+                flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
+                return redirect(url_for('homepage'))
         except:
-            flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
+            flash(f"Invalid country!! Requested country doesn't exist: '{target_country}'?")
             return redirect(url_for('homepage'))
         country_data = []
         if not db.get_country(target_country):
