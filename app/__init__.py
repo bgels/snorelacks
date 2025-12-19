@@ -118,6 +118,7 @@ def country():
             country_data = db.get_country(target_country)
             count_data = json.loads(country_data[2])
             wiki_data = json.loads(country_data[1])
+
     return render_template("country.html", country_data=count_data, wiki_data=wiki_data)
 
 if __name__ == "__main__":
