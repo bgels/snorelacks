@@ -86,9 +86,9 @@ def extract_country_data(country):
     #places (Geoapify)
     try:
         places_key = open("keys/key_api2.txt").read().strip()
-        cap_lat = countries_info[0]['capitalInfo']['latlng'][0]
-        cap_lon = countries_info[0]['capitalInfo']['latlng'][1]
-        places = urlopen(f"https://api.geoapify.com/v2/places?categories=tourism.attraction&filter=circle:{cap_lat},{cap_lon},5000&limit=20&apiKey={places_key}")
+        cap_lat = countries_info[0]['capitalInfo']['latlng'][1]
+        cap_lon = countries_info[0]['capitalInfo']['latlng'][0]
+        places = urlopen(f"https://api.geoapify.com/v2/places?categories=tourism.attraction&filter=circle:{cap_lat},{cap_lon},5000&bias=proximity:{cap_lat},{cap_lon}&limit=20&apiKey={places_key}")
         country_data["places"] = json.load(places)
     except Exception as e:
         print(f"Places API failed: {e}")
@@ -191,9 +191,9 @@ def extract_wikipedia_info(country):
 
 if __name__ == "__main__":
     pass
-    # pprint.pprint(extract_country_data("Pakistan"))
+    pprint.pprint(extract_country_data("Pakistan"))
     # pprint.pprint(extract_country_data("Narnia"))
     # pprint.pprint(extract_wikipedia_subsections("Pakistan", "Culture"))
-    pprint.pprint(extract_wikipedia_info("Pakistan"))
-    pprint.pprint(extract_country_name("Pakistan"))
+    # pprint.pprint(extract_wikipedia_info("Pakistan"))
+    # pprint.pprint(extract_country_name("Pakistan"))
     # extract_wikipedia_info("Pakistan")

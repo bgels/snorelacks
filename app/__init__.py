@@ -73,7 +73,7 @@ def logout():
 
 @app.route("/search", methods=['GET', 'POST'])
 def search():
-    
+
     term = (request.args.get('keyword') or '').strip()
     if not term:
         flash("Search: WARNING, no country provided! Listing all existing countries.")
@@ -115,6 +115,7 @@ def country():
             country_data = db.get_country(target_country)
             count_data = json.loads(country_data[2])
             wiki_data = json.loads(country_data[1])
+
     return render_template("country.html", country_data=count_data, wiki_data=wiki_data)
 
 if __name__ == "__main__":
