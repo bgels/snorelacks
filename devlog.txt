@@ -100,3 +100,12 @@ yuL -- 2025-12-18 11:35 PM
 - fixed a lot of flask message placements and wrong template linking, removed irreleveant fields currency and country from registration page
 - profile page tailwind templates up
 - temp favorite button + js on each country page
+
+andrewT -- 2025-12-19 11:00 AM
+- Search edge cases catching
+
+mustafaA -- 2025-12-19 11:00 AM
+- Yay finally fixed places api need to parse
+
+rickyL -- 2025-12-19 11:00 AM
+- more profile updates
