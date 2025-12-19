@@ -35,39 +35,57 @@
         }
     </style>
 </head>
-
-
-
-  <body class="bg-black text-white h-screen overflow-hidden relative" style = "user-drag: none; user-select: none;">
-
+<body class="bg-black text-white h-screen overflow-hidden relative" style = "user-drag: none; user-select: none;">
     <div class="absolute inset-0">
       <div class="absolute inset-0 bg-black/50 z-60"></div>
       <img src="/static/images/homepage_Bg.jpg" alt="Earth Background" class="w-full h-full object-cover animate-slow-zoom opacity-90">
     </div>
 
-    <nav class="bg-black/30 backdrop-blur">
-      <div class="container mx-auto px-6 py-4 flex justify-between">
+  <nav class="bg-black/30 backdrop-blur sticky top-0 z-50 border-b border-white/10">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
 
-        <div class="flex items-center">
-          <div class="bg-white-500 rounded-full flex items-center justify-center mx-2">
-            <img src="/static/images/flag.jpg" class = "w-10">
-          </div>
-
+      <div class="flex-1 flex items-center">
+        <div class="bg-white/10 rounded-full flex items-center justify-center mr-3">
+          <img src="/static/images/flag.jpg" class="w-10 rounded-full">
+        </div>
+        <a href="/" class="hover:text-blue-400 transition-colors">
           <h1 class="text-2xl font-bold tracking-normal">
-              <span><span class="text-blue-500">Snore</span>lack's Traveling iternatry</span>
+            <span><span class="text-blue-500">Snore</span>lack's Traveling iternatry</span>
           </h1>
-
-        </div>
-
-        <div class="flex gap-6">
-          <a href="{{ url_for('register') }}" class="flex items-center text-white-700 hover:text-blue-300 border border-white-500/30 px-4 bg-white-300/10">Register</a>
-          <a href="{{ url_for('login') }}" class="flex items-center text-white-700 hover:text-blue-300 border border-white-500/30 px-4 bg-white-300/10">Login</a>
-          <a href="{{ url_for('profile') }}" class="flex items-center text-blue-700 hover:text-blue-300 border border-blue-500/30 px-4 bg-blue-300/10">
-              <span>Profile</span>
-          </a>
-        </div>
+        </a>
       </div>
-    </nav>
+
+      {% if country_data and country_data.get('region_display') %}
+        <div class="hidden md:flex flex-1 justify-center">
+          <span class="text-[2rem] font-bold tracking-[0.2em] uppercase px-4 {{ country_data['font_group'] }}">
+            {{ country_data['region_display'] }}
+          </span>
+        </div>
+      {% endif %}
+
+      <div class="flex-1 flex justify-end gap-6">
+        {% if logged_in %}
+          <a href="{{ url_for('profile') }}" class="flex items-center text-blue-500 transition-transform hover:translate-y-[-4px] text-blue-300 border border-blue-500/30 px-4 py-2 bg-blue-300/10">
+            <span>Profile</span>
+          </a>
+          <a href="{{ url_for('logout') }}" class="flex items-center text-white-700 transition-transform hover:translate-y-[-4px] text-red-400 border border-red-500/30 px-4 py-2 bg-red-300/10">
+            Logout
+          </a>
+        {% else %}
+          <a href="{{ url_for('register') }}" class="flex items-center transition-transform hover:translate-y-[-4px] text-blue-300 border border-white-500/30 px-4 py-2 bg-white-300/10">
+            Register
+          </a>
+          <a href="{{ url_for('login') }}" class="flex items-center text-white-700 transition-transform hover:translate-y-[-4px] text-blue-300 border border-white-500/30 px-4 py-2 bg-white-300/10">
+            Login
+          </a>
+          <a href="{{ url_for('profile') }}" class="flex items-center text-blue-500 transition-transform hover:translate-y-[-4px] text-blue-300 border border-blue-500/30 px-4 py-2 bg-blue-300/10">
+            <span>Profile</span>
+          </a>
+        {% endif %}
+      </div>
+
+    </div>
+  </nav>
 
   <nav class="flex-grow flex flex-col justify-center items-center text-center px-4 py-20">
 
@@ -94,23 +112,24 @@
   </nav>
 
     <br>
-  </body>
+
+    {% block content %}
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <div class="fixed -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-full max-w-md backdrop-blur-md bg-white/10">
+      {% for message in messages %}
+        <div class="flash-container text-white px-6 py-3 rounded-lg shadow-lg mb-2 text-center">
+          {{ message }}
+        </div>
+    {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+{% endblock %}
+</body>
 
   <footer>
-          <!-- Flash Message -->
-  {% block content %}
-  {% with messages = get_flashed_messages() %}
-    {% if messages %}
-      <div class="fixed top-6 left-1/2 transform -translate-x-1/2 w-full max-w-md backdrop-blur-md bg-white/10">
-        {% for message in messages %}
-          <div class="flash-container text-white px-6 py-3 rounded-lg shadow-lg mb-2 text-center">
-            {{ message }}
-          </div>
-      {% endfor %}
-      </div>
-    {% endif %}
-  {% endwith %}
-  {% endblock %}
+
   </footer>
 
 </html>

@@ -24,7 +24,7 @@ def fav_country(country_name, username):
         DB.commit()
         DB.close()
         return False
-    DB_CURSOR.execute("INSERT INTO Favorites VALUES(?, ?, ?)", (username, country_name))
+    DB_CURSOR.execute("INSERT INTO Favorites VALUES(?, ?)", (username, country_name))
     DB.commit()
     DB.close()
     return False

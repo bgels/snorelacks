@@ -32,10 +32,10 @@ def register():
     if request.method == 'POST':
         user = request.form['username'].strip()
         pswd = request.form['password'].strip()
-        nation = request.form['country'].strip()
-        money = request.form['currency'].strip()
+        nation = None
+        money = None
 
-        if(not user or not pswd or not money or not nation):
+        if(not user or not pswd):
             flash("WARNING: One of the fields cannot be empty!")
             return redirect(url_for('register'))
 
@@ -65,12 +65,15 @@ def login():
     return render_template("login.html")
 @app.route("/logout", methods=['GET', 'POST'])
 
+@app.route("/logout")
 def logout():
     session.clear()
-    return render_template("homepage.html")
+    flash("You have been logged out.")
+    return redirect(url_for('homepage'))
 
 @app.route("/search", methods=['GET', 'POST'])
 def search():
+    
     term = (request.args.get('keyword') or '').strip()
     if not term:
         flash("Search: WARNING, no country provided! Listing all existing countries.")

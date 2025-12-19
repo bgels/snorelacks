@@ -14,10 +14,25 @@
     <title>Snorelacks - {{ country_data['country'][0]['name']['common'] }}</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
+{% block content %}
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <div class="fixed top-24 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md">
+      {% for message in messages %}
+        <div class="flash-container text-white px-6 py-3 rounded-lg shadow-lg mb-2 text-center">
+          {{ message }}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+{% endblock %}
 
 <body class="bg-black text-white min-h-screen" style = "user-drag: none; user-select: none;">
 
@@ -48,25 +63,14 @@
         <div class="flex-1 flex justify-end gap-6 text-sm font-semibold">
         {% if logged_in %}
         <!-- add javascript to add favorite button to call favorite list function -->
-          <a href="{{ url_for('homepage') }}"><img src="/static/images/flag.jpg" class="w-10 rounded-full hover:text-blue-300 transition"></a>
-          <a href="{{ url_for('profile') }}" class="px-4 py-2 bg-blue-600 rounded-full hover:text-blue-300 transition">Profile</a>
-          <a href="{{ url_for('logout') }}" class="px-4 py-2 bg-blue-600 rounded-full text-red-300 hover:text-red-200 transition">Logout</a>
+          <a href="{{ url_for('profile') }}" class="flex items-center text-blue-500 transition-transform hover:translate-y-[-4px] text-blue-300 border border-blue-500/30 px-4 py-3 bg-blue-300/10">Profile</a>
+          <a href="{{ url_for('logout') }}" class="flex items-center text-white-700 transition-transform hover:translate-y-[-4px] text-red-400 border border-red-500/30 px-4 py-3 bg-red-300/10">Logout</a>
         {% else %}
-          <a href="{{ url_for('login') }}" class="px-4 py-2 bg-blue-600 rounded-full hover:bg-blue-500 transition">Login</a>
+          <a href="{{ url_for('login') }}" class="flex items-center text-white-700 transition-transform hover:translate-y-[-4px] text-blue-300 border border-white-500/30 px-4 py-3 bg-white-300/10">Login</a>
         {% endif %}
       </div>
       </div>
     </nav>
-
-      <div class="container mx-auto px-4 mt-4 absolute top-20 z-50 pointer-events-none">
-          {% with messages = get_flashed_messages() %}
-              {% if messages %}
-                  {% for message in messages %}
-                      <div class="bg-blue-900/80 text-blue-200 p-4 rounded mb-2 border border-blue-500/30 backdrop-blur pointer-events-auto">{{ message }}</div>
-                  {% endfor %}
-              {% endif %}
-          {% endwith %}
-      </div>
 
       {% if country_data %}
       {% set c = country_data['country'][0] %}
@@ -80,6 +84,11 @@
           <div class="relative mb-24 w-full max-w-6xl text-center">
               <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 tracking-tighter uppercase leading-none break-words drop-shadow-2xl">
                 {{ c['name']['common'] }}
+                {% if logged_in %}
+                <button id="favoriteBtn" class="focus:outline-none transform transition hover:scale-105 hover:translate-y-[-4px] active:scale-95">
+                  <i id="starIcon" class="fa-regular fa-star text-5xl text-white transition-colors duration-300"></i>
+                </button>
+                {% endif %}
               </h1>
 
               <div class="flex flex-col items-end mt-4 mr-4 md:mr-10">
@@ -87,7 +96,7 @@
               </div>
           </div>
 
-          <div class="flex flex-col bg-white/10 gap-6 text-center p-8 shadow-2xl">
+          <div class="flex flex-col bg-black/50 gap-6 text-center p-8 shadow-2xl">
             <div class="flex flex-col gap-1">
               <h3 class="text-blue-400 text-xs font-bold uppercase tracking-[0.2em]">Capital</h3>
               <p class="text-xl font-medium text-gray-100">{{ c['capital'][0] }}</p>
@@ -187,10 +196,10 @@
     </section>
 
     <!-- wiki-->
-    <section class="w-full py-24 bg-black/90 " style = "background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
+    <section class="w-full py-24 bg-black/10 " style = "background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
       <div class="container mx-auto px-6 max-w-5xl ">
 
-        <div class="flex flex-col md:flex-row gap-12 bg-black/70 py-24 px-24">
+        <div class="flex flex-col md:flex-row gap-12 bg-black/80 py-24 px-24">
           <div class="w-full md:w-2/3">
             <div class="flex items-center gap-6 mb-8 border-b border-blue-500 pb-4">
               <h2 class="text-4xl font-bold text-white">About {{ c['name']['common'] }}</h2>
