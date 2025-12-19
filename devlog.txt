@@ -95,3 +95,8 @@ andrewT -- 2025-12-16 10:40 AM
 
 andrewT -- 2025-12-17 10:30 AM
 -Fixed error with double encoding json file causing issues
+
+yuL -- 2025-12-18 11:35 PM
+- fixed a lot of flask message placements and wrong template linking, removed irreleveant fields currency and country from registration page
+- profile page tailwind templates up
+- temp favorite button + js on each country page
