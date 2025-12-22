@@ -115,3 +115,7 @@ yuL -- 2025-12-18 11:35 PM
 - Updated section 2 (weather) of country page to properly display attractions that geoapify had given us before
 - more template updates including a refresh button (and corresponding flask route) to section 3
 - updated design doc (removed search.html and other wordings)
+
+andrewT -- 2025-12-21 11:30 PM
+-Added forms to favorite countries on page
+-Added for loop to display favorite countries on user profile page

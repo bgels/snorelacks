@@ -62,6 +62,7 @@
 
         <div class="flex-1 flex justify-end gap-6 text-sm font-semibold">
         {% if logged_in %}
+        
         <!-- add javascript to add favorite button to call favorite list function -->
           <a href="{{ url_for('profile') }}" class="flex items-center text-blue-500 transition-transform hover:translate-y-[-4px] text-blue-300 border border-blue-500/30 px-4 py-3 bg-blue-300/10">Profile</a>
           <a href="{{ url_for('logout') }}" class="flex items-center text-white-700 transition-transform hover:translate-y-[-4px] text-red-400 border border-red-500/30 px-4 py-3 bg-red-300/10">Logout</a>
@@ -85,9 +86,16 @@
                 <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 tracking-tighter uppercase leading-none break-words drop-shadow-2xl">
                   {{ c['name']['common'] }}
                   {% if logged_in %}
-                  <button id="favoriteBtn" class="focus:outline-none transform transition hover:scale-105 hover:translate-y-[-4px] active:scale-95">
-                    <i id="starIcon" class="fa-regular fa-star text-5xl text-white transition-colors duration-300"></i>
-                  </button>
+                        <form action = "/favorite" method = "GET"> 
+                          <input type = "hidden" id = "country" name = "country" value = {{country_name}}>
+                          <button type = "submit" class="focus:outline-none transform transition hover:scale-105 hover:translate-y-[-4px] active:scale-95">
+                          {% if favorited %}
+                            <i id="starIcon" class="fa-solid fa-star text-5xl text-white transition-colors duration-300"></i>
+                          {% else %}
+                            <i id="starIcon" class="fa-regular fa-star text-5xl text-white transition-colors duration-300"></i>
+                        {% endif %}
+                          </button>
+                        </form>
                   {% endif %}
                 </h1>
 
@@ -123,7 +131,7 @@
         <h1 class="text-4xl">Country Data Unavailable</h1>
     </div>
     {% endif %}
-
+    
     <!-- weather bg images changes based on most recent weather prediction-->
     {% if country_data and country_data.get('weather') and country_data['weather'].get('list') %}
       {% set first_w = country_data['weather']['list'][0] %}

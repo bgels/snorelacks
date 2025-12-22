@@ -37,6 +37,11 @@ def get_favorites(username):
     cursorfetch = DB_CURSOR.fetchall()
     return cursorfetch
 
+def country_in_favorites(username, country):
+    for i in get_favorites(username):
+        if country in i:
+            return True
+    return False
 def unfav_country(country_name, username):
     DB_NAME = "Data/database.db"
     DB = sqlite3.connect(DB_NAME)

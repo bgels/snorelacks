@@ -116,12 +116,11 @@ def country():
         db_data = db.get_country(target_country)
         if db_data:
             print(f"Loading {target_country} from database")
-
             wiki_data = json.loads(db_data[1])
             count_data = json.loads(db_data[2])
+            actual_name = api.extract_country_name(target_country)
         else:
             full_country_info = api.extract_country_data(target_country)
-            
             if not full_country_info:
                 flash(f"Invalid country: '{target_country}'")
                 return redirect(url_for('homepage'))
@@ -129,7 +128,19 @@ def country():
             wiki_data = api.extract_wikipedia_info(actual_name)
             db.add_country(actual_name, wiki_data, full_country_info)
             count_data = full_country_info
-    return render_template("country.html", country_data=count_data, wiki_data=wiki_data)
+        user = session.get('username')
+    return render_template("country.html", favorited = db.country_in_favorites(user, actual_name), country_name = actual_name.replace(" ", "_"), country_data=count_data, wiki_data=wiki_data)
+
+@app.route("/favorite", methods = ['GET', 'POST'])
+def favorite_redirect():
+    if(db.country_in_favorites(session.get('username'), request.args.get('country').replace("_", " "))):
+        db.unfav_country(request.args.get('country').replace("_", " "), session.get('username'))
+        print(f"unfav: {request.args.get('country')}, {session.get('username')}")
+    else:
+        db.fav_country(request.args.get('country').replace("_", " "), session.get('username'))
+        print(f"fav: {request.args.get('country')}, {session.get('username')}")
+    actual_name = request.args.get('country')
+    return redirect(url_for("country", keyword = actual_name.replace("_", " ")))
 
 @app.route("/refresh/<country_name>")
 def refresh_country(country_name):
