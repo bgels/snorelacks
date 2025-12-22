@@ -11,6 +11,7 @@ from urllib.request import Request, urlopen
 import pprint
 import os
 import api
+import re
 # Initialize databases
 
 app = Flask(__name__)
@@ -103,6 +104,11 @@ def country():
         return redirect(url_for('country', keyword=target_country))
     if request.method == 'GET':
         target_country = (request.args.get('keyword') or '').strip()
+        
+        if is_ridiculous(target_country): #lol
+            flash("No. 🫩")
+            flash("Type in a 💔VALID💔 country name 🥀")
+            return redirect(url_for('homepage'))
         if not target_country:
             flash(f"Please enter a country name.")
             return redirect(url_for('homepage'))
@@ -141,6 +147,12 @@ def refresh_country(country_name):
     flash(f"Data for {actual_name} has been refreshed!")
     return redirect(url_for('country', keyword=actual_name))
 
+def is_ridiculous(text):
+    if re.search(r"[\]\\\[=\-\":><&@*^#@%$]", text):
+        return True
+    if len(text) > 60:
+        return True
+    return False
     
 if __name__ == "__main__":
     app.debug = True
