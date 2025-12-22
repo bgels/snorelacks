@@ -72,9 +72,9 @@
       </div>
     </nav>
 
-      {% if country_data %}
+    {% if country_data and country_data.get('country') and country_data['country'][0] %}
       {% set c = country_data['country'][0] %}
-      {% set s = country_data['summary'] %}
+      {% set s = country_data.get('summary', {}) %}
 
     <!-- THis is the title section. -->
     <section class="w-full min-h-[85vh] flex flex-col justify-center items-center py-20 border-b border-black relative overflow-hidden bg-cover bg-center" style="background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
@@ -118,18 +118,24 @@
           </div>
         </div>
     </section>
+    {% else %}
+    <div class="flex items-center justify-center bg-black text-white">
+        <h1 class="text-4xl">Country Data Unavailable</h1>
+    </div>
+    {% endif %}
 
     <!-- weather bg images changes based on most recent weather prediction-->
-    {% set first_w = country_data['weather']['list'][0] %}
-    {% set cond = first_w['weather'][0]['main'] %}
-    {% set bg_img = 'Clouds.jpg' %}
-    {% if cond == 'Clear' %}{% set bg_img = 'Clear.jpg' %}
-    {% elif cond == 'Rain' %}{% set bg_img = 'Rain.jpg' %}
-    {% elif cond == 'Clouds' %}{% set bg_img = 'Cloudy.jpg' %}
-    {% elif cond == 'Drizzle' %}{% set bg_img = 'Rain.jpg' %}
-    {% elif cond == 'Thunderstorm' %}{% set bg_img = 'Thunderstorm.jpg' %}
-    {% elif cond == 'Snow' %}{% set bg_img = 'Snow.jpg' %}
-    {% endif %}
+    {% if country_data and country_data.get('weather') and country_data['weather'].get('list') %}
+      {% set first_w = country_data['weather']['list'][0] %}
+      {% set cond = first_w['weather'][0]['main'] %}
+      {% set bg_img = 'Clouds.jpg' %}
+      {% if cond == 'Clear' %}{% set bg_img = 'Clear.jpg' %}
+      {% elif cond == 'Rain' %}{% set bg_img = 'Rain.jpg' %}
+      {% elif cond == 'Clouds' %}{% set bg_img = 'Cloudy.jpg' %}
+      {% elif cond == 'Drizzle' %}{% set bg_img = 'Rain.jpg' %}
+      {% elif cond == 'Thunderstorm' %}{% set bg_img = 'Thunderstorm.jpg' %}
+      {% elif cond == 'Snow' %}{% set bg_img = 'Snow.jpg' %}
+      {% endif %}
 
 
     <!-- weather -->
@@ -228,6 +234,11 @@
         </div> 
       </div> 
     </section>
+    {% else %}
+    <div class="bg-gray-900 text-gray-500 text-center py-4">
+      Weather service is currently offline.
+    </div>
+    {% endif %}
 
     <!-- wiki-->
     <section class="w-full py-24 bg-black/10 relative" style="background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
@@ -323,6 +334,8 @@
           {% endfor %}
         {% endif %}
       </div>
+      {% else %}
+        {% endif %}
       
       <div class="mt-12 pt-10 mx-auto border-t border-white/10 text-center">
         <a href="/" class="text-white-500 hover:text-blue-500 bg-black transition px-6 py-3 border border-white/10 ">
