@@ -74,50 +74,50 @@
 
     {% if country_data and country_data.get('country') and country_data['country'][0] %}
       {% set c = country_data['country'][0] %}
-      {% set s = country_data.get('summary', {}) %}
+      {% set s = country_data['summary'] %}
 
-    <!-- THis is the title section. -->
-    <section class="w-full min-h-[85vh] flex flex-col justify-center items-center py-20 border-b border-black relative overflow-hidden bg-cover bg-center" style="background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
-      <div class="absolute inset-0 bg-black/30 backdrop-blur-[2px]"></div>
+      <!-- THis is the title section. -->
+      <section class="w-full min-h-[85vh] flex flex-col justify-center items-center py-20 border-b border-black relative overflow-hidden bg-cover bg-center" style="background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
+        <div class="absolute inset-0 bg-black/30 backdrop-blur-[2px]"></div>
 
-        <div class="container mx-auto px-6 flex flex-col items-center relative z-10">
-          <div class="relative mb-24 w-full max-w-6xl text-center">
-              <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 tracking-tighter uppercase leading-none break-words drop-shadow-2xl">
-                {{ c['name']['common'] }}
-                {% if logged_in %}
-                <button id="favoriteBtn" class="focus:outline-none transform transition hover:scale-105 hover:translate-y-[-4px] active:scale-95">
-                  <i id="starIcon" class="fa-regular fa-star text-5xl text-white transition-colors duration-300"></i>
-                </button>
-                {% endif %}
-              </h1>
+          <div class="container mx-auto px-6 flex flex-col items-center relative z-10">
+            <div class="relative mb-24 w-full max-w-6xl text-center">
+                <h1 class="text-6xl md:text-8xl lg:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 tracking-tighter uppercase leading-none break-words drop-shadow-2xl">
+                  {{ c['name']['common'] }}
+                  {% if logged_in %}
+                  <button id="favoriteBtn" class="focus:outline-none transform transition hover:scale-105 hover:translate-y-[-4px] active:scale-95">
+                    <i id="starIcon" class="fa-regular fa-star text-5xl text-white transition-colors duration-300"></i>
+                  </button>
+                  {% endif %}
+                </h1>
 
-              <div class="flex flex-col items-end mt-4 mr-4 md:mr-10">
-                <p class="text-xl md:text-2xl font-light tracking-widest uppercase text-right mt-4">{{ c['name']['official'] }}</p>
+                <div class="flex flex-col items-end mt-4 mr-4 md:mr-10">
+                  <p class="text-xl md:text-2xl font-light tracking-widest uppercase text-right mt-4">{{ c['name']['official'] }}</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col bg-black/50 gap-6 text-center p-8 shadow-2xl">
+              <div class="flex flex-col gap-1">
+                <h3 class="text-blue-400 text-xs font-bold uppercase tracking-[0.2em]">Capital</h3>
+                <p class="text-xl font-medium text-gray-100">{{ c['capital'][0] }}</p>
               </div>
-          </div>
-
-          <div class="flex flex-col bg-black/50 gap-6 text-center p-8 shadow-2xl">
-            <div class="flex flex-col gap-1">
-              <h3 class="text-blue-400 text-xs font-bold uppercase tracking-[0.2em]">Capital</h3>
-              <p class="text-xl font-medium text-gray-100">{{ c['capital'][0] }}</p>
-            </div>
-            <div class="w-12 h-px bg-white/20 mx-auto"></div>
-            <div class="flex flex-col gap-1">
-              <h3 class="text-blue-400 text-xs font-bold uppercase tracking-[0.2em]">Population</h3>
-              <p class="text-xl font-medium text-gray-100">{{ "{:,}".format(c['population']) }}</p>
-            </div>
-            <div class="w-12 h-px bg-white/20 mx-auto"></div>
-            <div class="flex flex-col gap-1">
-              <h3 class="text-blue-400 text-xs font-bold uppercase tracking-[0.2em]">Currency</h3>
-              <p class="text-xl font-medium text-gray-100">
-                {% for code, details in c['currencies'].items() %}
-                {{ code }}
-                {% endfor %}
-              </p>
+              <div class="w-12 h-px bg-white/20 mx-auto"></div>
+              <div class="flex flex-col gap-1">
+                <h3 class="text-blue-400 text-xs font-bold uppercase tracking-[0.2em]">Population</h3>
+                <p class="text-xl font-medium text-gray-100">{{ "{:,}".format(c['population']) }}</p>
+              </div>
+              <div class="w-12 h-px bg-white/20 mx-auto"></div>
+              <div class="flex flex-col gap-1">
+                <h3 class="text-blue-400 text-xs font-bold uppercase tracking-[0.2em]">Currency</h3>
+                <p class="text-xl font-medium text-gray-100">
+                  {% for code, details in c['currencies'].items() %}
+                  {{ code }}
+                  {% endfor %}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-    </section>
+      </section>
     {% else %}
     <div class="flex items-center justify-center bg-black text-white">
         <h1 class="text-4xl">Country Data Unavailable</h1>
@@ -138,102 +138,102 @@
       {% endif %}
 
 
-    <!-- weather -->
-    <section class="w-full py-24 border-b border-black relative bg-cover bg-center bg-no-repeat" style="background-image: url('/static/images/{{ bg_img }}');">
+      <!-- weather -->
+      <section class="w-full py-24 border-b border-black relative bg-cover bg-center bg-no-repeat" style="background-image: url('/static/images/{{ bg_img }}');">
 
-      <div class="absolute inset-0 bg-black/40 backdrop-blur-[4px]"></div>
-      <div class="container mx-auto px-6 relative z-10">   
-        <div class="bg-black/20 backdrop-blur-xl border border-white/10 p-8 md:p-12 shadow-2xl rounded-xl">
+        <div class="absolute inset-0 bg-black/40 backdrop-blur-[4px]"></div>
+        <div class="container mx-auto px-6 relative z-10">   
+          <div class="bg-black/20 backdrop-blur-xl border border-white/10 p-8 md:p-12 shadow-2xl rounded-xl">
 
-          <div class="flex flex-col md:flex-row items-end justify-between mb-10">
-            <div>
-              <h2 class="text-6xl font-bold mb-2 text-white drop-shadow-md">Weather</h2>
-              <p class="text-white/80 font-large">Current weather conditions in {{ c['capital'][0] }}</p>
-            </div>
-            <div class="text-right">
-              <div class="flex items-baseline justify-end gap-2">
-                <span class="text-7xl font-black text-white drop-shadow-md">
-                  {{ first_w['main']['temp']|round|int }}°C
-                </span>
-                <span class="text-4xl font-bold text-white/50">
-                  {{ (first_w['main']['temp'] * 1.8 + 32)|round|int }}°F
-                </span>
+            <div class="flex flex-col md:flex-row items-end justify-between mb-10">
+              <div>
+                <h2 class="text-6xl font-bold mb-2 text-white drop-shadow-md">Weather</h2>
+                <p class="text-white/80 font-large">Current weather conditions in {{ c['capital'][0] }}</p>
               </div>
-              <span class="text-2xl text-blue-200 ml-2 block">{{ first_w['weather'][0]['description']|title }}</span>
-            </div>
-          </div>
-
-          <div class="w-full overflow-x-auto flex flex-nowrap gap-6 pb-4 touch-pan-x mb-8">
-            {% for w in country_data['weather']['list'] %}
-
-            {% set date_str = w['dt_txt'][5:10].replace('-', '/') %}
-            {% set hour_str = w['dt_txt'][11:13] %}
-            {% set hour_int = hour_str | int %}
-            {% set minute_str = w['dt_txt'][14:16] %}
-
-            {% set ampm = 'AM' %}
-            {% if hour_int >= 12 %}{% set ampm = 'PM' %}{% endif %}
-            {% if hour_int > 12 %}{% set hour_int = hour_int - 12 %}{% endif %}
-            {% if hour_int == 0 %}{% set hour_int = 12 %}{% endif %}
-
-            <div class="flex-none w-36 flex flex-col items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition backdrop-blur-sm group">
-              <span class="text-sm text-gray-300 mb-2 text-center group-hover:text-white transition">
-                {{ date_str }} <br>
-                <span class="text-xs opacity-60">{{ hour_int }}:{{ minute_str }} {{ ampm }}</span>
-              </span>
-
-              <img src="http://openweathermap.org/img/w/{{ w['weather'][0]['icon'] }}.png" class="w-14 h-14 my-2 drop-shadow group-hover:scale-110 transition">
-
-              <div class="text-center">
-                <span class="text-2xl font-bold group-hover:text-white-300 transition block">
-                  {{ w['main']['temp']|round|int }}°C
-                </span>
-                <span class="text-sm text-blue-200/70 block">
-                  {{ (w['main']['temp'] * 1.8 + 32)|round|int }}°F
-                </span>
-              </div>
-
-              <span class="text-[10px] text-blue-200 mt-2 capitalize">{{ w['weather'][0]['main'] }}</span>
-            </div>
-            {% endfor %}
-          </div>
-
-          <div class="w-full h-px bg-white/10 my-16"></div>
-
-          {% if country_data.get('places') and country_data['places'].get('features') %}
-            <div class="mb-12 text-center">
-              <h2 class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-300 uppercase tracking-tighter mb-4">
-                Things to Explore
-              </h2>
-              <p class="text-blue-200 font-light tracking-widest uppercase">
-                near {{ c['capital'][0] }}
-              </p>
-            </div>
-
-            <div class=" mx-auto h-[600px] overflow-y-auto bg-black/70 border border-white/10 p-6 md:p-8">
-              <div class="flex flex-col gap-4">
-                
-                {% for place in country_data['places']['features'] %}
-                {% set props = place['properties'] %}
-                {% set address = props.get('address_line2') or props.get('formatted') or props.get('name') %}
-                
-                <a href="https://www.google.com/maps/search/{{ address }}" target="" class="relative w-full transition-all duration-300 group hover:border-blue-500/30 flex flex-col md:flex-row md:items-center justify-between gap-4 block text-left rounded-xl">
-                  <div class="flex-1">
-                    <h3 class="text-lg font-bold text-white leading-tight mb-1 group-hover:text-blue-400 transition-colors">
-                      {{ props.get('name') or "Unnamed Location" }}
-                    </h3>
-                    <p class="text-sm text-gray-400 font-light">
-                      {{ address }}
-                    </p>
-                  </div>
-                </a>
-                {% endfor %}
+              <div class="text-right">
+                <div class="flex items-baseline justify-end gap-2">
+                  <span class="text-7xl font-black text-white drop-shadow-md">
+                    {{ first_w['main']['temp']|round|int }}°C
+                  </span>
+                  <span class="text-4xl font-bold text-white/50">
+                    {{ (first_w['main']['temp'] * 1.8 + 32)|round|int }}°F
+                  </span>
+                </div>
+                <span class="text-2xl text-blue-200 ml-2 block">{{ first_w['weather'][0]['description']|title }}</span>
               </div>
             </div>
-            {% endif %}
+
+            <div class="w-full overflow-x-auto flex flex-nowrap gap-6 pb-4 touch-pan-x mb-8">
+              {% for w in country_data['weather']['list'] %}
+
+              {% set date_str = w['dt_txt'][5:10].replace('-', '/') %}
+              {% set hour_str = w['dt_txt'][11:13] %}
+              {% set hour_int = hour_str | int %}
+              {% set minute_str = w['dt_txt'][14:16] %}
+
+              {% set ampm = 'AM' %}
+              {% if hour_int >= 12 %}{% set ampm = 'PM' %}{% endif %}
+              {% if hour_int > 12 %}{% set hour_int = hour_int - 12 %}{% endif %}
+              {% if hour_int == 0 %}{% set hour_int = 12 %}{% endif %}
+
+              <div class="flex-none w-36 flex flex-col items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition backdrop-blur-sm group">
+                <span class="text-sm text-gray-300 mb-2 text-center group-hover:text-white transition">
+                  {{ date_str }} <br>
+                  <span class="text-xs opacity-60">{{ hour_int }}:{{ minute_str }} {{ ampm }}</span>
+                </span>
+
+                <img src="http://openweathermap.org/img/w/{{ w['weather'][0]['icon'] }}.png" class="w-14 h-14 my-2 drop-shadow group-hover:scale-110 transition">
+
+                <div class="text-center">
+                  <span class="text-2xl font-bold group-hover:text-white-300 transition block">
+                    {{ w['main']['temp']|round|int }}°C
+                  </span>
+                  <span class="text-sm text-blue-200/70 block">
+                    {{ (w['main']['temp'] * 1.8 + 32)|round|int }}°F
+                  </span>
+                </div>
+
+                <span class="text-[10px] text-blue-200 mt-2 capitalize">{{ w['weather'][0]['main'] }}</span>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div class="w-full h-px bg-white/10 my-16"></div>
+
+            {% if country_data.get('places') and country_data['places'].get('features') %}
+              <div class="mb-12 text-center">
+                <h2 class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-300 uppercase tracking-tighter mb-4">
+                  Things to Explore
+                </h2>
+                <p class="text-blue-200 font-light tracking-widest uppercase">
+                  near {{ c['capital'][0] }}
+                </p>
+              </div>
+
+              <div class=" mx-auto h-[600px] overflow-y-auto bg-black/70 border border-white/10 p-6 md:p-8">
+                <div class="flex flex-col gap-4">
+                  
+                  {% for place in country_data['places']['features'] %}
+                  {% set props = place['properties'] %}
+                  {% set address = props.get('address_line2') or props.get('formatted') or props.get('name') %}
+                  
+                  <a href="https://www.google.com/maps/search/{{ address }}" target="" class="relative w-full transition-all duration-300 group hover:border-blue-500/30 flex flex-col md:flex-row md:items-center justify-between gap-4 block text-left rounded-xl">
+                    <div class="flex-1">
+                      <h3 class="text-lg font-bold text-white leading-tight mb-1 group-hover:text-blue-400 transition-colors">
+                        {{ props.get('name') or "Unnamed Location" }}
+                      </h3>
+                      <p class="text-sm text-gray-400 font-light">
+                        {{ address }}
+                      </p>
+                    </div>
+                  </a>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endif %}
+          </div> 
         </div> 
-      </div> 
-    </section>
+      </section>
     {% else %}
     <div class="bg-gray-900 text-gray-500 text-center py-4">
       Weather service is currently offline.
