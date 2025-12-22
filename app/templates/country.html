@@ -131,6 +131,7 @@
     {% elif cond == 'Snow' %}{% set bg_img = 'Snow.jpg' %}
     {% endif %}
 
+
     <!-- weather -->
     <section class="w-full py-24 border-b border-black relative bg-cover bg-center bg-no-repeat" style="background-image: url('/static/images/{{ bg_img }}');">
 
@@ -196,40 +197,130 @@
     </section>
 
     <!-- wiki-->
-    <section class="w-full py-24 bg-black/10 " style = "background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
-      <div class="container mx-auto px-6 max-w-5xl ">
+    <section class="w-full py-24 bg-black/10 relative" style="background-image: url('{{ country_data.get('capital_image') or s['thumbnail']['source'] or '' }}');">
+      <div class="absolute inset-0 backdrop-blur-sm"></div>
+      <div class="container mx-auto relative z-10">
 
-        <div class="flex flex-col md:flex-row gap-12 bg-black/80 py-24 px-24">
-          <div class="w-full md:w-2/3">
-            <div class="flex items-center gap-6 mb-8 border-b border-blue-500 pb-4">
-              <h2 class="text-4xl font-bold text-white">About {{ c['name']['common'] }}</h2>
+      <div class="bg-black/80 py-12 px-12 md:px-24 rounded-lg shadow-2xl relative border border-blue/10">
+        
+        <input type="radio" name="slider" id="slide-0" class="wiki-radio hidden" checked>
+        {% if wiki_data %}
+          {% for section in wiki_data %}
+            <input type="radio" name="slider" id="slide-{{ loop.index }}" class="wiki-radio hidden">
+          {% endfor %}
+        {% endif %}
+        
+        <div class="wiki-content slide-0 hidden">
+          <div class="flex items-center gap-6 mb-8 border-b border-blue-500 pb-4">
+            <h2 class="text-4xl font-bold text-white">About {{ c['name']['common'] }}</h2>
+            <img src="{{ c['flags']['svg'] }}" alt="Flag" class="h-16 md:h-20 w-auto transition-transform duration-300 hover:rotate-6 origin-bottom-left select-none"> <!-- funny rotate hehe-->
+          </div>
 
-              <img src="{{ c['flags']['svg'] }}" alt="Flag of {{ c['name']['common'] }}" class="h-16 md:h-20 w-auto shadow-xl transition-transform duration-300 hover:rotate-6 origin-bottom-left select-none">
-            </div>
+          <div class="prose prose-invert prose-lg text-white-300 h-[350px] overflow-y-auto">
+            {{ s['extract_html'] | safe }}
+          </div>
 
-            <div class="prose prose-invert prose-lg text-gray-300 leading-relaxed">
-              {{ s['extract_html'] | safe }}
-            </div>
-
-            <br>
-
-            <a href="{{ s['content_urls']['desktop']['page'] }}" target="_blank" class="inline-flex items-center gap-2 text-blue-400 hover:text-white transition mt-4">
+          <div>
+            {% if s.get('content_urls') %} <!-- safety check for bluescreen-->
+            <a href="{{ s['content_urls']['desktop']['page'] }}" target="_blank" class="inline-flex items-center gap-2 text-blue-400 hover:text-white transition">
               <span>More on wikipedia</span>
               <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
             </a>
-
+            {% else %}
+            <a href="https://en.wikipedia.org/wiki/{{ c['name']['common'] }}" target="_blank" class="inline-flex items-center gap-2 text-blue-400 hover:text-white transition">
+              <span>Search on Wikipedia</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+            </a>
+            {% endif %}
           </div>
+
+          <div class="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-2 pointer-events-none">
+            <label for="slide-{{ wiki_data|length }}" class="pointer-events-auto cursor-pointer text-white/20 hover:text-blue-500 p-4">
+              <i class="fa-solid fa-chevron-left text-6xl"></i>
+            </label>
+            <label for="slide-1" class="pointer-events-auto cursor-pointer text-white/20 hover:text-blue-500 p-4">
+              <i class="fa-solid fa-chevron-right text-6xl"></i>
+            </label>
+          </div>
+
         </div>
 
-        <div class="mt-24 pt-10 border-t border-white/10 text-center ">
-          <a href="/" class="text-gray-500 hover:text-white transition px-6 py-3 border border-white/10 rounded-full hover:bg-black/5 bg-black/70 py-24 px-24">
-            <i class="fa-solid fa-arrow-left mr-2"></i> Back to homepage
-          </a>
+
+        {% if wiki_data %}
+          {% for section_name, content_dict in wiki_data.items() %}
+            {% set current_idx = loop.index %}
+            {% set total_len = loop.length %}
+            
+            {% set prev_id = current_idx - 1 %}
+            {% set next_id = current_idx + 1 %}
+            {% if current_idx == total_len %}{% set next_id = 0 %}{% endif %}
+
+            <div class="wiki-content slide-{{ current_idx }} hidden animate-fade-in">
+                
+              <div class="flex items-center gap-6 mb-8 border-b border-blue-500 pb-4">
+                <h2 class="text-4xl font-bold text-white">{{ section_name }}</h2>
+                <img src="{{ c['flags']['svg'] }}" alt="Flag" class="h-16 md:h-20 w-auto shadow-xl transition-transform duration-300 hover:rotate-6 origin-bottom-left select-none">
+              </div>
+
+              <div class="prose prose-invert prose-lg text-white-300 leading-relaxed h-[700px] overflow-y-auto pr-2 custom-scrollbar">
+                {% if content_dict is mapping %}
+                  {% for heading, text in content_dict.items() %}
+                    <div class="mb-6">
+                      <h3 class="text-xl text-blue-300 mb-1">{{ heading }}</h3>
+                      <p>{{ text }}</p>
+                    </div>
+                  {% endfor %}
+                {% else %}
+                  <div class="flex flex-col items-center justify-center h-full text-white-300">
+                    <i class="fa-solid fa-triangle-exclamation text-3xl mb-2"></i>
+                    <p>Content unavailable for this subsection.. ;-; </p>
+                  </div>
+                {% endif %}
+              </div>
+
+            <div class="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-2 pointer-events-none">
+                <label for="slide-{{ prev_id }}" class="pointer-events-auto cursor-pointer text-white/20 hover:text-blue-500">
+                <i class="fa-solid fa-chevron-left text-3xl"></i>
+                </label>
+                <label for="slide-{{ next_id }}" class="pointer-events-auto cursor-pointer text-white/20 hover:text-blue-500 ">
+                <i class="fa-solid fa-chevron-right text-3xl"></i>
+                </label>
+            </div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+      
+      <div class="mt-12 pt-10 mx-auto border-t border-white/10 text-center">
+        <a href="/" class="text-white-500 hover:text-blue-500 bg-black transition px-6 py-3 border border-white/10 ">
+          <i class="fa-solid fa-arrow-left mr-2"></i> Back to homepage
+        </a>
+        <div class="flex flex-col items-end">
+          <div class="flex items-center gap-3">
+            <a href="{{ url_for('refresh_country', country_name=c['name']['common']) }}" class="text-black-400/50 hover:text-black-400 transition-all hover:rotate-180 duration-500" title="Refresh Data">
+              <i class="fa-solid fa-arrows-rotate text-xl"></i>
+            </a>
+            <p class="text-xl">
+              {{ c['name']['official'] }}
+            </p>
+          </div>
+          <p class="text-[30px] text-white/30 uppercase mt-2">
+            Last Synced: {{ country_data_timestamp if country_data_timestamp else "Just Now" }}
+          </p>
         </div>
       </div>
+      </div>
     </section>
+    <style>
+        #slide-0:checked ~ .slide-0 { display: block; }
 
-    {% endif %}
+        {% if wiki_data %}
+            {% for section in wiki_data %}
+                #slide-{{ loop.index }}:checked ~ .slide-{{ loop.index }} { display: block; }
+            {% endfor %}
+        {% endif %}
+    </style>
+  {% endif %}
   </div>
 </body>
 </html>

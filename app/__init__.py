@@ -40,8 +40,12 @@ def register():
             return redirect(url_for('register'))
 
         # add database registration here
-        db.add_user(user, pswd, nation, money)
-        flash(f"Registration Successful! Welcome, {user}. Please log in.")
+        if db.add_user(user, pswd, nation, money):
+            flash(f"Registration Successful! Welcome, {user}. Please log in.")
+            return redirect(url_for('login'))
+        else:
+            flash("Username already exists. Please choose another.")
+            return redirect(url_for('register'))
         return redirect(url_for('login'))
     return render_template('register.html')
 
@@ -96,31 +100,48 @@ def country():
         # redirect with reuslts to homepage to render please
         #homepage will then redirect to the right country by calling country
         # make sure to add country to db
+        return redirect(url_for('country', keyword=target_country))
     if request.method == 'GET':
         target_country = (request.args.get('keyword') or '').strip()
-        try:
-            tc = api.extract_country_name(target_country)
-            if not tc:
-                flash(f"Invalid country!! please fix to go into a country directory page. Requested country doesn't exist: '{target_country}'?")
-                return redirect(url_for('homepage'))
-        except:
-            flash(f"Invalid country!! Requested country doesn't exist: '{target_country}'?")
+        if not target_country:
+            flash(f"Please enter a country name.")
             return redirect(url_for('homepage'))
-        country_data = []
-        if not db.get_country(target_country):
-            country_data = api.extract_country_data(target_country)
-            actual_name = country_data['country'][0]['name']['common']
-            wiki_data = api.extract_wikipedia_subsections(actual_name, "history")
-            db.add_country(actual_name, wiki_data, country_data)
-            country_data = (actual_name, wiki_data, country_data)
-            count_data = country_data[2]
-        else:
-            country_data = db.get_country(target_country)
-            count_data = json.loads(country_data[2])
-            wiki_data = json.loads(country_data[1])
 
+        db_data = db.get_country(target_country)
+        if db_data:
+            print(f"Loading {target_country} from database")
+
+            wiki_data = json.loads(db_data[1])
+            count_data = json.loads(db_data[2])
+        else:
+            full_country_info = api.extract_country_data(target_country)
+            
+            if not full_country_info:
+                flash(f"Invalid country: '{target_country}'")
+                return redirect(url_for('homepage'))
+            actual_name = full_country_info['country'][0]['name']['common']
+            wiki_data = api.extract_wikipedia_info(actual_name)
+            db.add_country(actual_name, wiki_data, full_country_info)
+            count_data = full_country_info
     return render_template("country.html", country_data=count_data, wiki_data=wiki_data)
 
+@app.route("/refresh/<country_name>")
+def refresh_country(country_name):
+    full_data = api.extract_country_data(country_name)
+    
+    if not full_data:
+        flash("Failed to refresh data. API might be down????")
+        return redirect(url_for('country', keyword=country_name))
+
+    actual_name = full_data['country'][0]['name']['common']
+    wiki_data = api.extract_wikipedia_info(actual_name)
+
+    db.add_country(actual_name, wiki_data, full_data)
+    
+    flash(f"Data for {actual_name} has been refreshed!")
+    return redirect(url_for('country', keyword=actual_name))
+
+    
 if __name__ == "__main__":
     app.debug = True
     app.run()

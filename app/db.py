@@ -11,7 +11,7 @@ except:
 DB = sqlite3.connect(DB_NAME)
 DB_CURSOR = DB.cursor()
 DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Users(username TEXT PRIMARY KEY, password TEXT, country TEXT, currency TEXT);")
-DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Countries(country_name TEXT PRIMARY KEY, wiki_data TEXT, country_data TEXT, timestamp TEXT);")
+DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Countries(country_name TEXT PRIMARY KEY COLLATE NOCASE, wiki_data TEXT, country_data TEXT, timestamp TEXT);")
 DB_CURSOR.execute("CREATE TABLE IF NOT EXISTS Favorites(username TEXT, country_name TEXT);")
 
 def fav_country(country_name, username):
@@ -62,7 +62,7 @@ def add_country(country_name, wiki_data, country_data):
         DB.commit()
         DB.close()
         return False
-    DB_CURSOR.execute("INSERT INTO Countries VALUES(?, ?, ?, ?)", (country_name, json.dumps(wiki_data), json.dumps(country_data), datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+    DB_CURSOR.execute("INSERT OR REPLACE INTO Countries (country_name, wiki_data, country_data, timestamp) VALUES (?, ?, ?, ?)", (country_name, json.dumps(wiki_data), json.dumps(country_data), datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
     DB.commit()
     DB.close()
     return True
@@ -71,7 +71,7 @@ def get_country(country_name):
     DB_NAME = "Data/database.db"
     DB = sqlite3.connect(DB_NAME)
     DB_CURSOR = DB.cursor()
-    DB_CURSOR.execute("SELECT * FROM Countries WHERE country_name = ?", (country_name,))
+    DB_CURSOR.execute("SELECT * FROM Countries WHERE country_name = ? COLLATE NOCASE", (country_name,))
     cursorfetch = DB_CURSOR.fetchone()
     return cursorfetch
 

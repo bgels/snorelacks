@@ -81,7 +81,7 @@ def extract_country_data(country):
         country_data["summary"] = json.load(urlopen(wiki_summary_req, timeout=10))
     except Exception as e:
         print(f"Wiki Summary failed: {e}")
-        country_data["summary"] = {'extract_html': 'No summary available.', 'thumbnail': None}
+        country_data["summary"] = { 'extract_html': 'No summary available.', 'thumbnail': None, 'content_urls': None}
 
     #places (Geoapify)
     try:
