@@ -34,7 +34,7 @@
 {% endwith %}
 {% endblock %}
 
-<body class="bg-black text-white min-h-screen" style = "user-drag: none; user-select: none;">
+<body class="bg-black text-white min-h-screen" style = "user-drag: none;">
 
   <div class="fixed inset-0 z-0">
       <div class="absolute inset-0 bg-black/80 z-10"></div>
@@ -136,64 +136,97 @@
     <section class="w-full py-24 border-b border-black relative bg-cover bg-center bg-no-repeat" style="background-image: url('/static/images/{{ bg_img }}');">
 
       <div class="absolute inset-0 bg-black/40 backdrop-blur-[4px]"></div>
+      <div class="container mx-auto px-6 relative z-10">   
+        <div class="bg-black/20 backdrop-blur-xl border border-white/10 p-8 md:p-12 shadow-2xl rounded-xl">
 
-      <div class="container mx-auto px-6 relative z-10">
-      <div class="bg-black/20 backdrop-blur-xl border border-white/10 p-8 md:p-12 shadow-2xl">
-
-        <div class="flex flex-col md:flex-row items-end justify-between mb-10">
-          <div>
-            <h2 class="text-6xl font-bold mb-2 text-white drop-shadow-md">Weather</h2>
-            <p class="text-white/80 font-large">Current weather conditions in {{ c['capital'][0] }}</p>
-          </div>
-          <div class="text-right">
-            <div class="flex items-baseline justify-end gap-2">
-              <span class="text-7xl font-black text-white drop-shadow-md">
-                {{ first_w['main']['temp']|round|int }}°C
-              </span>
-              <span class="text-4xl font-bold text-white/50">
-                {{ (first_w['main']['temp'] * 1.8 + 32)|round|int }}°F
-              </span>
+          <div class="flex flex-col md:flex-row items-end justify-between mb-10">
+            <div>
+              <h2 class="text-6xl font-bold mb-2 text-white drop-shadow-md">Weather</h2>
+              <p class="text-white/80 font-large">Current weather conditions in {{ c['capital'][0] }}</p>
             </div>
-            <span class="text-2xl text-blue-200 ml-2 block">{{ first_w['weather'][0]['description']|title }}</span>
+            <div class="text-right">
+              <div class="flex items-baseline justify-end gap-2">
+                <span class="text-7xl font-black text-white drop-shadow-md">
+                  {{ first_w['main']['temp']|round|int }}°C
+                </span>
+                <span class="text-4xl font-bold text-white/50">
+                  {{ (first_w['main']['temp'] * 1.8 + 32)|round|int }}°F
+                </span>
+              </div>
+              <span class="text-2xl text-blue-200 ml-2 block">{{ first_w['weather'][0]['description']|title }}</span>
+            </div>
           </div>
-        </div>
 
-        <div class="w-full overflow-x-auto flex flex-nowrap gap-6 pb-4 touch-pan-x">
-          {% for w in country_data['weather']['list'] %}
+          <div class="w-full overflow-x-auto flex flex-nowrap gap-6 pb-4 touch-pan-x mb-8">
+            {% for w in country_data['weather']['list'] %}
 
-          {% set date_str = w['dt_txt'][5:10].replace('-', '/') %}
-          {% set hour_str = w['dt_txt'][11:13] %}
-          {% set hour_int = hour_str | int %}
-          {% set minute_str = w['dt_txt'][14:16] %}
+            {% set date_str = w['dt_txt'][5:10].replace('-', '/') %}
+            {% set hour_str = w['dt_txt'][11:13] %}
+            {% set hour_int = hour_str | int %}
+            {% set minute_str = w['dt_txt'][14:16] %}
 
-          {% set ampm = 'AM' %}
-          {% if hour_int >= 12 %}{% set ampm = 'PM' %}{% endif %}
-          {% if hour_int > 12 %}{% set hour_int = hour_int - 12 %}{% endif %}
-          {% if hour_int == 0 %}{% set hour_int = 12 %}{% endif %}
+            {% set ampm = 'AM' %}
+            {% if hour_int >= 12 %}{% set ampm = 'PM' %}{% endif %}
+            {% if hour_int > 12 %}{% set hour_int = hour_int - 12 %}{% endif %}
+            {% if hour_int == 0 %}{% set hour_int = 12 %}{% endif %}
 
-          <div class="flex-none w-36 flex flex-col items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition backdrop-blur-sm group">
-            <span class="text-sm text-gray-300 mb-2 text-center group-hover:text-white transition">
-              {{ date_str }} <br>
-              <span class="text-xs opacity-60">{{ hour_int }}:{{ minute_str }} {{ ampm }}</span>
-            </span>
-
-            <img src="http://openweathermap.org/img/w/{{ w['weather'][0]['icon'] }}.png" class="w-14 h-14 my-2 drop-shadow group-hover:scale-110 transition">
-
-            <div class="text-center">
-              <span class="text-2xl font-bold group-hover:text-white-300 transition block">
-                {{ w['main']['temp']|round|int }}°C
+            <div class="flex-none w-36 flex flex-col items-center justify-between p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition backdrop-blur-sm group">
+              <span class="text-sm text-gray-300 mb-2 text-center group-hover:text-white transition">
+                {{ date_str }} <br>
+                <span class="text-xs opacity-60">{{ hour_int }}:{{ minute_str }} {{ ampm }}</span>
               </span>
-              <span class="text-sm text-blue-200/70 block">
-                {{ (w['main']['temp'] * 1.8 + 32)|round|int }}°F
-              </span>
+
+              <img src="http://openweathermap.org/img/w/{{ w['weather'][0]['icon'] }}.png" class="w-14 h-14 my-2 drop-shadow group-hover:scale-110 transition">
+
+              <div class="text-center">
+                <span class="text-2xl font-bold group-hover:text-white-300 transition block">
+                  {{ w['main']['temp']|round|int }}°C
+                </span>
+                <span class="text-sm text-blue-200/70 block">
+                  {{ (w['main']['temp'] * 1.8 + 32)|round|int }}°F
+                </span>
+              </div>
+
+              <span class="text-[10px] text-blue-200 mt-2 capitalize">{{ w['weather'][0]['main'] }}</span>
+            </div>
+            {% endfor %}
+          </div>
+
+          <div class="w-full h-px bg-white/10 my-16"></div>
+
+          {% if country_data.get('places') and country_data['places'].get('features') %}
+            <div class="mb-12 text-center">
+              <h2 class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-300 uppercase tracking-tighter mb-4">
+                Things to Explore
+              </h2>
+              <p class="text-blue-200 font-light tracking-widest uppercase">
+                near {{ c['capital'][0] }}
+              </p>
             </div>
 
-            <span class="text-[10px] text-blue-200 mt-2 capitalize">{{ w['weather'][0]['main'] }}</span>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-      </div>
+            <div class=" mx-auto h-[600px] overflow-y-auto bg-black/70 border border-white/10 p-6 md:p-8">
+              <div class="flex flex-col gap-4">
+                
+                {% for place in country_data['places']['features'] %}
+                {% set props = place['properties'] %}
+                {% set address = props.get('address_line2') or props.get('formatted') or props.get('name') %}
+                
+                <a href="https://www.google.com/maps/search/{{ address }}" target="" class="relative w-full transition-all duration-300 group hover:border-blue-500/30 flex flex-col md:flex-row md:items-center justify-between gap-4 block text-left rounded-xl">
+                  <div class="flex-1">
+                    <h3 class="text-lg font-bold text-white leading-tight mb-1 group-hover:text-blue-400 transition-colors">
+                      {{ props.get('name') or "Unnamed Location" }}
+                    </h3>
+                    <p class="text-sm text-gray-400 font-light">
+                      {{ address }}
+                    </p>
+                  </div>
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+            {% endif %}
+        </div> 
+      </div> 
     </section>
 
     <!-- wiki-->
